@@ -51,4 +51,10 @@ For Codex plugin packaging, use the repository root with `.codex-plugin/plugin.j
 
 ## Status
 
-Early public release. The skill is document-driven and capability-based: it describes the browser, inspection, evidence, and preview workflow an agent should follow, while allowing different agent runtimes to provide different browser tooling.
+Experimental early public release. The skill works as a documented extraction workflow, but the public package, examples, and installation flow are still being refined.
+
+The skill is document-driven and capability-based: it describes the browser, inspection, evidence, and preview workflow an agent should follow, while allowing different agent runtimes to provide different browser tooling.
+
+## License
+
+MIT. This license applies to this repository's skill instructions, documentation, and example artifacts. It does not grant rights to third-party brands, trademarks, or proprietary website assets referenced by examples.
