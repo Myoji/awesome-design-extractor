@@ -1,0 +1,3141 @@
+{
+  "outputDir": "C:\\Users\\myoji\\Documents\\awesome-design-extractor\\examples\\polestar",
+  "crawlDate": "2026-07-06T14:51:40.514Z",
+  "desktop": [
+    {
+      "url": "https://www.polestar.com/kr/",
+      "finalUrl": "https://www.polestar.com/kr/",
+      "status": 200,
+      "title": "퍼포먼스를 위해 디자인된 전기차 | Polestar 대한민국",
+      "screenshot": "screenshots/desktop-01-home.png",
+      "cookieOverlayStillVisible": false,
+      "elapsedMs": 11089,
+      "headings": [
+        {
+          "text": "Polestar 3",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#FFFFFF"
+        },
+        {
+          "text": "플래그십 전기 SUV",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#FFFFFF @ 0.6"
+        },
+        {
+          "text": "Polestar 3",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "Polestar 4 coupé",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "지속가능성",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        }
+      ],
+      "colors": [
+        {
+          "value": "#000000",
+          "count": 405
+        },
+        {
+          "value": "#000000 @ 0.6",
+          "count": 42
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 21
+        },
+        {
+          "value": "#0000EE",
+          "count": 9
+        },
+        {
+          "value": "#FFFFFF @ 0.6",
+          "count": 2
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "#FFFFFF",
+          "count": 3
+        },
+        {
+          "value": "#D9D9D6",
+          "count": 2
+        },
+        {
+          "value": "#F0F0F0",
+          "count": 2
+        },
+        {
+          "value": "#3A3C3F",
+          "count": 1
+        }
+      ],
+      "controls": [
+        {
+          "text": "Polestar 3를 특별 캐시백, 저금리, 장기 할부 등 다양한 프로모션으로 만나보세요.구매 혜택 보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 1216,
+          "height": 18
+        },
+        {
+          "text": "메인 페이지로 돌아가기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#0000EE",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 238)",
+          "width": 101,
+          "height": 30
+        },
+        {
+          "text": "전시장 검색",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "계정",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "Polestar 2 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 243,
+          "height": 40
+        },
+        {
+          "text": "Polestar 3 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 245,
+          "height": 40
+        },
+        {
+          "text": "시승 예약하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        },
+        {
+          "text": "빠른 출고",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 120,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "url": "https://www.polestar.com/kr/polestar-2/",
+      "finalUrl": "https://www.polestar.com/kr/polestar-2/",
+      "status": 200,
+      "title": "Polestar 2 - 일렉트릭 퍼포먼스 패스트백 | Polestar 대한민국",
+      "screenshot": "screenshots/desktop-02-polestar-2.png",
+      "cookieOverlayStillVisible": false,
+      "elapsedMs": 12894,
+      "headings": [
+        {
+          "text": "Polestar 2",
+          "fontSize": "72px",
+          "weight": "400",
+          "lineHeight": "72px",
+          "color": "#000000"
+        },
+        {
+          "text": "The driver’s EV",
+          "fontSize": "32px",
+          "weight": "400",
+          "lineHeight": "33.92px",
+          "color": "#000000"
+        },
+        {
+          "text": "진화는 계속됩니다. 고성능 전기 퍼포먼스를 경험하세요.",
+          "fontSize": "32px",
+          "weight": "400",
+          "lineHeight": "33.92px",
+          "color": "#000000"
+        },
+        {
+          "text": "소재가 매력적인 인테리어를 만듭니다 . Polestar 2 의 인테리어에는 책임감 있게 공급된 소재가 사용되며 , 미니멀하고 현대적인 디자인이 결합되어 스타일과 기능의 조화를 이룹니다",
+          "fontSize": "32px",
+          "weight": "400",
+          "lineHeight": "33.92px",
+          "color": "#000000"
+        },
+        {
+          "text": "Polestar 2에 내장된 NUGU 음성 제어 기능을 사용하면 운전자의 음성으로 앱과 차량 기능을 쉽게 사용할 수 있습니다.",
+          "fontSize": "32px",
+          "weight": "400",
+          "lineHeight": "33.92px",
+          "color": "#FFFFFF"
+        }
+      ],
+      "colors": [
+        {
+          "value": "#000000",
+          "count": 449
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 45
+        },
+        {
+          "value": "#000000 @ 0.6",
+          "count": 8
+        },
+        {
+          "value": "#0000EE",
+          "count": 6
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "#FFFFFF",
+          "count": 9
+        },
+        {
+          "value": "#F0F0F0",
+          "count": 4
+        },
+        {
+          "value": "#000000",
+          "count": 3
+        },
+        {
+          "value": "#97999B",
+          "count": 1
+        },
+        {
+          "value": "#E1E1E1",
+          "count": 1
+        },
+        {
+          "value": "#3A3C3F",
+          "count": 1
+        }
+      ],
+      "controls": [
+        {
+          "text": "메인 페이지로 돌아가기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#0000EE",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 238)",
+          "width": 101,
+          "height": 30
+        },
+        {
+          "text": "전시장 검색",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "계정",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "Polestar 2 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 243,
+          "height": 40
+        },
+        {
+          "text": "Polestar 3 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 245,
+          "height": 40
+        },
+        {
+          "text": "시승 예약하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        },
+        {
+          "text": "빠른 출고",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 120,
+          "height": 40
+        },
+        {
+          "text": "차량 주문하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "url": "https://www.polestar.com/kr/polestar-3/",
+      "finalUrl": "https://www.polestar.com/kr/polestar-3/",
+      "status": 200,
+      "title": "Polestar 3 - 플래그십 전기 SUV | Polestar Korea",
+      "screenshot": "screenshots/desktop-03-polestar-3.png",
+      "cookieOverlayStillVisible": false,
+      "elapsedMs": 14009,
+      "headings": [
+        {
+          "text": "Polestar 3",
+          "fontSize": "32px",
+          "weight": "400",
+          "lineHeight": "33.92px",
+          "color": "#FFFFFF"
+        },
+        {
+          "text": "Polestar 3를 특별 캐시백, 저금리, 장기 할부 등 다양한 프로모션으로 만나보세요.",
+          "fontSize": "32px",
+          "weight": "400",
+          "lineHeight": "33.92px",
+          "color": "#FFFFFF"
+        },
+        {
+          "text": "완벽한 SUV의 실루엣. 스포츠카와 같은 드라이빙.",
+          "fontSize": "32px",
+          "weight": "400",
+          "lineHeight": "33.92px",
+          "color": "#FFFFFF"
+        },
+        {
+          "text": "혁신 기술과 에어로다이내믹 디자인의 정밀한 결합. 퍼포먼스와 실내 경험 모두에서 차이를 만듭니다.",
+          "fontSize": "32px",
+          "weight": "400",
+          "lineHeight": "33.92px",
+          "color": "#FFFFFF"
+        },
+        {
+          "text": "10% 에서 80% 까지, 단 22 분만에 충전됩니다³. Polestar 3의 800 V 아키텍처를 통해 최대 350kW의 강력한 충전 성능을 경험하십시오.",
+          "fontSize": "32px",
+          "weight": "400",
+          "lineHeight": "33.92px",
+          "color": "#FFFFFF"
+        }
+      ],
+      "colors": [
+        {
+          "value": "#000000",
+          "count": 431
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 61
+        },
+        {
+          "value": "#FFFFFF @ 0.6",
+          "count": 8
+        },
+        {
+          "value": "#000000 @ 0.6",
+          "count": 8
+        },
+        {
+          "value": "#0000EE",
+          "count": 6
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "#F0F0F0",
+          "count": 9
+        },
+        {
+          "value": "#000000",
+          "count": 8
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 4
+        },
+        {
+          "value": "#5D5D5D",
+          "count": 3
+        },
+        {
+          "value": "#3A3C3F",
+          "count": 2
+        }
+      ],
+      "controls": [
+        {
+          "text": "메인 페이지로 돌아가기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#0000EE",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 238)",
+          "width": 101,
+          "height": 30
+        },
+        {
+          "text": "전시장 검색",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "계정",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "Polestar 2 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 243,
+          "height": 40
+        },
+        {
+          "text": "Polestar 3 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 245,
+          "height": 40
+        },
+        {
+          "text": "시승 예약하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        },
+        {
+          "text": "빠른 출고",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 120,
+          "height": 40
+        },
+        {
+          "text": "차량 주문하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "url": "https://www.polestar.com/kr/polestar-4-models/polestar-4-coupe/",
+      "finalUrl": "https://www.polestar.com/kr/polestar-4-models/polestar-4-coupe/",
+      "status": 200,
+      "title": "Polestar 4 coupé | Polestar Korea​",
+      "screenshot": "screenshots/desktop-04-polestar-4-models-polestar-4-coupe.png",
+      "cookieOverlayStillVisible": false,
+      "elapsedMs": 13390,
+      "headings": [
+        {
+          "text": "Polestar 4 coupé",
+          "fontSize": "32px",
+          "weight": "400",
+          "lineHeight": "33.92px",
+          "color": "#FFFFFF"
+        },
+        {
+          "text": "무이자, 금리할인부터 캐시백까지, 다양한 구매 혜택을 확인하세요.",
+          "fontSize": "32px",
+          "weight": "400",
+          "lineHeight": "33.92px",
+          "color": "#FFFFFF"
+        },
+        {
+          "text": "쿠페의 날렵한 디자인. SUV다운 실내 공간. 전기차 시대에 어울리는 혁신.",
+          "fontSize": "32px",
+          "weight": "400",
+          "lineHeight": "33.92px",
+          "color": "#000000"
+        },
+        {
+          "text": "Polestar 4 coupé는 30분³만에 10-80%까지 충전됩니다. ​",
+          "fontSize": "32px",
+          "weight": "400",
+          "lineHeight": "33.92px",
+          "color": "#000000"
+        },
+        {
+          "text": "배터리 아키텍처",
+          "fontSize": "16px",
+          "weight": "400",
+          "lineHeight": "18px",
+          "color": "#000000"
+        }
+      ],
+      "colors": [
+        {
+          "value": "#000000",
+          "count": 456
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 45
+        },
+        {
+          "value": "#FFFFFF @ 0.6",
+          "count": 8
+        },
+        {
+          "value": "#000000 @ 0.6",
+          "count": 8
+        },
+        {
+          "value": "#0000EE",
+          "count": 6
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "#F0F0F0",
+          "count": 11
+        },
+        {
+          "value": "#000000",
+          "count": 9
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 5
+        },
+        {
+          "value": "#3A3C3F",
+          "count": 1
+        }
+      ],
+      "controls": [
+        {
+          "text": "메인 페이지로 돌아가기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#0000EE",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 238)",
+          "width": 101,
+          "height": 30
+        },
+        {
+          "text": "전시장 검색",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "계정",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "Polestar 2 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 243,
+          "height": 40
+        },
+        {
+          "text": "Polestar 3 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 245,
+          "height": 40
+        },
+        {
+          "text": "시승 예약하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        },
+        {
+          "text": "빠른 출고",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 120,
+          "height": 40
+        },
+        {
+          "text": "차량 주문하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "url": "https://www.polestar.com/kr/polestar-5/",
+      "finalUrl": "https://www.polestar.com/kr/polestar-5/",
+      "status": 200,
+      "title": "Polestar 5 - 일렉트릭 퍼포먼스 | Polestar KR",
+      "screenshot": "screenshots/desktop-05-polestar-5.png",
+      "cookieOverlayStillVisible": false,
+      "elapsedMs": 21851,
+      "headings": [
+        {
+          "text": "Polestar 5",
+          "fontSize": "60px",
+          "weight": "400",
+          "lineHeight": "63.6px",
+          "color": "#000000"
+        },
+        {
+          "text": "그랜드 투어러. 게임 체인저.",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#FFFFFF"
+        },
+        {
+          "text": "강화된 강도와 강성",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#FFFFFF"
+        },
+        {
+          "text": "Pure Polestar",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "Polestar 5의 탄생",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        }
+      ],
+      "colors": [
+        {
+          "value": "#000000",
+          "count": 397
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 35
+        },
+        {
+          "value": "#000000 @ 0.6",
+          "count": 10
+        },
+        {
+          "value": "#0000EE",
+          "count": 3
+        },
+        {
+          "value": "#866D4B",
+          "count": 1
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "#FFFFFF",
+          "count": 5
+        },
+        {
+          "value": "#000000",
+          "count": 5
+        },
+        {
+          "value": "#3A3C3F",
+          "count": 2
+        },
+        {
+          "value": "#F0F0F0",
+          "count": 2
+        },
+        {
+          "value": "#000000 @ 0.5",
+          "count": 1
+        }
+      ],
+      "controls": [
+        {
+          "text": "메인 페이지로 돌아가기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#0000EE",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 238)",
+          "width": 101,
+          "height": 30
+        },
+        {
+          "text": "전시장 검색",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "계정",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "Polestar 2 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 243,
+          "height": 40
+        },
+        {
+          "text": "Polestar 3 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 245,
+          "height": 40
+        },
+        {
+          "text": "시승 예약하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        },
+        {
+          "text": "빠른 출고",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 120,
+          "height": 40
+        },
+        {
+          "text": "차량 주문하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "url": "https://www.polestar.com/kr/offers/new/",
+      "finalUrl": "https://www.polestar.com/kr/offers/new/",
+      "status": 200,
+      "title": "Polestar 진행 중인 프로모션 | Polestar 대한민국",
+      "screenshot": "screenshots/desktop-06-offers-new.png",
+      "cookieOverlayStillVisible": false,
+      "elapsedMs": 11577,
+      "headings": [
+        {
+          "text": "진행 중인 프로모션",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "2027년형",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#F06E00"
+        },
+        {
+          "text": "Polestar 3",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "2027년형",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#F06E00"
+        },
+        {
+          "text": "Polestar 4 coupé",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        }
+      ],
+      "colors": [
+        {
+          "value": "#000000",
+          "count": 435
+        },
+        {
+          "value": "#000000 @ 0.6",
+          "count": 14
+        },
+        {
+          "value": "#F06E00",
+          "count": 12
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 10
+        },
+        {
+          "value": "#0000EE",
+          "count": 3
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "#000000",
+          "count": 4
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 3
+        },
+        {
+          "value": "#F0F0F0",
+          "count": 3
+        },
+        {
+          "value": "#3A3C3F",
+          "count": 1
+        }
+      ],
+      "controls": [
+        {
+          "text": "메인 페이지로 돌아가기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#0000EE",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 238)",
+          "width": 101,
+          "height": 30
+        },
+        {
+          "text": "전시장 검색",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "계정",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "Polestar 2 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 243,
+          "height": 40
+        },
+        {
+          "text": "Polestar 3 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 245,
+          "height": 40
+        },
+        {
+          "text": "시승 예약하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        },
+        {
+          "text": "빠른 출고",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 120,
+          "height": 40
+        },
+        {
+          "text": "차량 주문하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "url": "https://www.polestar.com/kr/test-drive/booking/",
+      "finalUrl": "https://www.polestar.com/kr/test-drive/booking/",
+      "status": 200,
+      "title": "시승 신청 |폴스타 코리아",
+      "screenshot": "screenshots/desktop-07-test-drive-booking.png",
+      "cookieOverlayStillVisible": false,
+      "elapsedMs": 12117,
+      "headings": [
+        {
+          "text": "시승 예약",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "01 모델 선택",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "Polestar 3",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "Polestar 4 coupé",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "02 장소 선택",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        }
+      ],
+      "colors": [
+        {
+          "value": "#000000",
+          "count": 434
+        },
+        {
+          "value": "#000000 @ 0.6",
+          "count": 18
+        },
+        {
+          "value": "#0000EE",
+          "count": 3
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 2
+        },
+        {
+          "value": "#F06E00",
+          "count": 1
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "#F0F0F0",
+          "count": 4
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 3
+        },
+        {
+          "value": "#3A3C3F",
+          "count": 1
+        }
+      ],
+      "controls": [
+        {
+          "text": "메인 페이지로 돌아가기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#0000EE",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 238)",
+          "width": 101,
+          "height": 30
+        },
+        {
+          "text": "전시장 검색",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "계정",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "Polestar 2 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 243,
+          "height": 40
+        },
+        {
+          "text": "Polestar 3 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 245,
+          "height": 40
+        },
+        {
+          "text": "시승 예약하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        },
+        {
+          "text": "빠른 출고",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 120,
+          "height": 40
+        },
+        {
+          "text": "차량 주문하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "url": "https://www.polestar.com/kr/configure/",
+      "finalUrl": "https://www.polestar.com/kr/configure/",
+      "status": 200,
+      "title": "Polestar 차량 선택과 주문 | Polestar 대한민국",
+      "screenshot": "screenshots/desktop-08-configure.png",
+      "cookieOverlayStillVisible": false,
+      "elapsedMs": 11670,
+      "headings": [
+        {
+          "text": "주문하기",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "모델을 선택하세요",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000 @ 0.6"
+        },
+        {
+          "text": "Polestar 3",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "Polestar 4 coupé",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "최신 Polestar 소식을 먼저 받아 보세요",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        }
+      ],
+      "colors": [
+        {
+          "value": "#000000",
+          "count": 413
+        },
+        {
+          "value": "#000000 @ 0.6",
+          "count": 30
+        },
+        {
+          "value": "#F06E00",
+          "count": 8
+        },
+        {
+          "value": "#0000EE",
+          "count": 3
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 2
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "#F0F0F0",
+          "count": 4
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 3
+        },
+        {
+          "value": "#3A3C3F",
+          "count": 1
+        }
+      ],
+      "controls": [
+        {
+          "text": "메인 페이지로 돌아가기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#0000EE",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 238)",
+          "width": 101,
+          "height": 30
+        },
+        {
+          "text": "전시장 검색",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "계정",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "Polestar 2 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 243,
+          "height": 40
+        },
+        {
+          "text": "Polestar 3 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 245,
+          "height": 40
+        },
+        {
+          "text": "시승 예약하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        },
+        {
+          "text": "빠른 출고",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 120,
+          "height": 40
+        },
+        {
+          "text": "차량 주문하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "url": "https://www.polestar.com/kr/charging/",
+      "finalUrl": "https://www.polestar.com/kr/charging/",
+      "status": 200,
+      "title": "충전과 전기차 주행 안내 | Polestar 대한민국",
+      "screenshot": "screenshots/desktop-09-charging.png",
+      "cookieOverlayStillVisible": false,
+      "elapsedMs": 11461,
+      "headings": [
+        {
+          "text": "충전",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "공용시설 충전",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "자택 충전",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "전기차 주행의 모든 것",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "주행거리",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        }
+      ],
+      "colors": [
+        {
+          "value": "#000000",
+          "count": 437
+        },
+        {
+          "value": "#F06E00",
+          "count": 18
+        },
+        {
+          "value": "#000000 @ 0.6",
+          "count": 16
+        },
+        {
+          "value": "#0000EE",
+          "count": 3
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 2
+        },
+        {
+          "value": "#FF7500",
+          "count": 2
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "#FFFFFF",
+          "count": 7
+        },
+        {
+          "value": "#ECECE7",
+          "count": 2
+        },
+        {
+          "value": "#FF7500",
+          "count": 2
+        },
+        {
+          "value": "#F0F0F0",
+          "count": 2
+        },
+        {
+          "value": "#3A3C3F",
+          "count": 1
+        }
+      ],
+      "controls": [
+        {
+          "text": "메인 페이지로 돌아가기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#0000EE",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 238)",
+          "width": 101,
+          "height": 30
+        },
+        {
+          "text": "전시장 검색",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "계정",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "Polestar 2 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 243,
+          "height": 40
+        },
+        {
+          "text": "Polestar 3 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 245,
+          "height": 40
+        },
+        {
+          "text": "시승 예약하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        },
+        {
+          "text": "빠른 출고",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 120,
+          "height": 40
+        },
+        {
+          "text": "차량 주문하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "url": "https://www.polestar.com/kr/owning-a-polestar/",
+      "finalUrl": "https://www.polestar.com/kr/owning-a-polestar/",
+      "status": 200,
+      "title": "Polestar 오너십 | Polestar 대한민국",
+      "screenshot": "screenshots/desktop-10-owning-a-polestar.png",
+      "cookieOverlayStillVisible": false,
+      "elapsedMs": 11533,
+      "headings": [
+        {
+          "text": "Polestar 오너십",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "도움이 필요한 순간 바로 제공되는 전문적인 지원. Polestar 오너십은 차량 소유와 운전에 국한되지 않는 포괄적인 경험입니다.",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "서비스와 유지보수",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "보증",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "Polestar Assistance",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        }
+      ],
+      "colors": [
+        {
+          "value": "#000000",
+          "count": 395
+        },
+        {
+          "value": "#000000 @ 0.6",
+          "count": 61
+        },
+        {
+          "value": "#F06E00",
+          "count": 24
+        },
+        {
+          "value": "#0000EE",
+          "count": 3
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 2
+        },
+        {
+          "value": "#866D4B",
+          "count": 1
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "#FFFFFF",
+          "count": 3
+        },
+        {
+          "value": "#ECECE7 @ 0.6",
+          "count": 2
+        },
+        {
+          "value": "#F0F0F0",
+          "count": 2
+        },
+        {
+          "value": "#3A3C3F",
+          "count": 1
+        }
+      ],
+      "controls": [
+        {
+          "text": "메인 페이지로 돌아가기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#0000EE",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 238)",
+          "width": 101,
+          "height": 30
+        },
+        {
+          "text": "전시장 검색",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "계정",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "Polestar 2 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 243,
+          "height": 40
+        },
+        {
+          "text": "Polestar 3 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 245,
+          "height": 40
+        },
+        {
+          "text": "시승 예약하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        },
+        {
+          "text": "빠른 출고",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 120,
+          "height": 40
+        },
+        {
+          "text": "차량 주문하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "url": "https://www.polestar.com/kr/support/",
+      "finalUrl": "https://www.polestar.com/kr/support/",
+      "status": 200,
+      "title": "공식 지원 | Polestar 대한민국",
+      "screenshot": "screenshots/desktop-11-support.png",
+      "cookieOverlayStillVisible": false,
+      "elapsedMs": 11366,
+      "headings": [
+        {
+          "text": "지원, 상담 및 안내",
+          "fontSize": "60px",
+          "weight": "400",
+          "lineHeight": "68px",
+          "color": "#000000"
+        },
+        {
+          "text": "FAQ 카테고리",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "Polestar 앱에서 주문 상태를 확인하세요",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "다른 질문이 있으신가요?",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "Polestar 방문",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        }
+      ],
+      "colors": [
+        {
+          "value": "#000000",
+          "count": 430
+        },
+        {
+          "value": "#0000EE",
+          "count": 13
+        },
+        {
+          "value": "#FF7500",
+          "count": 12
+        },
+        {
+          "value": "#F06E00",
+          "count": 10
+        },
+        {
+          "value": "#000000 @ 0.6",
+          "count": 8
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 2
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "#FFFFFF",
+          "count": 5
+        },
+        {
+          "value": "#F0F0F0",
+          "count": 2
+        },
+        {
+          "value": "#3A3C3F",
+          "count": 1
+        }
+      ],
+      "controls": [
+        {
+          "text": "메인 페이지로 돌아가기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#0000EE",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 238)",
+          "width": 101,
+          "height": 30
+        },
+        {
+          "text": "전시장 검색",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "계정",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "Polestar 2 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 243,
+          "height": 40
+        },
+        {
+          "text": "Polestar 3 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 245,
+          "height": 40
+        },
+        {
+          "text": "시승 예약하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        },
+        {
+          "text": "빠른 출고",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 120,
+          "height": 40
+        },
+        {
+          "text": "차량 주문하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "url": "https://www.polestar.com/kr/sustainability/",
+      "finalUrl": "https://www.polestar.com/kr/sustainability/",
+      "status": 200,
+      "title": "지속가능성 | Polestar 대한민국",
+      "screenshot": "screenshots/desktop-12-sustainability.png",
+      "cookieOverlayStillVisible": false,
+      "elapsedMs": 12084,
+      "headings": [
+        {
+          "text": "지속가능성",
+          "fontSize": "60px",
+          "weight": "400",
+          "lineHeight": "63.6px",
+          "color": "#FFFFFF"
+        },
+        {
+          "text": "행동 의식. 목표 의식. 책임 의식.",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "목적 있는 실천 행동 의식",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "전 과정 평가 (Life Cycle Assessment)",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "배터리 개선",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        }
+      ],
+      "colors": [
+        {
+          "value": "#000000",
+          "count": 431
+        },
+        {
+          "value": "#000000 @ 0.6",
+          "count": 51
+        },
+        {
+          "value": "#F06E00",
+          "count": 16
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 9
+        },
+        {
+          "value": "#0000EE",
+          "count": 3
+        },
+        {
+          "value": "#75787B",
+          "count": 1
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "#FFFFFF",
+          "count": 3
+        },
+        {
+          "value": "#ECECE7 @ 0.6",
+          "count": 3
+        },
+        {
+          "value": "#3A3C3F",
+          "count": 2
+        },
+        {
+          "value": "#F0F0F0",
+          "count": 2
+        },
+        {
+          "value": "#000000 @ 0.5",
+          "count": 1
+        }
+      ],
+      "controls": [
+        {
+          "text": "메인 페이지로 돌아가기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#0000EE",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 238)",
+          "width": 101,
+          "height": 30
+        },
+        {
+          "text": "전시장 검색",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "계정",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "Polestar 2 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 243,
+          "height": 40
+        },
+        {
+          "text": "Polestar 3 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 245,
+          "height": 40
+        },
+        {
+          "text": "시승 예약하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        },
+        {
+          "text": "빠른 출고",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 120,
+          "height": 40
+        },
+        {
+          "text": "차량 주문하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "url": "https://www.polestar.com/kr/news/",
+      "finalUrl": "https://www.polestar.com/kr/news/",
+      "status": 200,
+      "title": "News | Polestar 대한민국",
+      "screenshot": "screenshots/desktop-13-news.png",
+      "cookieOverlayStillVisible": false,
+      "elapsedMs": 11841,
+      "headings": [
+        {
+          "text": "뉴스",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "폴스타, 플래그십 전기 퍼포먼스 SUV ‘폴스타 3’ 출시",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "폴스타, 2027년형 ‘폴스타 4’ 출시…가격 낮추고 상품성 더 높여",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "‘팀 스웨덴’ 폴스타, '2026 스웨덴 데이' 참가… 북유럽 디자인·혁신 가치 공유",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "폴스타, ‘브랜드 고객충성도 대상’ 전기차 부문 4년 연속 1위",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        }
+      ],
+      "colors": [
+        {
+          "value": "#000000",
+          "count": 381
+        },
+        {
+          "value": "#0000EE",
+          "count": 102
+        },
+        {
+          "value": "#000000 @ 0.6",
+          "count": 16
+        },
+        {
+          "value": "#F06E00",
+          "count": 16
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 2
+        },
+        {
+          "value": "#000000 @ 0.3",
+          "count": 1
+        },
+        {
+          "value": "#000000 @ 0.15",
+          "count": 1
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "#FFFFFF",
+          "count": 5
+        },
+        {
+          "value": "#000000",
+          "count": 5
+        },
+        {
+          "value": "#F0F0F0",
+          "count": 2
+        },
+        {
+          "value": "#F3F4F4",
+          "count": 1
+        },
+        {
+          "value": "#3A3C3F",
+          "count": 1
+        }
+      ],
+      "controls": [
+        {
+          "text": "메인 페이지로 돌아가기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#0000EE",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 238)",
+          "width": 101,
+          "height": 30
+        },
+        {
+          "text": "전시장 검색",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "계정",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "Polestar 2 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 243,
+          "height": 40
+        },
+        {
+          "text": "Polestar 3 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 245,
+          "height": 40
+        },
+        {
+          "text": "시승 예약하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        },
+        {
+          "text": "빠른 출고",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 120,
+          "height": 40
+        },
+        {
+          "text": "차량 주문하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "url": "https://www.polestar.com/kr/sign-up-newsletter/",
+      "finalUrl": "https://www.polestar.com/kr/sign-up-newsletter/",
+      "status": 200,
+      "title": "뉴스레터 구독 | Polestar 대한민국",
+      "screenshot": "screenshots/desktop-14-sign-up-newsletter.png",
+      "cookieOverlayStillVisible": false,
+      "elapsedMs": 11323,
+      "headings": [
+        {
+          "text": "최신 소식을 만나보세요",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "본인 정보",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "최신 Polestar 소식을 먼저 받아 보세요",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "탐색 및 구매",
+          "fontSize": "16px",
+          "weight": "400",
+          "lineHeight": "18px",
+          "color": "#000000 @ 0.6"
+        },
+        {
+          "text": "Support",
+          "fontSize": "16px",
+          "weight": "400",
+          "lineHeight": "18px",
+          "color": "#000000 @ 0.6"
+        }
+      ],
+      "colors": [
+        {
+          "value": "#000000",
+          "count": 426
+        },
+        {
+          "value": "#000000 @ 0.6",
+          "count": 19
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 6
+        },
+        {
+          "value": "#F06E00",
+          "count": 4
+        },
+        {
+          "value": "#0000EE",
+          "count": 3
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "#F3F4F4",
+          "count": 6
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 5
+        },
+        {
+          "value": "#F0F0F0",
+          "count": 4
+        },
+        {
+          "value": "#000000",
+          "count": 2
+        },
+        {
+          "value": "#3A3C3F",
+          "count": 1
+        }
+      ],
+      "controls": [
+        {
+          "text": "메인 페이지로 돌아가기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#0000EE",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 238)",
+          "width": 101,
+          "height": 30
+        },
+        {
+          "text": "전시장 검색",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "계정",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "Polestar 2 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 243,
+          "height": 40
+        },
+        {
+          "text": "Polestar 3 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 245,
+          "height": 40
+        },
+        {
+          "text": "시승 예약하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        },
+        {
+          "text": "빠른 출고",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 120,
+          "height": 40
+        },
+        {
+          "text": "차량 주문하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "url": "https://www.polestar.com/kr/locations/",
+      "finalUrl": "https://www.polestar.com/kr/locations/",
+      "status": 200,
+      "title": "가까운 Polestar 위치 찾기 | Polestar 대한민국",
+      "screenshot": "screenshots/desktop-15-locations.png",
+      "cookieOverlayStillVisible": false,
+      "elapsedMs": 11632,
+      "headings": [
+        {
+          "text": "대한민국의 Polestar 위치를 검색하세요",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "Polestar 상담 신청",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "Polestar 고객지원센터",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "Polestar 방문",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        },
+        {
+          "text": "Polestar 시승 예약",
+          "fontSize": "30px",
+          "weight": "400",
+          "lineHeight": "32px",
+          "color": "#000000"
+        }
+      ],
+      "colors": [
+        {
+          "value": "#000000",
+          "count": 397
+        },
+        {
+          "value": "#000000 @ 0.6",
+          "count": 43
+        },
+        {
+          "value": "#FFFFFF",
+          "count": 17
+        },
+        {
+          "value": "#0000EE",
+          "count": 16
+        },
+        {
+          "value": "#F06E00",
+          "count": 11
+        },
+        {
+          "value": "#000000 @ 0.3",
+          "count": 4
+        },
+        {
+          "value": "#F06E00 @ 0.3",
+          "count": 1
+        }
+      ],
+      "backgrounds": [
+        {
+          "value": "#FFFFFF",
+          "count": 13
+        },
+        {
+          "value": "#F0F0F0",
+          "count": 9
+        },
+        {
+          "value": "#53565A",
+          "count": 7
+        },
+        {
+          "value": "#F06E00",
+          "count": 2
+        },
+        {
+          "value": "#3A3C3F",
+          "count": 2
+        },
+        {
+          "value": "#F3F4F4",
+          "count": 1
+        }
+      ],
+      "controls": [
+        {
+          "text": "메인 페이지로 돌아가기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#0000EE",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 238)",
+          "width": 101,
+          "height": 30
+        },
+        {
+          "text": "전시장 검색",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "계정",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "text": "Polestar 2 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 243,
+          "height": 40
+        },
+        {
+          "text": "Polestar 3 알아보기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 245,
+          "height": 40
+        },
+        {
+          "text": "시승 예약하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        },
+        {
+          "text": "빠른 출고",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 120,
+          "height": 40
+        },
+        {
+          "text": "차량 주문하기",
+          "tag": "a",
+          "bg": "transparent",
+          "color": "#000000",
+          "radius": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "width": 178,
+          "height": 40
+        }
+      ]
+    }
+  ],
+  "mobile": [
+    {
+      "url": "https://www.polestar.com/kr/",
+      "status": 200,
+      "title": "퍼포먼스를 위해 디자인된 전기차 | Polestar 대한민국",
+      "screenshot": "screenshots/mobile-01-home.png",
+      "cookieOverlayStillVisible": false,
+      "metrics": {
+        "width": 390,
+        "height": 844,
+        "scrollHeight": 5019,
+        "bodyHeight": 5019,
+        "devicePixelRatio": 1
+      },
+      "headings": [
+        {
+          "text": "Polestar 3",
+          "fontSize": "30px",
+          "weight": "400",
+          "color": "#FFFFFF"
+        },
+        {
+          "text": "플래그십 전기 SUV",
+          "fontSize": "30px",
+          "weight": "400",
+          "color": "#FFFFFF @ 0.6"
+        },
+        {
+          "text": "Polestar 3",
+          "fontSize": "30px",
+          "weight": "400",
+          "color": "#000000"
+        },
+        {
+          "text": "Polestar 4 coupé",
+          "fontSize": "30px",
+          "weight": "400",
+          "color": "#000000"
+        },
+        {
+          "text": "지속가능성",
+          "fontSize": "30px",
+          "weight": "400",
+          "color": "#000000"
+        }
+      ],
+      "controls": [
+        {
+          "text": "Polestar 3를 특별 캐시백, 저금리, 장기 할부 등 다양한 프로모션으로 만나보세요.구매 혜택 보기",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 28
+        },
+        {
+          "text": "메인 페이지로 돌아가기",
+          "bg": "transparent",
+          "color": "#0000EE",
+          "width": 101,
+          "height": 30
+        },
+        {
+          "text": "메뉴 열기",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "text": "Polestar 2",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        },
+        {
+          "text": "Polestar 3",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        },
+        {
+          "text": "Polestar 4",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        },
+        {
+          "text": "Polestar 5",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        },
+        {
+          "text": "Charging",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "url": "https://www.polestar.com/kr/polestar-3/",
+      "status": 200,
+      "title": "Polestar 3 - 플래그십 전기 SUV | Polestar Korea",
+      "screenshot": "screenshots/mobile-02-polestar-3.png",
+      "cookieOverlayStillVisible": false,
+      "metrics": {
+        "width": 390,
+        "height": 844,
+        "scrollHeight": 11387,
+        "bodyHeight": 11387,
+        "devicePixelRatio": 1
+      },
+      "headings": [
+        {
+          "text": "Polestar 3",
+          "fontSize": "32px",
+          "weight": "400",
+          "color": "#FFFFFF"
+        },
+        {
+          "text": "Polestar 3를 특별 캐시백, 저금리, 장기 할부 등 다양한 프로모션으로 만나보세요.",
+          "fontSize": "24px",
+          "weight": "400",
+          "color": "#FFFFFF"
+        },
+        {
+          "text": "완벽한 SUV의 실루엣. 스포츠카와 같은 드라이빙.",
+          "fontSize": "24px",
+          "weight": "400",
+          "color": "#FFFFFF"
+        },
+        {
+          "text": "혁신 기술과 에어로다이내믹 디자인의 정밀한 결합. 퍼포먼스와 실내 경험 모두에서 차이를 만듭니다.",
+          "fontSize": "24px",
+          "weight": "400",
+          "color": "#FFFFFF"
+        },
+        {
+          "text": "10% 에서 80% 까지, 단 22 분만에 충전됩니다³. Polestar 3의 800 V 아키텍처를 통해 최대 350kW의 강력한 충전 성능을 경험하십시오.",
+          "fontSize": "24px",
+          "weight": "400",
+          "color": "#FFFFFF"
+        }
+      ],
+      "controls": [
+        {
+          "text": "메인 페이지로 돌아가기",
+          "bg": "transparent",
+          "color": "#0000EE",
+          "width": 101,
+          "height": 30
+        },
+        {
+          "text": "메뉴 열기",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "text": "Polestar 2",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        },
+        {
+          "text": "Polestar 3",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        },
+        {
+          "text": "Polestar 4",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        },
+        {
+          "text": "Polestar 5",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        },
+        {
+          "text": "Charging",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        },
+        {
+          "text": "Shop",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "url": "https://www.polestar.com/kr/test-drive/booking/",
+      "status": 200,
+      "title": "시승 신청 |폴스타 코리아",
+      "screenshot": "screenshots/mobile-03-test-drive-booking.png",
+      "cookieOverlayStillVisible": false,
+      "metrics": {
+        "width": 390,
+        "height": 844,
+        "scrollHeight": 2198,
+        "bodyHeight": 2198,
+        "devicePixelRatio": 1
+      },
+      "headings": [
+        {
+          "text": "시승 예약",
+          "fontSize": "30px",
+          "weight": "400",
+          "color": "#000000"
+        },
+        {
+          "text": "01 모델 선택",
+          "fontSize": "30px",
+          "weight": "400",
+          "color": "#000000"
+        },
+        {
+          "text": "Polestar 3",
+          "fontSize": "30px",
+          "weight": "400",
+          "color": "#000000"
+        },
+        {
+          "text": "Polestar 4 coupé",
+          "fontSize": "30px",
+          "weight": "400",
+          "color": "#000000"
+        },
+        {
+          "text": "02 장소 선택",
+          "fontSize": "30px",
+          "weight": "400",
+          "color": "#000000"
+        }
+      ],
+      "controls": [
+        {
+          "text": "메인 페이지로 돌아가기",
+          "bg": "transparent",
+          "color": "#0000EE",
+          "width": 101,
+          "height": 30
+        },
+        {
+          "text": "메뉴 열기",
+          "bg": "transparent",
+          "color": "#000000 @ 0.6",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "text": "Polestar 2",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        },
+        {
+          "text": "Polestar 3",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        },
+        {
+          "text": "Polestar 4",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        },
+        {
+          "text": "Polestar 5",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        },
+        {
+          "text": "Charging",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        },
+        {
+          "text": "Shop",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "url": "https://www.polestar.com/kr/sign-up-newsletter/",
+      "status": 200,
+      "title": "뉴스레터 구독 | Polestar 대한민국",
+      "screenshot": "screenshots/mobile-04-sign-up-newsletter.png",
+      "cookieOverlayStillVisible": false,
+      "metrics": {
+        "width": 390,
+        "height": 844,
+        "scrollHeight": 2069,
+        "bodyHeight": 2069,
+        "devicePixelRatio": 1
+      },
+      "headings": [
+        {
+          "text": "최신 소식을 만나보세요",
+          "fontSize": "30px",
+          "weight": "400",
+          "color": "#000000"
+        },
+        {
+          "text": "본인 정보",
+          "fontSize": "30px",
+          "weight": "400",
+          "color": "#000000"
+        },
+        {
+          "text": "최신 Polestar 소식을 먼저 받아 보세요",
+          "fontSize": "30px",
+          "weight": "400",
+          "color": "#000000"
+        }
+      ],
+      "controls": [
+        {
+          "text": "메인 페이지로 돌아가기",
+          "bg": "transparent",
+          "color": "#0000EE",
+          "width": 101,
+          "height": 30
+        },
+        {
+          "text": "메뉴 열기",
+          "bg": "transparent",
+          "color": "#000000 @ 0.6",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "text": "Polestar 2",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        },
+        {
+          "text": "Polestar 3",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        },
+        {
+          "text": "Polestar 4",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        },
+        {
+          "text": "Polestar 5",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        },
+        {
+          "text": "Charging",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        },
+        {
+          "text": "Shop",
+          "bg": "transparent",
+          "color": "#000000",
+          "width": 343,
+          "height": 40
+        }
+      ]
+    }
+  ],
+  "discoveredCount": 145,
+  "discoveredSample": [
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "Home",
+      "href": "https://www.polestar.com/kr/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/polestar-3/",
+      "text": "자세히 보러가기",
+      "href": "https://www.polestar.com/kr/offers/polestar-3-2027-total-offer/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "전시장 검색",
+      "href": "https://www.polestar.com/kr/locations/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "Polestar 2 알아보기",
+      "href": "https://www.polestar.com/kr/polestar-2/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "Polestar 3",
+      "href": "https://www.polestar.com/kr/polestar-3/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "시승 예약하기",
+      "href": "https://www.polestar.com/kr/test-drive/booking/polestar-3/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "빠른 출고",
+      "href": "https://www.polestar.com/kr/stock-cars/polestar-3/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "차량 주문하기",
+      "href": "https://www.polestar.com/kr/configure/polestar-3/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "진행중인 프로모션",
+      "href": "https://www.polestar.com/kr/offers/new/polestar-3/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "Polestar 4",
+      "href": "https://www.polestar.com/kr/polestar-4-models/polestar-4-coupe/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "시승 예약하기",
+      "href": "https://www.polestar.com/kr/test-drive/booking/polestar-4-coupe/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "빠른 출고",
+      "href": "https://www.polestar.com/kr/stock-cars/polestar-4-coupe/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "차량 주문하기",
+      "href": "https://www.polestar.com/kr/configure/polestar-4-coupe/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "진행중인 프로모션",
+      "href": "https://www.polestar.com/kr/offers/new/polestar-4-coupe/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "Polestar 5",
+      "href": "https://www.polestar.com/kr/polestar-5/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "충전",
+      "href": "https://www.polestar.com/kr/charging/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "공용 시설 충전",
+      "href": "https://www.polestar.com/kr/charging/public-charging/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "자택 충전",
+      "href": "https://www.polestar.com/kr/charging/home-charging/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "Fleet & Business",
+      "href": "https://www.polestar.com/kr/fleet/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "금융 프로그램",
+      "href": "https://www.polestar.com/kr/financing-options/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "주문 방법",
+      "href": "https://www.polestar.com/kr/how-to-buy-a-polestar/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "진행중인 프로모션",
+      "href": "https://www.polestar.com/kr/offers/new/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "빠른 출고",
+      "href": "https://www.polestar.com/kr/stock-cars/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "차량 주문",
+      "href": "https://www.polestar.com/kr/configure/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "Extras (차량 액세서리)",
+      "href": "https://www.polestar.com/kr/shop/extras/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "Experiences (체험 프로그램)",
+      "href": "https://www.polestar.com/kr/experiences/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "지원, 상담 및 안내",
+      "href": "https://www.polestar.com/kr/support/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "Service points",
+      "href": "https://www.polestar.com/kr/owning-a-polestar/service-points/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "Ownership",
+      "href": "https://www.polestar.com/kr/owning-a-polestar/"
+    },
+    {
+      "from": "https://www.polestar.com/kr/locations/",
+      "text": "Polestar 방문 Polestar Space에서 최신 모델을 직접 보고 상담하거나 시승해 보세요. Polestar Space 찾기",
+      "href": "https://www.polestar.com/kr/locations/?filter=sales+car_display"
+    }
+  ]
+}

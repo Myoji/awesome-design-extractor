@@ -1,0 +1,22 @@
+{
+  "name": "awesome-design-extractor",
+  "version": "0.1.0",
+  "description": "Extract evidence-backed awesome-design-md style DESIGN.md packages from rendered websites.",
+  "author": {
+    "name": "myoji"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Awesome Design Extractor",
+    "shortDescription": "Extract DESIGN.md from rendered sites.",
+    "longDescription": "Create DESIGN.md, EVIDENCE.md, and static preview artifacts from public or reachable website URLs using browser-rendered evidence and the awesome-design-md nine-section rubric.",
+    "developerName": "myoji",
+    "category": "Productivity",
+    "capabilities": [
+      "Design Systems",
+      "Browser Analysis",
+      "Documentation"
+    ],
+    "defaultPrompt": "Use $awesome-design-extractor to extract an awesome-design-md style DESIGN.md package from a website URL."
+  }
+}

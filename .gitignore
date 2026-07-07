@@ -1,0 +1,9 @@
+.codex-remote-attachments/
+
+# Local extraction evidence can be large and may contain public-site screenshots.
+examples/**/evidence-raw.json
+examples/**/screenshots/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

@@ -1,0 +1,3469 @@
+{
+  "metadata": {
+    "sourceUrl": "https://www.genesis.com/kr/ko",
+    "crawlDate": "2026-07-07",
+    "tool": "Headless Chrome via Chrome DevTools Protocol",
+    "desktopViewport": "1440 x 1000",
+    "mobileViewport": "390 x 844",
+    "outputFolder": "examples/genesis"
+  },
+  "visitedDesktop": [
+    {
+      "label": "home",
+      "url": "https://www.genesis.com/kr/ko",
+      "status": 200,
+      "screenshot": "screenshots/desktop-01-home.png",
+      "title": "제네시스 공식 웹사이트 | 럭셔리 세단·SUV·전기차 | GENESIS Korea",
+      "scroll": {
+        "width": 1440,
+        "height": 8194
+      }
+    },
+    {
+      "label": "models-g90",
+      "url": "https://www.genesis.com/kr/ko/models/g90",
+      "status": 200,
+      "screenshot": "screenshots/desktop-02-models-g90.png",
+      "title": "제네시스 G90 - 럭셔리 플래그십 세단 | 제네시스",
+      "scroll": {
+        "width": 1440,
+        "height": 25562
+      }
+    },
+    {
+      "label": "models-gv80",
+      "url": "https://www.genesis.com/kr/ko/models/gv80",
+      "status": 200,
+      "screenshot": "screenshots/desktop-03-models-gv80.png",
+      "title": "제네시스 GV80 - 럭셔리 SUV | 제네시스",
+      "scroll": {
+        "width": 1440,
+        "height": 25064
+      }
+    },
+    {
+      "label": "models-gv70",
+      "url": "https://www.genesis.com/kr/ko/models/gv70",
+      "status": 200,
+      "screenshot": "screenshots/desktop-04-models-gv70.png",
+      "title": "제네시스 GV70 - 럭셔리 중형 SUV | 제네시스",
+      "scroll": {
+        "width": 1440,
+        "height": 22766
+      }
+    },
+    {
+      "label": "models-gv60",
+      "url": "https://www.genesis.com/kr/ko/models/gv60",
+      "status": 200,
+      "screenshot": "screenshots/desktop-05-models-gv60.png",
+      "title": "제네시스 GV60 - 럭셔리 전기 SUV | 제네시스",
+      "scroll": {
+        "width": 1440,
+        "height": 25824
+      }
+    },
+    {
+      "label": "lineup-gv80",
+      "url": "https://www.genesis.com/kr/ko/models/gv80/lineup",
+      "status": 200,
+      "screenshot": "screenshots/desktop-06-lineup-gv80.png",
+      "title": "GV80 상세 모델 선택 | 제네시스",
+      "scroll": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "label": "shopping-quote",
+      "url": "https://www.genesis.com/kr/ko/shopping/quote.html",
+      "status": 200,
+      "screenshot": "screenshots/desktop-07-shopping-quote.png",
+      "title": "제네시스 견적내기 - 모델리스트, 가격, Build To Order (BTO) | 제네시스",
+      "scroll": {
+        "width": 1440,
+        "height": 1366
+      }
+    },
+    {
+      "label": "purchase",
+      "url": "https://www.genesis.com/kr/ko/shopping/genesis-purchase.html",
+      "status": 200,
+      "screenshot": "screenshots/desktop-08-purchase.png",
+      "title": "제네시스 구매상담 - 제네시스 차량 구매상담 | 제네시스",
+      "scroll": {
+        "width": 1440,
+        "height": 1574
+      }
+    },
+    {
+      "label": "test-drive",
+      "url": "https://www.genesis.com/kr/ko/experience/genesis-drive.html",
+      "status": 200,
+      "screenshot": "screenshots/desktop-09-test-drive.png",
+      "title": "제네시스 시승신청 - 제네시스 차량 시승신청 | 제네시스",
+      "scroll": {
+        "width": 1440,
+        "height": 4379
+      }
+    },
+    {
+      "label": "showroom",
+      "url": "https://www.genesis.com/kr/ko/experience/find-a-showroom.html",
+      "status": 200,
+      "screenshot": "screenshots/desktop-10-showroom.png",
+      "title": "제네시스 전시장 - G90, GV80, G80, GV70, G70 | 제네시스",
+      "scroll": {
+        "width": 1440,
+        "height": 1422
+      }
+    },
+    {
+      "label": "membership",
+      "url": "https://www.genesis.com/kr/ko/members/genesis-membership/membership-overview/membership-information.html",
+      "status": 200,
+      "screenshot": "screenshots/desktop-11-membership.png",
+      "title": "제네시스 멤버십 안내 - 제네시스 고객만의 포인트 혜택 | 제네시스",
+      "scroll": {
+        "width": 1440,
+        "height": 3963
+      }
+    },
+    {
+      "label": "service-network",
+      "url": "https://www.genesis.com/kr/ko/members/vehicle-management-service/genesis-service-network.html",
+      "status": 200,
+      "screenshot": "screenshots/desktop-12-service-network.png",
+      "title": "제네시스 차량관리 서비스 - 서비스 센터 찾기 | 제네시스",
+      "scroll": {
+        "width": 1440,
+        "height": 1403
+      }
+    },
+    {
+      "label": "customer-support",
+      "url": "https://www.genesis.com/kr/ko/support/customer-support.html",
+      "status": 200,
+      "screenshot": "screenshots/desktop-13-customer-support.png",
+      "title": "제네시스 고객센터 안내 | 제네시스",
+      "scroll": {
+        "width": 1440,
+        "height": 4206
+      }
+    },
+    {
+      "label": "faq",
+      "url": "https://www.genesis.com/kr/ko/support/faq.html",
+      "status": 200,
+      "screenshot": "screenshots/desktop-14-faq.png",
+      "title": "제네시스 FAQ - 궁금한 점에 대한 답변을 찾아보세요 | 제네시스",
+      "scroll": {
+        "width": 1440,
+        "height": 23795
+      }
+    },
+    {
+      "label": "notice",
+      "url": "https://www.genesis.com/kr/ko/support/notice.html",
+      "status": 200,
+      "screenshot": "screenshots/desktop-15-notice.png",
+      "title": "제네시스 공지사항 리스트 | 제네시스",
+      "scroll": {
+        "width": 1440,
+        "height": 3677
+      }
+    },
+    {
+      "label": "brand-overview",
+      "url": "https://www.genesis.com/kr/ko/genesis/brand/brand-overview.html",
+      "status": 200,
+      "screenshot": "screenshots/desktop-16-brand-overview.png",
+      "title": "제네시스 브랜드 소개 - 제네시스의 핵심 가치 & 기업 이념 | 제네시스",
+      "scroll": {
+        "width": 1440,
+        "height": 14422
+      }
+    },
+    {
+      "label": "space-suji",
+      "url": "https://www.genesis.com/kr/ko/experience/space/genesis-suji.html",
+      "status": 200,
+      "screenshot": "screenshots/desktop-17-space-suji.png",
+      "title": "제네시스 스페이스 - 수지 | 제네시스",
+      "scroll": {
+        "width": 1440,
+        "height": 15205
+      }
+    },
+    {
+      "label": "magma",
+      "url": "https://www.genesis.com/kr/ko/magma/program/genesis-magma.html",
+      "status": 200,
+      "screenshot": "screenshots/desktop-18-magma.png",
+      "title": "제네시스 마그마 콘셉트 - 모델소개 | 제네시스",
+      "scroll": {
+        "width": 1440,
+        "height": 16268
+      }
+    }
+  ],
+  "visitedMobile": [
+    {
+      "label": "home",
+      "url": "https://www.genesis.com/kr/ko",
+      "status": 200,
+      "screenshot": "screenshots/mobile-01-home.png",
+      "title": "제네시스 공식 웹사이트 | 럭셔리 세단·SUV·전기차 | GENESIS Korea",
+      "scroll": {
+        "width": 390,
+        "height": 7423
+      }
+    },
+    {
+      "label": "models-gv70",
+      "url": "https://www.genesis.com/kr/ko/models/gv70",
+      "status": 200,
+      "screenshot": "screenshots/mobile-02-models-gv70.png",
+      "title": "제네시스 GV70 - 럭셔리 중형 SUV | 제네시스",
+      "scroll": {
+        "width": 390,
+        "height": 19020
+      }
+    },
+    {
+      "label": "shopping-quote",
+      "url": "https://www.genesis.com/kr/ko/shopping/quote.html",
+      "status": 200,
+      "screenshot": "screenshots/mobile-03-shopping-quote.png",
+      "title": "제네시스 견적내기 - 모델리스트, 가격, Build To Order (BTO) | 제네시스",
+      "scroll": {
+        "width": 390,
+        "height": 1073
+      }
+    },
+    {
+      "label": "test-drive",
+      "url": "https://www.genesis.com/kr/ko/experience/genesis-drive.html",
+      "status": 200,
+      "screenshot": "screenshots/mobile-04-test-drive.png",
+      "title": "제네시스 시승신청 - 제네시스 차량 시승신청 | 제네시스",
+      "scroll": {
+        "width": 390,
+        "height": 4537
+      }
+    },
+    {
+      "label": "customer-support",
+      "url": "https://www.genesis.com/kr/ko/support/customer-support.html",
+      "status": 200,
+      "screenshot": "screenshots/mobile-05-customer-support.png",
+      "title": "제네시스 고객센터 안내 | 제네시스",
+      "scroll": {
+        "width": 390,
+        "height": 4115
+      }
+    }
+  ],
+  "failures": [],
+  "sameOriginLinkCount": 155,
+  "aggregate": {
+    "topColors": [
+      {
+        "value": "#000000",
+        "count": 4971
+      },
+      {
+        "value": "#111111",
+        "count": 2173
+      },
+      {
+        "value": "#FFFFFF",
+        "count": 1098
+      },
+      {
+        "value": "#0000EE",
+        "count": 468
+      },
+      {
+        "value": "#69696E",
+        "count": 311
+      },
+      {
+        "value": "#535356",
+        "count": 270
+      },
+      {
+        "value": "#AF6249",
+        "count": 164
+      },
+      {
+        "value": "#757575",
+        "count": 103
+      },
+      {
+        "value": "#262626",
+        "count": 86
+      },
+      {
+        "value": "#808080",
+        "count": 66
+      },
+      {
+        "value": "#929296",
+        "count": 57
+      },
+      {
+        "value": "#F5F5F5",
+        "count": 42
+      },
+      {
+        "value": "#BBBBBB",
+        "count": 34
+      },
+      {
+        "value": "#101010 @ 0.3",
+        "count": 32
+      },
+      {
+        "value": "#333333",
+        "count": 30
+      },
+      {
+        "value": "#141414",
+        "count": 21
+      },
+      {
+        "value": "#767676",
+        "count": 21
+      },
+      {
+        "value": "#7C7C7C",
+        "count": 19
+      },
+      {
+        "value": "#707070",
+        "count": 10
+      },
+      {
+        "value": "#8A8A8A",
+        "count": 9
+      },
+      {
+        "value": "#666666",
+        "count": 9
+      },
+      {
+        "value": "#CCCCCC",
+        "count": 8
+      },
+      {
+        "value": "#999999",
+        "count": 8
+      },
+      {
+        "value": "#C36F51",
+        "count": 5
+      },
+      {
+        "value": "#FFFFFF @ 0.5",
+        "count": 5
+      },
+      {
+        "value": "#7F7F85",
+        "count": 5
+      },
+      {
+        "value": "#FAFAFB",
+        "count": 4
+      },
+      {
+        "value": "#A2A2A2",
+        "count": 3
+      },
+      {
+        "value": "#B0B0B0",
+        "count": 2
+      },
+      {
+        "value": "#131313",
+        "count": 1
+      },
+      {
+        "value": "#909094",
+        "count": 1
+      }
+    ],
+    "topBackgrounds": [
+      {
+        "value": "#F5F5F5",
+        "count": 159
+      },
+      {
+        "value": "#FFFFFF",
+        "count": 139
+      },
+      {
+        "value": "#111111",
+        "count": 111
+      },
+      {
+        "value": "#000000",
+        "count": 61
+      },
+      {
+        "value": "#1A1A1A",
+        "count": 36
+      },
+      {
+        "value": "#F5F5F5 @ 0.8",
+        "count": 30
+      },
+      {
+        "value": "#F8F8F8",
+        "count": 29
+      },
+      {
+        "value": "#333333",
+        "count": 15
+      },
+      {
+        "value": "#151515",
+        "count": 15
+      },
+      {
+        "value": "#3A3A3C @ 0.7",
+        "count": 7
+      },
+      {
+        "value": "#000000 @ 0.2",
+        "count": 6
+      },
+      {
+        "value": "#F0F0F0",
+        "count": 2
+      },
+      {
+        "value": "#000000 @ 0.7",
+        "count": 2
+      }
+    ],
+    "topFonts": [
+      {
+        "value": "GenesisSansTextKr, \"Noto Sans\", -apple-system, BlinkMacSystemFont, \"Apple SD Gothic Neo\", \"Segoe UI\", Roboto, sans-serif",
+        "count": 4857
+      },
+      {
+        "value": "genesis-text, sans-serif",
+        "count": 3636
+      },
+      {
+        "value": "GenesisSansHeadKr, \"Noto Sans\", -apple-system, BlinkMacSystemFont, \"Apple SD Gothic Neo\", \"Segoe UI\", Roboto, sans-serif",
+        "count": 979
+      },
+      {
+        "value": "genesis-head-light, sans-serif",
+        "count": 197
+      },
+      {
+        "value": "genesis-head, sans-serif",
+        "count": 100
+      },
+      {
+        "value": "genesis-Head-office, sans-serif",
+        "count": 68
+      },
+      {
+        "value": "genesis-head-office-light, sans-serif",
+        "count": 67
+      },
+      {
+        "value": "GenesisSansTextKRRegular, -apple-system, BlinkMacSystemFont, \"Apple SD Gothic Neo\", \"Segoe UI\", Roboto, Arial, sans-serif",
+        "count": 53
+      },
+      {
+        "value": "GenesisSansTextKRRegular, sans-serif",
+        "count": 44
+      },
+      {
+        "value": "GenesisSansHeadKRLight, sans-serif",
+        "count": 17
+      },
+      {
+        "value": "GenesisSansHeadKRRegular, sans-serif",
+        "count": 12
+      },
+      {
+        "value": "GenesisSansHeadKRRegular, -apple-system, BlinkMacSystemFont, \"Apple SD Gothic Neo\", \"Segoe UI\", Roboto, Arial, sans-serif",
+        "count": 3
+      },
+      {
+        "value": "GenesisSansTextKRMedium, -apple-system, BlinkMacSystemFont, \"Apple SD Gothic Neo\", \"Segoe UI\", Roboto, Arial, sans-serif",
+        "count": 2
+      },
+      {
+        "value": "GenesisSansHeadKRLight, -apple-system, BlinkMacSystemFont, \"Apple SD Gothic Neo\", \"Segoe UI\", Roboto, Arial, sans-serif",
+        "count": 1
+      }
+    ],
+    "topFontSizes": [
+      {
+        "value": "16px",
+        "count": 4099
+      },
+      {
+        "value": "10px",
+        "count": 1915
+      },
+      {
+        "value": "18px",
+        "count": 786
+      },
+      {
+        "value": "14px",
+        "count": 775
+      },
+      {
+        "value": "1px",
+        "count": 425
+      },
+      {
+        "value": "0px",
+        "count": 393
+      },
+      {
+        "value": "13px",
+        "count": 361
+      },
+      {
+        "value": "11px",
+        "count": 265
+      },
+      {
+        "value": "13.3333px",
+        "count": 262
+      },
+      {
+        "value": "24px",
+        "count": 189
+      },
+      {
+        "value": "22px",
+        "count": 113
+      },
+      {
+        "value": "20px",
+        "count": 88
+      },
+      {
+        "value": "12px",
+        "count": 76
+      },
+      {
+        "value": "40px",
+        "count": 58
+      },
+      {
+        "value": "28px",
+        "count": 33
+      },
+      {
+        "value": "50px",
+        "count": 30
+      },
+      {
+        "value": "42px",
+        "count": 22
+      },
+      {
+        "value": "48px",
+        "count": 19
+      },
+      {
+        "value": "19px",
+        "count": 19
+      },
+      {
+        "value": "15px",
+        "count": 19
+      },
+      {
+        "value": "30px",
+        "count": 18
+      },
+      {
+        "value": "26px",
+        "count": 16
+      },
+      {
+        "value": "32px",
+        "count": 15
+      },
+      {
+        "value": "34px",
+        "count": 11
+      },
+      {
+        "value": "80px",
+        "count": 6
+      },
+      {
+        "value": "60px",
+        "count": 5
+      },
+      {
+        "value": "52px",
+        "count": 4
+      },
+      {
+        "value": "38px",
+        "count": 4
+      },
+      {
+        "value": "36px",
+        "count": 4
+      },
+      {
+        "value": "44px",
+        "count": 4
+      },
+      {
+        "value": "56px",
+        "count": 2
+      }
+    ],
+    "topLineHeights": [
+      {
+        "value": "normal",
+        "count": 2882
+      },
+      {
+        "value": "13.2px",
+        "count": 1908
+      },
+      {
+        "value": "24px",
+        "count": 1408
+      },
+      {
+        "value": "30px",
+        "count": 662
+      },
+      {
+        "value": "22px",
+        "count": 374
+      },
+      {
+        "value": "20px",
+        "count": 325
+      },
+      {
+        "value": "1.5px",
+        "count": 298
+      },
+      {
+        "value": "17px",
+        "count": 263
+      },
+      {
+        "value": "21.12px",
+        "count": 214
+      },
+      {
+        "value": "36px",
+        "count": 147
+      },
+      {
+        "value": "26px",
+        "count": 139
+      },
+      {
+        "value": "0px",
+        "count": 136
+      },
+      {
+        "value": "28px",
+        "count": 105
+      },
+      {
+        "value": "18.2px",
+        "count": 85
+      },
+      {
+        "value": "17.6px",
+        "count": 78
+      },
+      {
+        "value": "18px",
+        "count": 75
+      },
+      {
+        "value": "34px",
+        "count": 69
+      },
+      {
+        "value": "16.9px",
+        "count": 68
+      },
+      {
+        "value": "48px",
+        "count": 55
+      },
+      {
+        "value": "19.992px",
+        "count": 50
+      },
+      {
+        "value": "18.48px",
+        "count": 49
+      },
+      {
+        "value": "23.4px",
+        "count": 39
+      },
+      {
+        "value": "54px",
+        "count": 38
+      },
+      {
+        "value": "19.6px",
+        "count": 31
+      },
+      {
+        "value": "22.848px",
+        "count": 30
+      },
+      {
+        "value": "80px",
+        "count": 30
+      },
+      {
+        "value": "17.16px",
+        "count": 28
+      },
+      {
+        "value": "40px",
+        "count": 27
+      },
+      {
+        "value": "1.57143px",
+        "count": 25
+      },
+      {
+        "value": "32px",
+        "count": 23
+      },
+      {
+        "value": "52px",
+        "count": 20
+      },
+      {
+        "value": "15.84px",
+        "count": 20
+      },
+      {
+        "value": "56px",
+        "count": 19
+      },
+      {
+        "value": "38px",
+        "count": 18
+      },
+      {
+        "value": "21px",
+        "count": 16
+      },
+      {
+        "value": "73px",
+        "count": 15
+      },
+      {
+        "value": "16px",
+        "count": 11
+      },
+      {
+        "value": "16.8px",
+        "count": 11
+      },
+      {
+        "value": "50px",
+        "count": 10
+      },
+      {
+        "value": "25.08px",
+        "count": 10
+      }
+    ],
+    "topWeights": [
+      {
+        "value": "400",
+        "count": 9683
+      },
+      {
+        "value": "500",
+        "count": 188
+      },
+      {
+        "value": "300",
+        "count": 146
+      },
+      {
+        "value": "700",
+        "count": 17
+      },
+      {
+        "value": "498.25",
+        "count": 1
+      },
+      {
+        "value": "401.5",
+        "count": 1
+      }
+    ],
+    "topLetterSpacing": [
+      {
+        "value": "normal",
+        "count": 9472
+      },
+      {
+        "value": "-0.4px",
+        "count": 117
+      },
+      {
+        "value": "-1.1px",
+        "count": 36
+      },
+      {
+        "value": "-0.2px",
+        "count": 34
+      },
+      {
+        "value": "-0.28px",
+        "count": 33
+      },
+      {
+        "value": "-0.6px",
+        "count": 30
+      },
+      {
+        "value": "-1.2px",
+        "count": 24
+      },
+      {
+        "value": "-0.75px",
+        "count": 18
+      },
+      {
+        "value": "-0.14px",
+        "count": 18
+      },
+      {
+        "value": "-0.25px",
+        "count": 15
+      },
+      {
+        "value": "1.12px",
+        "count": 15
+      },
+      {
+        "value": "-0.133333px",
+        "count": 14
+      },
+      {
+        "value": "-0.65px",
+        "count": 12
+      },
+      {
+        "value": "-0.45px",
+        "count": 12
+      },
+      {
+        "value": "0.6px",
+        "count": 12
+      },
+      {
+        "value": "-0.5px",
+        "count": 12
+      },
+      {
+        "value": "-1.05px",
+        "count": 11
+      },
+      {
+        "value": "-0.48px",
+        "count": 9
+      },
+      {
+        "value": "-0.42px",
+        "count": 8
+      },
+      {
+        "value": "-0.18px",
+        "count": 8
+      },
+      {
+        "value": "-0.266px",
+        "count": 8
+      },
+      {
+        "value": "-0.32px",
+        "count": 8
+      },
+      {
+        "value": "-0.55px",
+        "count": 8
+      },
+      {
+        "value": "0.04px",
+        "count": 7
+      },
+      {
+        "value": "-1.36px",
+        "count": 6
+      },
+      {
+        "value": "-0.64px",
+        "count": 6
+      },
+      {
+        "value": "-0.96px",
+        "count": 6
+      },
+      {
+        "value": "-0.22px",
+        "count": 6
+      },
+      {
+        "value": "1.6px",
+        "count": 5
+      },
+      {
+        "value": "-0.12px",
+        "count": 5
+      }
+    ],
+    "topRadii": [
+      {
+        "value": "0px",
+        "count": 9518
+      },
+      {
+        "value": "2px",
+        "count": 297
+      },
+      {
+        "value": "4px",
+        "count": 115
+      },
+      {
+        "value": "8px",
+        "count": 49
+      },
+      {
+        "value": "50%",
+        "count": 44
+      },
+      {
+        "value": "999px",
+        "count": 8
+      },
+      {
+        "value": "8px 0px 0px 8px",
+        "count": 1
+      },
+      {
+        "value": "0px 8px 8px 0px",
+        "count": 1
+      },
+      {
+        "value": "100%",
+        "count": 1
+      },
+      {
+        "value": "8px 8px 0px 0px",
+        "count": 1
+      },
+      {
+        "value": "0px 0px 8px 8px",
+        "count": 1
+      }
+    ],
+    "topShadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.05) 0px 5px 15px 0px",
+        "count": 6
+      }
+    ],
+    "topBorders": [
+      {
+        "value": "1px solid rgb(229, 229, 229)",
+        "count": 167
+      },
+      {
+        "value": "1px solid rgb(17, 17, 17)",
+        "count": 75
+      },
+      {
+        "value": "2px solid rgba(0, 0, 0, 0)",
+        "count": 59
+      },
+      {
+        "value": "1px solid rgb(234, 234, 235)",
+        "count": 57
+      },
+      {
+        "value": "1px solid rgba(0, 0, 0, 0)",
+        "count": 28
+      },
+      {
+        "value": "1px solid rgba(255, 255, 255, 0.2)",
+        "count": 17
+      },
+      {
+        "value": "1px solid rgb(255, 255, 255)",
+        "count": 11
+      },
+      {
+        "value": "1px solid rgba(255, 255, 255, 0)",
+        "count": 10
+      },
+      {
+        "value": "1px solid rgb(206, 206, 208)",
+        "count": 9
+      },
+      {
+        "value": "2px solid rgb(17, 17, 17)",
+        "count": 7
+      },
+      {
+        "value": "1px solid rgb(34, 34, 34)",
+        "count": 6
+      },
+      {
+        "value": "1px solid rgb(51, 51, 51)",
+        "count": 4
+      },
+      {
+        "value": "2px solid rgba(255, 255, 255, 0.2)",
+        "count": 1
+      }
+    ],
+    "topPositions": [
+      {
+        "value": "static",
+        "count": 6734
+      },
+      {
+        "value": "relative",
+        "count": 2571
+      },
+      {
+        "value": "absolute",
+        "count": 710
+      },
+      {
+        "value": "fixed",
+        "count": 15
+      },
+      {
+        "value": "sticky",
+        "count": 6
+      }
+    ]
+  },
+  "selectedButtonSamples": [
+    {
+      "page": "home",
+      "text": "",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko",
+      "rect": {
+        "x": 50,
+        "y": 22,
+        "width": 126,
+        "height": 20
+      },
+      "color": "#0000EE",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(0, 0, 238)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "모델",
+      "tag": "button",
+      "href": "",
+      "rect": {
+        "x": 216,
+        "y": 21,
+        "width": 29,
+        "height": 24
+      },
+      "color": "#FFFFFF",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(255, 255, 255)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "All",
+      "tag": "button",
+      "href": "",
+      "rect": {
+        "x": 50,
+        "y": 60,
+        "width": 73,
+        "height": 59
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "500",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "17px 24px 18px"
+    },
+    {
+      "page": "home",
+      "text": "SUV",
+      "tag": "button",
+      "href": "",
+      "rect": {
+        "x": 124,
+        "y": 60,
+        "width": 77,
+        "height": 59
+      },
+      "color": "#929296",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(146, 146, 150)",
+      "boxShadow": "none",
+      "padding": "17px 24px 18px"
+    },
+    {
+      "page": "home",
+      "text": "Sedan",
+      "tag": "button",
+      "href": "",
+      "rect": {
+        "x": 202,
+        "y": 60,
+        "width": 98,
+        "height": 59
+      },
+      "color": "#929296",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(146, 146, 150)",
+      "boxShadow": "none",
+      "padding": "17px 24px 18px"
+    },
+    {
+      "page": "home",
+      "text": "Electric",
+      "tag": "button",
+      "href": "",
+      "rect": {
+        "x": 302,
+        "y": 60,
+        "width": 116,
+        "height": 59
+      },
+      "color": "#929296",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(146, 146, 150)",
+      "boxShadow": "none",
+      "padding": "17px 24px 18px"
+    },
+    {
+      "page": "home",
+      "text": "Magma",
+      "tag": "button",
+      "href": "",
+      "rect": {
+        "x": 419,
+        "y": 60,
+        "width": 109,
+        "height": 59
+      },
+      "color": "#929296",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(146, 146, 150)",
+      "boxShadow": "none",
+      "padding": "17px 24px 18px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/g90-long-wheel-base",
+      "rect": {
+        "x": 50,
+        "y": 432,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/g90-long-wheel-base/lineup",
+      "rect": {
+        "x": 168,
+        "y": 432,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/g90",
+      "rect": {
+        "x": 398,
+        "y": 432,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/g90/lineup",
+      "rect": {
+        "x": 516,
+        "y": 432,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/gv80-coupe",
+      "rect": {
+        "x": 746,
+        "y": 432,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/gv80-coupe/lineup",
+      "rect": {
+        "x": 864,
+        "y": 432,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/gv80",
+      "rect": {
+        "x": 1094,
+        "y": 432,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/gv80/lineup",
+      "rect": {
+        "x": 1212,
+        "y": 432,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/g80",
+      "rect": {
+        "x": 50,
+        "y": 829,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/g80/lineup",
+      "rect": {
+        "x": 168,
+        "y": 829,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/electrified-g80",
+      "rect": {
+        "x": 398,
+        "y": 827,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/luxury-sedan-genesis/electrified-g80/bto",
+      "rect": {
+        "x": 516,
+        "y": 827,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/electrified-gv70",
+      "rect": {
+        "x": 746,
+        "y": 827,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/luxury-suv-genesis/electrified-gv70/bto",
+      "rect": {
+        "x": 864,
+        "y": 827,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/gv70",
+      "rect": {
+        "x": 1094,
+        "y": 827,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/luxury-suv-genesis/gv70/bto",
+      "rect": {
+        "x": 1212,
+        "y": 827,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/gv60-magma",
+      "rect": {
+        "x": 50,
+        "y": 1223,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/luxury-suv-genesis/gv60-magma/bto",
+      "rect": {
+        "x": 168,
+        "y": 1223,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/gv60",
+      "rect": {
+        "x": 398,
+        "y": 1223,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/luxury-suv-genesis/gv60/bto",
+      "rect": {
+        "x": 516,
+        "y": 1223,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/g70-shooting-brake",
+      "rect": {
+        "x": 746,
+        "y": 1223,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/luxury-sedan-genesis/g70-shooting-brake/bto",
+      "rect": {
+        "x": 864,
+        "y": 1223,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/g70",
+      "rect": {
+        "x": 1094,
+        "y": 1223,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/luxury-sedan-genesis/g70/bto-entry.html",
+      "rect": {
+        "x": 1212,
+        "y": 1223,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/gv80-coupe",
+      "rect": {
+        "x": 50,
+        "y": 432,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/gv80-coupe/lineup",
+      "rect": {
+        "x": 168,
+        "y": 432,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/gv80",
+      "rect": {
+        "x": 398,
+        "y": 432,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/gv80/lineup",
+      "rect": {
+        "x": 516,
+        "y": 432,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/electrified-gv70",
+      "rect": {
+        "x": 746,
+        "y": 430,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/luxury-suv-genesis/electrified-gv70/bto",
+      "rect": {
+        "x": 864,
+        "y": 430,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/gv70",
+      "rect": {
+        "x": 1094,
+        "y": 430,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/luxury-suv-genesis/gv70/bto",
+      "rect": {
+        "x": 1212,
+        "y": 430,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/gv60-magma",
+      "rect": {
+        "x": 50,
+        "y": 827,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/luxury-suv-genesis/gv60-magma/bto",
+      "rect": {
+        "x": 168,
+        "y": 827,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/gv60",
+      "rect": {
+        "x": 398,
+        "y": 827,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/luxury-suv-genesis/gv60/bto",
+      "rect": {
+        "x": 516,
+        "y": 827,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/g90-long-wheel-base",
+      "rect": {
+        "x": 50,
+        "y": 432,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/g90-long-wheel-base/lineup",
+      "rect": {
+        "x": 168,
+        "y": 432,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/g90",
+      "rect": {
+        "x": 398,
+        "y": 432,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/g90/lineup",
+      "rect": {
+        "x": 516,
+        "y": 432,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/g80",
+      "rect": {
+        "x": 746,
+        "y": 432,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/g80/lineup",
+      "rect": {
+        "x": 864,
+        "y": 432,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/electrified-g80",
+      "rect": {
+        "x": 1094,
+        "y": 430,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/luxury-sedan-genesis/electrified-g80/bto",
+      "rect": {
+        "x": 1212,
+        "y": 430,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/g70-shooting-brake",
+      "rect": {
+        "x": 50,
+        "y": 827,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/luxury-sedan-genesis/g70-shooting-brake/bto",
+      "rect": {
+        "x": 168,
+        "y": 827,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/g70",
+      "rect": {
+        "x": 398,
+        "y": 827,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/luxury-sedan-genesis/g70/bto-entry.html",
+      "rect": {
+        "x": 516,
+        "y": 827,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/electrified-g80",
+      "rect": {
+        "x": 50,
+        "y": 430,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/luxury-sedan-genesis/electrified-g80/bto",
+      "rect": {
+        "x": 168,
+        "y": 430,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/electrified-gv70",
+      "rect": {
+        "x": 398,
+        "y": 430,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "견적 내기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/luxury-suv-genesis/electrified-gv70/bto",
+      "rect": {
+        "x": 516,
+        "y": 430,
+        "width": 83,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "자세히 보기",
+      "tag": "a",
+      "href": "https://www.genesis.com/kr/ko/models/gv60-magma",
+      "rect": {
+        "x": 746,
+        "y": 430,
+        "width": 98,
+        "height": 24
+      },
+      "color": "#111111",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": "400",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(17, 17, 17)",
+      "boxShadow": "none",
+      "padding": "0px"
+    }
+  ],
+  "selectedFormSamples": [
+    {
+      "page": "test-drive",
+      "text": "하루 동안 보지 않기",
+      "tag": "label",
+      "rect": {
+        "x": 501,
+        "y": 859,
+        "width": 163,
+        "height": 20
+      },
+      "color": "#262626",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(38, 38, 38)",
+      "borderBottom": "0px none rgb(38, 38, 38)",
+      "padding": "0px 0px 0px 32px"
+    },
+    {
+      "page": "test-drive",
+      "text": "일주일 간 보지 않기",
+      "tag": "label",
+      "rect": {
+        "x": 685,
+        "y": 859,
+        "width": 163,
+        "height": 20
+      },
+      "color": "#262626",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(38, 38, 38)",
+      "borderBottom": "0px none rgb(38, 38, 38)",
+      "padding": "0px 0px 0px 32px"
+    },
+    {
+      "page": "faq",
+      "text": "",
+      "tag": "input",
+      "rect": {
+        "x": 250,
+        "y": 786,
+        "width": 567,
+        "height": 43
+      },
+      "color": "#000000",
+      "backgroundColor": "#FFFFFF",
+      "fontSize": "16px",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(0, 0, 0)",
+      "borderBottom": "0px none rgb(0, 0, 0)",
+      "padding": "12px 8px 12px 18px"
+    },
+    {
+      "page": "faq",
+      "text": "검색어를 입력해주세요.",
+      "tag": "label",
+      "rect": {
+        "x": 250,
+        "y": 786,
+        "width": 176,
+        "height": 43
+      },
+      "color": "#757575",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(117, 117, 117)",
+      "borderBottom": "0px none rgb(117, 117, 117)",
+      "padding": "12px 10px 0px"
+    },
+    {
+      "page": "notice",
+      "text": "",
+      "tag": "input",
+      "rect": {
+        "x": 1010,
+        "y": 746,
+        "width": 217,
+        "height": 43
+      },
+      "color": "#000000",
+      "backgroundColor": "#FFFFFF",
+      "fontSize": "16px",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(0, 0, 0)",
+      "borderBottom": "0px none rgb(0, 0, 0)",
+      "padding": "0px 10px"
+    },
+    {
+      "page": "notice",
+      "text": "검색어 입력",
+      "tag": "label",
+      "rect": {
+        "x": 1010,
+        "y": 746,
+        "width": 98,
+        "height": 43
+      },
+      "color": "#757575",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(117, 117, 117)",
+      "borderBottom": "0px none rgb(117, 117, 117)",
+      "padding": "12px 10px 10px"
+    },
+    {
+      "page": "space-suji",
+      "text": "하루 동안 보지 않기",
+      "tag": "label",
+      "rect": {
+        "x": 502,
+        "y": 845,
+        "width": 163,
+        "height": 20
+      },
+      "color": "#262626",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(38, 38, 38)",
+      "borderBottom": "0px none rgb(38, 38, 38)",
+      "padding": "0px 0px 0px 32px"
+    },
+    {
+      "page": "space-suji",
+      "text": "일주일 간 보지 않기",
+      "tag": "label",
+      "rect": {
+        "x": 685,
+        "y": 845,
+        "width": 163,
+        "height": 20
+      },
+      "color": "#262626",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(38, 38, 38)",
+      "borderBottom": "0px none rgb(38, 38, 38)",
+      "padding": "0px 0px 0px 32px"
+    },
+    {
+      "page": "test-drive",
+      "text": "하루 동안 보지 않기",
+      "tag": "label",
+      "rect": {
+        "x": 54,
+        "y": 718,
+        "width": 133,
+        "height": 46
+      },
+      "color": "#262626",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(38, 38, 38)",
+      "borderBottom": "0px none rgb(38, 38, 38)",
+      "padding": "0px 0px 0px 28px"
+    },
+    {
+      "page": "test-drive",
+      "text": "일주일 간 보지 않기",
+      "tag": "label",
+      "rect": {
+        "x": 206,
+        "y": 718,
+        "width": 133,
+        "height": 46
+      },
+      "color": "#262626",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "borderRadius": "0px",
+      "borderTop": "0px none rgb(38, 38, 38)",
+      "borderBottom": "0px none rgb(38, 38, 38)",
+      "padding": "0px 0px 0px 28px"
+    }
+  ],
+  "selectedSectionSamples": [
+    {
+      "page": "home",
+      "text": "G90 Long Wheel Ba e\n167,690,000\n부터\nGa oline\nBLACK\n자세히 보기\n견적 내기\nG90\n97,480,000\n부터\nGa oline\nBLACK\n자세히 보기\n견적 내기\nGV80 Coupe\n81,300,000\n부터\nGa oline\nBLACK\n자세히 보기\n견적 내",
+      "tag": "div",
+      "className": "model-card-box",
+      "rect": {
+        "x": 50,
+        "y": 120,
+        "width": 1340,
+        "height": 1207
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "20px 0px 80px"
+    },
+    {
+      "page": "home",
+      "text": "G90 Long Wheel Ba e\n167,690,000\n부터\nGa oline\nBLACK\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 50,
+        "y": 140,
+        "width": 296,
+        "height": 316
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "G90\n97,480,000\n부터\nGa oline\nBLACK\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 398,
+        "y": 140,
+        "width": 296,
+        "height": 316
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "GV80 Coupe\n81,300,000\n부터\nGa oline\nBLACK\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 746,
+        "y": 140,
+        "width": 296,
+        "height": 316
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "GV80\n68,860,000\n부터\nGa oline\nBLACK\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 1094,
+        "y": 140,
+        "width": 296,
+        "height": 316
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "G80\n60,630,000\n부터\nGa oline\nBLACK\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 50,
+        "y": 536,
+        "width": 296,
+        "height": 316
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "Electrified G80\n89,080,000\n부터\nElectric\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 398,
+        "y": 536,
+        "width": 296,
+        "height": 316
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "Electrified GV70\n79,740,000\n부터\nElectric\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 746,
+        "y": 536,
+        "width": 296,
+        "height": 316
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "GV70\n54,730,000\n부터\nGa oline\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 1094,
+        "y": 536,
+        "width": 296,
+        "height": 316
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "GV60 Magma\n97,880,000\n부터\nElectric\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 50,
+        "y": 933,
+        "width": 296,
+        "height": 314
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "GV60\n68,280,000\n부터\nElectric\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 398,
+        "y": 933,
+        "width": 296,
+        "height": 314
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "G70 Shooting Brake\n46,980,000\n부터\nGa oline\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 746,
+        "y": 933,
+        "width": 296,
+        "height": 314
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "G70\n45,000,000\n부터\nGa oline\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 1094,
+        "y": 933,
+        "width": 296,
+        "height": 314
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "GV80 Coupe\n81,300,000\n부터\nGa oline\nBLACK\n자세히 보기\n견적 내기\nGV80\n68,860,000\n부터\nGa oline\nBLACK\n자세히 보기\n견적 내기\nElectrified GV70\n79,740,000\n부터\nElectric\n자세히 보기\n견적 내기\nGV70\n54",
+      "tag": "div",
+      "className": "model-card-box",
+      "rect": {
+        "x": 50,
+        "y": 120,
+        "width": 1340,
+        "height": 811
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "20px 0px 80px"
+    },
+    {
+      "page": "home",
+      "text": "GV80 Coupe\n81,300,000\n부터\nGa oline\nBLACK\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 50,
+        "y": 140,
+        "width": 296,
+        "height": 316
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "GV80\n68,860,000\n부터\nGa oline\nBLACK\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 398,
+        "y": 140,
+        "width": 296,
+        "height": 316
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "Electrified GV70\n79,740,000\n부터\nElectric\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 746,
+        "y": 140,
+        "width": 296,
+        "height": 316
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "GV70\n54,730,000\n부터\nGa oline\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 1094,
+        "y": 140,
+        "width": 296,
+        "height": 316
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "GV60 Magma\n97,880,000\n부터\nElectric\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 50,
+        "y": 536,
+        "width": 296,
+        "height": 314
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "GV60\n68,280,000\n부터\nElectric\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 398,
+        "y": 536,
+        "width": 296,
+        "height": 314
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "G90 Long Wheel Ba e\n167,690,000\n부터\nGa oline\nBLACK\n자세히 보기\n견적 내기\nG90\n97,480,000\n부터\nGa oline\nBLACK\n자세히 보기\n견적 내기\nG80\n60,630,000\n부터\nGa oline\nBLACK\n자세히 보기\n견적 내기\nElect",
+      "tag": "div",
+      "className": "model-card-box",
+      "rect": {
+        "x": 50,
+        "y": 120,
+        "width": 1340,
+        "height": 811
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "20px 0px 80px"
+    },
+    {
+      "page": "home",
+      "text": "G90 Long Wheel Ba e\n167,690,000\n부터\nGa oline\nBLACK\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 50,
+        "y": 140,
+        "width": 296,
+        "height": 316
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "G90\n97,480,000\n부터\nGa oline\nBLACK\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 398,
+        "y": 140,
+        "width": 296,
+        "height": 316
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "G80\n60,630,000\n부터\nGa oline\nBLACK\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 746,
+        "y": 140,
+        "width": 296,
+        "height": 316
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "Electrified G80\n89,080,000\n부터\nElectric\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 1094,
+        "y": 140,
+        "width": 296,
+        "height": 316
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "G70 Shooting Brake\n46,980,000\n부터\nGa oline\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 50,
+        "y": 536,
+        "width": 296,
+        "height": 314
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "G70\n45,000,000\n부터\nGa oline\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 398,
+        "y": 536,
+        "width": 296,
+        "height": 314
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "Electrified G80\n89,080,000\n부터\nElectric\n자세히 보기\n견적 내기\nElectrified GV70\n79,740,000\n부터\nElectric\n자세히 보기\n견적 내기\nGV60 Magma\n97,880,000\n부터\nElectric\n자세히 보기\n견적 내기\nGV60\n68,",
+      "tag": "div",
+      "className": "model-card-box",
+      "rect": {
+        "x": 50,
+        "y": 120,
+        "width": 1340,
+        "height": 414
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "20px 0px 80px"
+    },
+    {
+      "page": "home",
+      "text": "Electrified G80\n89,080,000\n부터\nElectric\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 50,
+        "y": 140,
+        "width": 296,
+        "height": 314
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "Electrified GV70\n79,740,000\n부터\nElectric\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 398,
+        "y": 140,
+        "width": 296,
+        "height": 314
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "GV60 Magma\n97,880,000\n부터\nElectric\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 746,
+        "y": 140,
+        "width": 296,
+        "height": 314
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "GV60\n68,280,000\n부터\nElectric\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 1094,
+        "y": 140,
+        "width": 296,
+        "height": 314
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "GV60 Magma\n97,880,000\n부터\nElectric\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "model-card-box",
+      "rect": {
+        "x": 50,
+        "y": 120,
+        "width": 1340,
+        "height": 414
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "20px 0px 80px"
+    },
+    {
+      "page": "home",
+      "text": "GV60 Magma\n97,880,000\n부터\nElectric\n자세히 보기\n견적 내기",
+      "tag": "div",
+      "className": "common-vehicle-card",
+      "rect": {
+        "x": 50,
+        "y": 140,
+        "width": 296,
+        "height": 314
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "2027\nGV70\n더 알아보기\n견적 내기\nGV60 Magma\n\nGV60 Magma\n\n제네시스\nGV60 Magma\n더 알아보기\n견적 내기\nOur Model \n\n역동적이면서도 우아한 디자인과 최첨단 기술을 탑재한 제네시스 브랜드의 라인업을 살펴보세요.\n\nALL\nSUV\nSEDAN\nELECTR",
+      "tag": "main",
+      "className": "content",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 7776
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "Our Model \n\n역동적이면서도 우아한 디자인과 최첨단 기술을 탑재한 제네시스 브랜드의 라인업을 살펴보세요.\n\nALL\nSUV\nSEDAN\nELECTRIC\nMAGMA\nG90 Long Wheel Ba e\n\n우아함을 넘어 웅장함으로\n\nG90\n\n오늘에 머무르지 않는 당신에게\n\nGV80 Cou",
+      "tag": "section",
+      "className": "cardroller-textoverlay js-scroll-animate-container",
+      "rect": {
+        "x": 0,
+        "y": 850,
+        "width": 1440,
+        "height": 1013
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "Our Model \n\n역동적이면서도 우아한 디자인과 최첨단 기술을 탑재한 제네시스 브랜드의 라인업을 살펴보세요.\n\nALL\nSUV\nSEDAN\nELECTRIC\nMAGMA\nG90 Long Wheel Ba e\n\n우아함을 넘어 웅장함으로\n\nG90\n\n오늘에 머무르지 않는 당신에게\n\nGV80 Cou",
+      "tag": "div",
+      "className": "cardroller-textoverlay-inner",
+      "rect": {
+        "x": 0,
+        "y": 850,
+        "width": 1440,
+        "height": 1013
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "140px 0px"
+    },
+    {
+      "page": "home",
+      "text": "ALL\nSUV\nSEDAN\nELECTRIC\nMAGMA",
+      "tag": "div",
+      "className": "tab tab-card",
+      "rect": {
+        "x": 0,
+        "y": 1132,
+        "width": 1440,
+        "height": 54
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "G90 Long Wheel Ba e\n\n우아함을 넘어 웅장함으로\n\nG90\n\n오늘에 머무르지 않는 당신에게\n\nGV80 Coupe\n\n가장 매혹적인 라인의 탄생\n\nGV80\n\n역동적인 우아함과 정교한 럭셔리 디테일\n\nElectrified G80\n\n전기차도 제네시스답게\n\nG80\n\n시선이 머무는 순",
+      "tag": "div",
+      "className": "tab-content",
+      "rect": {
+        "x": 0,
+        "y": 1226,
+        "width": 1440,
+        "height": 497
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "G90 Long Wheel Ba e\n\n우아함을 넘어 웅장함으로\n\nG90\n\n오늘에 머무르지 않는 당신에게\n\nGV80 Coupe\n\n가장 매혹적인 라인의 탄생\n\nGV80\n\n역동적인 우아함과 정교한 럭셔리 디테일\n\nElectrified G80\n\n전기차도 제네시스답게\n\nG80\n\n시선이 머무는 순",
+      "tag": "div",
+      "className": "tab-panel js-tabPanel is-open",
+      "rect": {
+        "x": 0,
+        "y": 1226,
+        "width": 1440,
+        "height": 497
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "G90 Long Wheel Ba e\n\n우아함을 넘어 웅장함으로\n\nG90\n\n오늘에 머무르지 않는 당신에게\n\nGV80 Coupe\n\n가장 매혹적인 라인의 탄생\n\nGV80\n\n역동적인 우아함과 정교한 럭셔리 디테일\n\nElectrified G80\n\n전기차도 제네시스답게\n\nG80\n\n시선이 머무는 순",
+      "tag": "div",
+      "className": "embla cardroller-slider js-cardroller-slider js-scroll-animate is-show",
+      "rect": {
+        "x": 0,
+        "y": 1226,
+        "width": 1440,
+        "height": 497
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px 49.9531px"
+    },
+    {
+      "page": "home",
+      "text": "G90 Long Wheel Ba e\n\n우아함을 넘어 웅장함으로\n\nG90\n\n오늘에 머무르지 않는 당신에게\n\nGV80 Coupe\n\n가장 매혹적인 라인의 탄생\n\nGV80\n\n역동적인 우아함과 정교한 럭셔리 디테일\n\nElectrified G80\n\n전기차도 제네시스답게\n\nG80\n\n시선이 머무는 순",
+      "tag": "div",
+      "className": "cardroller-track embla__container",
+      "rect": {
+        "x": 50,
+        "y": 1226,
+        "width": 1340,
+        "height": 497
+      },
+      "color": "#000000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "G90 Long Wheel Ba e\n\n우아함을 넘어 웅장함으로",
+      "tag": "a",
+      "className": "model-card",
+      "rect": {
+        "x": 50,
+        "y": 1226,
+        "width": 370,
+        "height": 497
+      },
+      "color": "#0000EE",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "4px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "G90\n\n오늘에 머무르지 않는 당신에게",
+      "tag": "a",
+      "className": "model-card",
+      "rect": {
+        "x": 444,
+        "y": 1226,
+        "width": 370,
+        "height": 497
+      },
+      "color": "#0000EE",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "4px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "GV80 Coupe\n\n가장 매혹적인 라인의 탄생",
+      "tag": "a",
+      "className": "model-card",
+      "rect": {
+        "x": 838,
+        "y": 1226,
+        "width": 370,
+        "height": 497
+      },
+      "color": "#0000EE",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "4px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "GV80\n\n역동적인 우아함과 정교한 럭셔리 디테일",
+      "tag": "a",
+      "className": "model-card",
+      "rect": {
+        "x": 1232,
+        "y": 1226,
+        "width": 370,
+        "height": 497
+      },
+      "color": "#0000EE",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "4px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "Electrified G80\n\n전기차도 제네시스답게",
+      "tag": "a",
+      "className": "model-card",
+      "rect": {
+        "x": 1626,
+        "y": 1226,
+        "width": 370,
+        "height": 497
+      },
+      "color": "#0000EE",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "4px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "G80\n\n시선이 머무는 순간",
+      "tag": "a",
+      "className": "model-card",
+      "rect": {
+        "x": 2020,
+        "y": 1226,
+        "width": 370,
+        "height": 497
+      },
+      "color": "#0000EE",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "4px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "Electrified GV70\n\nLuxe, In Every Touch",
+      "tag": "a",
+      "className": "model-card",
+      "rect": {
+        "x": 2414,
+        "y": 1226,
+        "width": 370,
+        "height": 497
+      },
+      "color": "#0000EE",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "4px",
+      "boxShadow": "none",
+      "padding": "0px"
+    },
+    {
+      "page": "home",
+      "text": "GV70\n\n모든 순간, 스타일이 되다",
+      "tag": "a",
+      "className": "model-card",
+      "rect": {
+        "x": 2808,
+        "y": 1226,
+        "width": 370,
+        "height": 497
+      },
+      "color": "#0000EE",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "borderRadius": "4px",
+      "boxShadow": "none",
+      "padding": "0px"
+    }
+  ]
+}

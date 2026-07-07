@@ -1,0 +1,5 @@
+interface:
+  display_name: "Awesome Design Extractor"
+  short_description: "Extract DESIGN.md from rendered sites"
+  default_prompt: "Use $awesome-design-extractor to extract an awesome-design-md style DESIGN.md from a public website URL."
+
