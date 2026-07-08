@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-07",
-  "tool": "Headless Chrome via Chrome DevTools Protocol",
+  "generatedAt": "2026-07-09",
+  "tool": "Playwright Chromium",
   "source": "preview.html",
   "checks": [
     {
@@ -11,8 +11,9 @@
       "innerWidth": 1440,
       "clientWidth": 1440,
       "scrollWidth": 1440,
-      "scrollHeight": 6121,
+      "scrollHeight": 8520,
       "overflow": false,
+      "imageFailures": [],
       "offenders": [],
       "passed": true
     },
@@ -24,9 +25,39 @@
       "innerWidth": 390,
       "clientWidth": 390,
       "scrollWidth": 390,
-      "scrollHeight": 7833,
+      "scrollHeight": 11614,
       "overflow": false,
-      "offenders": [],
+      "imageFailures": [],
+      "offenders": [
+        {
+          "tag": "a",
+          "className": "",
+          "left": 372.75,
+          "right": 440.984375,
+          "width": 68.234375
+        },
+        {
+          "tag": "a",
+          "className": "",
+          "left": 441.984375,
+          "right": 512.21875,
+          "width": 70.234375
+        },
+        {
+          "tag": "a",
+          "className": "",
+          "left": 513.21875,
+          "right": 608.921875,
+          "width": 95.703125
+        },
+        {
+          "tag": "a",
+          "className": "",
+          "left": 609.921875,
+          "right": 699.984375,
+          "width": 90.0625
+        }
+      ],
       "passed": true
     },
     {
@@ -37,9 +68,46 @@
       "innerWidth": 360,
       "clientWidth": 360,
       "scrollWidth": 360,
-      "scrollHeight": 7923,
+      "scrollHeight": 11732,
       "overflow": false,
-      "offenders": [],
+      "imageFailures": [],
+      "offenders": [
+        {
+          "tag": "a",
+          "className": "",
+          "left": 270.703125,
+          "right": 371.75,
+          "width": 101.046875
+        },
+        {
+          "tag": "a",
+          "className": "",
+          "left": 372.75,
+          "right": 440.984375,
+          "width": 68.234375
+        },
+        {
+          "tag": "a",
+          "className": "",
+          "left": 441.984375,
+          "right": 512.21875,
+          "width": 70.234375
+        },
+        {
+          "tag": "a",
+          "className": "",
+          "left": 513.21875,
+          "right": 608.921875,
+          "width": 95.703125
+        },
+        {
+          "tag": "a",
+          "className": "",
+          "left": 609.921875,
+          "right": 699.984375,
+          "width": 90.0625
+        }
+      ],
       "passed": true
     }
   ]

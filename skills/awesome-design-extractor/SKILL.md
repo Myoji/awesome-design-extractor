@@ -23,11 +23,12 @@ Use the user's requested language for final artifacts. Keep brand names, token n
 1. Read `references/output-contract.md`.
 2. Read `references/extraction-workflow.md`.
 3. Read `references/tooling-fallbacks.md`.
-4. Capture rendered-page evidence with the best available browser capability.
-5. Use adaptive crawling until the nine-section completeness rubric is sufficiently covered or the page budget is exhausted.
-6. Read `references/completeness-rubric.md`.
-7. Write `DESIGN.md`, `EVIDENCE.md`, and `preview.html`; write `preview-dark.html` only when justified.
-8. Re-check the outputs against the nine-section rubric and record limitations in `EVIDENCE.md`.
+4. Read `references/preview-catalog-pattern.md`.
+5. Capture rendered-page evidence with the best available browser capability.
+6. Use adaptive crawling until the nine-section completeness rubric is sufficiently covered or the page budget is exhausted.
+7. Read `references/completeness-rubric.md`.
+8. Write `DESIGN.md`, `EVIDENCE.md`, and catalog-style `preview.html`; write `preview-dark.html` only when justified.
+9. Re-check the outputs against the nine-section rubric and record limitations in `EVIDENCE.md`.
 
 ## Non-Negotiables
 
@@ -35,6 +36,6 @@ Use the user's requested language for final artifacts. Keep brand names, token n
 - Treat static fetch, sitemap parsing, and raw CSS inspection as discovery aids, not as the primary extraction engine.
 - Separate observed facts from inferred design intent.
 - Do not claim a token, component rule, breakpoint, or dark theme without evidence.
+- Build `preview.html` as a design-system catalog first, with reconstruction samples used to show how extracted components compose in realistic page contexts.
 - If authentication, bot protection, missing browser tools, or partial rendering blocks inspection, state that limitation in `EVIDENCE.md`.
-- Do not copy proprietary image assets or imply brand affiliation. Document publicly observable visual patterns and cite where they were observed.
-
+- Do not copy proprietary image assets as reusable design assets or imply brand affiliation. If logos or high-impact images materially affect preview fidelity, use small curated evidence-only references with reuse-forbidden metadata, and cite where they were observed.

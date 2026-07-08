@@ -59,6 +59,13 @@
       letter-spacing: -1.2px;
     }
 
+    .brand img {
+      display: block;
+      width: 112px;
+      max-width: 100%;
+      height: auto;
+    }
+
     .navlinks {
       display: flex;
       gap: 32px;
@@ -96,16 +103,52 @@
       min-height: 620px;
       color: var(--ps-white);
       background:
-        linear-gradient(90deg, rgba(0,0,0,.84), rgba(0,0,0,.12) 54%, rgba(0,0,0,.02)),
-        repeating-linear-gradient(118deg, #111 0 18px, #242424 18px 24px, #575757 24px 26px, #181818 26px 42px);
+        radial-gradient(ellipse at 72% 36%, rgba(255,255,255,.2), transparent 28%),
+        linear-gradient(90deg, rgba(0,0,0,.88), rgba(0,0,0,.18) 54%, rgba(0,0,0,.02)),
+        linear-gradient(118deg, #111 0 28%, #323437 28% 41%, #888b8e 41% 42%, #202123 42% 76%, #56585b 76%);
       display: flex;
       align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      right: -8%;
+      bottom: 12%;
+      width: min(620px, 58vw);
+      height: 410px;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.34), transparent 44%),
+        linear-gradient(108deg, rgba(255,255,255,.68), rgba(142,147,150,.42) 46%, rgba(0,0,0,.34));
+      border-left: 1px solid rgba(255,255,255,.52);
+      transform: skewX(-10deg);
+      box-shadow: -44px 54px 80px rgba(0,0,0,.28);
+      opacity: .9;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: 12%;
+      bottom: 28%;
+      width: min(560px, 54vw);
+      height: 122px;
+      background:
+        linear-gradient(90deg, transparent, rgba(255,255,255,.5) 12%, transparent 13% 28%, var(--ps-orange) 28% 31%, transparent 32%),
+        linear-gradient(180deg, transparent 54%, rgba(255,255,255,.52) 55% 56%, transparent 57%),
+        linear-gradient(112deg, transparent 0 36%, rgba(255,255,255,.16) 37% 48%, transparent 49%);
+      transform: skewX(-9deg);
+      opacity: .88;
     }
 
     .hero .inner {
       display: grid;
       grid-template-columns: minmax(280px, 420px) 1fr;
       gap: 80px;
+      position: relative;
+      z-index: 1;
     }
 
     h1, h2, h3, p {
@@ -241,8 +284,9 @@
     .media {
       height: 190px;
       background:
-        radial-gradient(ellipse at 50% 68%, rgba(0,0,0,.22), transparent 35%),
-        linear-gradient(0deg, #e8e8e8, #f8f8f8);
+        radial-gradient(ellipse at 74% 20%, rgba(255,255,255,.78), transparent 32%),
+        linear-gradient(180deg, rgba(255,255,255,.9), rgba(255,255,255,0) 42%),
+        linear-gradient(118deg, #e1e4e4 0 34%, #f8f8f8 34% 58%, #bbbfc1 58% 68%, #f2f3f3 68%);
       position: relative;
       overflow: hidden;
     }
@@ -250,23 +294,25 @@
     .media::before {
       content: "";
       position: absolute;
-      width: 62%;
-      height: 42%;
-      left: 19%;
-      bottom: 24%;
-      background: linear-gradient(90deg, #fff, #dfe2e3);
-      clip-path: polygon(10% 50%, 23% 25%, 72% 22%, 90% 48%, 84% 70%, 16% 70%);
-      box-shadow: 0 18px 22px rgba(0,0,0,.15);
+      width: 42%;
+      height: 122%;
+      right: -6%;
+      top: -10%;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.8), transparent 46%),
+        linear-gradient(105deg, rgba(255,255,255,.42), rgba(0,0,0,.12));
+      border-left: 1px solid rgba(0,0,0,.12);
+      transform: skewX(-12deg);
     }
 
     .media::after {
       content: "";
       position: absolute;
-      width: 46%;
+      width: 72%;
       height: 2px;
-      left: 27%;
+      left: 12%;
       bottom: 34%;
-      background: var(--ps-orange);
+      background: linear-gradient(90deg, transparent, var(--ps-orange), rgba(0,0,0,.18), transparent);
     }
 
     .form-grid {
@@ -491,10 +537,23 @@
 
     .map {
       background:
-        linear-gradient(35deg, transparent 45%, rgba(255,255,255,.55) 45% 46%, transparent 46%),
-        linear-gradient(120deg, transparent 58%, rgba(255,255,255,.65) 58% 59%, transparent 59%),
-        #cfcfcf;
+        radial-gradient(circle at 28% 38%, rgba(255,255,255,.7), transparent 18%),
+        linear-gradient(35deg, transparent 44%, rgba(255,255,255,.72) 44% 46%, transparent 46%),
+        linear-gradient(120deg, transparent 57%, rgba(255,255,255,.78) 57% 59%, transparent 59%),
+        linear-gradient(15deg, transparent 65%, rgba(0,0,0,.07) 65% 66%, transparent 66%),
+        linear-gradient(90deg, #c9cccc 0 35%, #d9d9d6 35% 62%, #bfc3c5 62%);
       position: relative;
+      overflow: hidden;
+    }
+
+    .map::before {
+      content: "";
+      position: absolute;
+      inset: 9% 12%;
+      background:
+        linear-gradient(90deg, transparent 0 28%, rgba(255,255,255,.36) 28% 29%, transparent 29%),
+        linear-gradient(0deg, transparent 0 54%, rgba(255,255,255,.44) 54% 55%, transparent 55%);
+      border: 1px solid rgba(255,255,255,.2);
     }
 
     .pin {
@@ -542,6 +601,264 @@
       color: var(--ps-muted);
     }
 
+    .catalog-masthead {
+      background: var(--ps-black);
+      color: var(--ps-white);
+      padding: 72px 0 40px;
+    }
+
+    .catalog-masthead-inner {
+      width: var(--content);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(280px, .8fr);
+      gap: 48px;
+      align-items: end;
+    }
+
+    .catalog-kicker,
+    .section-kicker {
+      color: rgba(255,255,255,.6);
+      font-size: 12px;
+      line-height: 14px;
+    }
+
+    .section-kicker {
+      color: var(--ps-muted);
+      margin-bottom: 12px;
+    }
+
+    .catalog-title {
+      margin-top: 16px;
+      font-size: 72px;
+      line-height: 72px;
+      letter-spacing: -3.6px;
+    }
+
+    .catalog-summary {
+      margin-top: 24px;
+      max-width: 680px;
+      color: rgba(255,255,255,.72);
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    .catalog-panel {
+      border: 1px solid rgba(255,255,255,.2);
+      background: rgba(255,255,255,.05);
+      padding: 20px;
+      display: grid;
+      gap: 16px;
+    }
+
+    .catalog-meta {
+      display: grid;
+      grid-template-columns: 92px 1fr;
+      gap: 8px 14px;
+      font-size: 13px;
+      line-height: 16px;
+    }
+
+    .catalog-meta span:nth-child(odd) {
+      color: rgba(255,255,255,.52);
+    }
+
+    .artifact-links,
+    .evidence-row,
+    .component-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      min-width: 0;
+    }
+
+    .artifact-links a,
+    .evidence-badge,
+    .tag {
+      min-width: 0;
+      border: 1px solid rgba(255,255,255,.24);
+      color: inherit;
+      text-decoration: none;
+      padding: 8px 10px;
+      font-size: 12px;
+      line-height: 14px;
+    }
+
+    .evidence-badge {
+      border-color: rgba(0,0,0,.2);
+      color: var(--ps-muted);
+      background: var(--ps-white);
+    }
+
+    .evidence-badge[data-evidence="observed"] {
+      border-color: var(--ps-black);
+      color: var(--ps-black);
+    }
+
+    .evidence-badge[data-evidence="inferred"] {
+      border-color: var(--ps-orange);
+      color: var(--ps-orange);
+    }
+
+    .evidence-badge[data-evidence="uncertain"] {
+      border-style: dashed;
+    }
+
+    .catalog-nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      gap: 1px;
+      overflow-x: auto;
+      background: var(--ps-black);
+      border-bottom: 1px solid rgba(255,255,255,.18);
+    }
+
+    .catalog-nav a {
+      flex: 0 0 auto;
+      color: var(--ps-white);
+      text-decoration: none;
+      padding: 14px 18px;
+      font-size: 12px;
+      line-height: 14px;
+      background: rgba(255,255,255,.06);
+    }
+
+    .asset-references {
+      background: var(--ps-surface);
+      padding: 72px 0;
+    }
+
+    .asset-grid {
+      margin-top: 32px;
+      display: grid;
+      grid-template-columns: minmax(220px, .42fr) minmax(0, 1fr);
+      border-top: 1px solid var(--ps-line);
+      border-left: 1px solid var(--ps-line);
+    }
+
+    .asset-card {
+      margin: 0;
+      background: var(--ps-white);
+      border-right: 1px solid var(--ps-line);
+      border-bottom: 1px solid var(--ps-line);
+      display: grid;
+      grid-template-rows: auto 1fr;
+      min-width: 0;
+    }
+
+    .asset-frame {
+      position: relative;
+      min-height: 220px;
+      overflow: hidden;
+      display: grid;
+      place-items: center;
+      background: var(--ps-white);
+    }
+
+    .asset-frame.logo img {
+      max-width: min(70%, 220px);
+      height: auto;
+    }
+
+    .asset-frame.hero-ref {
+      min-height: 340px;
+      background: var(--ps-black);
+    }
+
+    .asset-frame.hero-ref img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .asset-frame::after {
+      content: attr(data-asset-label);
+      position: absolute;
+      left: 16px;
+      bottom: 16px;
+      color: var(--ps-black);
+      background: var(--ps-white);
+      border: 1px solid var(--ps-line);
+      padding: 8px 10px;
+      font-size: 12px;
+      line-height: 14px;
+    }
+
+    .asset-frame.hero-ref::after {
+      color: var(--ps-white);
+      background: rgba(0,0,0,.76);
+      border-color: rgba(255,255,255,.36);
+    }
+
+    .asset-caption {
+      padding: 24px;
+      display: grid;
+      gap: 10px;
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    .asset-caption strong {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+    }
+
+    .asset-caption span {
+      color: var(--ps-muted);
+    }
+
+    .reconstruction-stage {
+      background: var(--ps-white);
+    }
+
+    .sample-note {
+      width: var(--content);
+      margin: 0 auto;
+      padding: 20px 0 36px;
+      color: var(--ps-muted);
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+      font-size: 13px;
+      line-height: 16px;
+    }
+
+    .token-table,
+    .responsive-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: rgba(0,0,0,.18);
+      margin-top: 40px;
+    }
+
+    .token-cell,
+    .responsive-card {
+      min-width: 0;
+      background: var(--ps-white);
+      padding: 24px;
+      display: grid;
+      gap: 12px;
+      align-content: start;
+    }
+
+    .token-cell strong,
+    .responsive-card strong {
+      font-weight: 400;
+    }
+
+    .token-cell span,
+    .responsive-card span {
+      color: var(--ps-muted);
+      font-size: 13px;
+      line-height: 16px;
+    }
+
     @media (max-width: 760px) {
       :root {
         --content: calc(100vw - 48px);
@@ -571,7 +888,8 @@
 
       .hero .inner,
       .form-grid,
-      .layout-demo {
+      .layout-demo,
+      .asset-grid {
         grid-template-columns: 1fr;
       }
 
@@ -629,13 +947,132 @@
       .map {
         min-height: 320px;
       }
+
+      .catalog-masthead-inner,
+      .token-table,
+      .responsive-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .catalog-title {
+        font-size: 44px;
+        line-height: 46px;
+        letter-spacing: -1.6px;
+      }
+
+      .catalog-meta {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
-<body>
-  <div class="promo">프로모션 메시지와 링크는 낮은 대비의 회색 스트립에 배치합니다.</div>
-  <header class="nav">
-    <div class="brand">Polestar</div>
+<body data-catalog-shell="polestar">
+  <section class="catalog-masthead" id="overview">
+    <div class="catalog-masthead-inner">
+      <div>
+        <p class="catalog-kicker">Extracted design catalog</p>
+        <h1 class="catalog-title">Polestar Korea</h1>
+        <p class="catalog-summary">A minimal electric-vehicle catalog system built on black/white contrast, rectilinear controls, large product modules, precise grids, and sparse orange accents. The preview separates reusable components from reconstructed source-site fragments.</p>
+        <div class="evidence-row" style="margin-top:24px">
+          <span class="evidence-badge" data-evidence="observed">observed</span>
+          <span class="evidence-badge" data-evidence="inferred">inferred</span>
+          <span class="evidence-badge" data-evidence="uncertain">uncertain</span>
+        </div>
+      </div>
+      <aside class="catalog-panel">
+        <div class="catalog-meta">
+          <span>Source</span><span>https://www.polestar.com/kr/</span>
+          <span>Crawl</span><span>2026-07-06</span>
+          <span>Viewports</span><span>1440 desktop / 390 mobile</span>
+          <span>Evidence</span><span>Product, offer, location, form, and support surfaces</span>
+        </div>
+        <div class="artifact-links">
+          <a href="DESIGN.md">DESIGN.md</a>
+          <a href="EVIDENCE.md">EVIDENCE.md</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <nav class="catalog-nav" aria-label="Catalog sections">
+    <a href="#overview">Overview</a>
+    <a href="#reconstruction">Reconstruction</a>
+    <a href="#tokens">Tokens</a>
+    <a href="#components">Components</a>
+    <a href="#states">States</a>
+    <a href="#layout">Layout</a>
+    <a href="#responsive">Responsive</a>
+    <a href="#limitations">Limitations</a>
+  </nav>
+
+  <main>
+    <section class="asset-references" aria-label="Observed asset references">
+      <div class="inner">
+        <p class="section-kicker">Observed Assets</p>
+        <h2>Logo & High-Impact Image References</h2>
+        <p class="muted" style="margin-top: 16px">실제 로고와 메인 배너 이미지는 Polestar의 비율, 대비, 크롭 감각을 이해하는 근거로 포함합니다. 이 이미지는 재사용 가능한 컴포넌트 자산이 아닙니다.</p>
+        <div class="asset-grid" data-asset-policy="evidence-only">
+          <figure class="asset-card">
+            <div class="asset-frame logo" data-asset-label="Brand reference">
+              <img
+                src="assets/brand-reference.png"
+                alt="Observed Polestar brand mark from public rendering"
+                loading="lazy"
+                decoding="async"
+                data-asset-role="brand-reference"
+                data-reuse="forbidden"
+                data-asset-purpose="preview-reference-only"
+                data-asset-origin="rendered-crop"
+                data-source-url="https://www.polestar.com/kr/"
+                data-capture-date="2026-07-06"
+              >
+            </div>
+            <figcaption class="asset-caption">
+              <strong>Brand mark slot</strong>
+              <span>Evidence-only brand reference. Not a reusable design asset. All logos and trademarks remain property of their respective owners. No affiliation implied.</span>
+            </figcaption>
+          </figure>
+          <figure class="asset-card">
+            <div class="asset-frame hero-ref" data-asset-label="Hero evidence">
+              <img
+                src="assets/hero-reference.jpg"
+                alt="Observed Polestar hero image showing black and white motion crop"
+                loading="lazy"
+                decoding="async"
+                data-asset-role="evidence-only"
+                data-reuse="forbidden"
+                data-asset-purpose="preview-reference-only"
+                data-asset-origin="rendered-crop"
+                data-source-url="https://www.polestar.com/kr/"
+                data-capture-date="2026-07-06"
+              >
+            </div>
+            <figcaption class="asset-caption">
+              <strong>High-impact hero reference</strong>
+              <span>Used to audit image scale, monochrome contrast, diagonal motion, and CTA placement. The reconstruction below remains a CSS surface sample.</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="reconstruction-stage" id="reconstruction" data-component-tags="promo-strip nav hero button media">
+      <div class="promo">프로모션 메시지와 링크는 낮은 대비의 회색 스트립에 배치합니다.</div>
+      <header class="nav">
+    <div class="brand" aria-label="Polestar">
+      <img
+        src="assets/brand-reference.png"
+        alt="Observed Polestar brand mark"
+        loading="lazy"
+        decoding="async"
+        data-asset-role="brand-reference"
+        data-reuse="forbidden"
+        data-asset-purpose="preview-reference-only"
+        data-asset-origin="rendered-crop"
+        data-source-url="https://www.polestar.com/kr/"
+        data-capture-date="2026-07-06"
+      >
+    </div>
     <nav class="navlinks" aria-label="preview navigation">
       <span>Polestar 2</span>
       <span>Polestar 3</span>
@@ -644,10 +1081,9 @@
       <span>Shop</span>
     </nav>
     <span class="hamburger" aria-hidden="true"></span>
-  </header>
+      </header>
 
-  <main>
-    <section class="hero">
+      <section class="hero" data-surface-surrogate="studio-split-plane" data-surrogate-type="css-surface">
       <div class="inner">
         <div>
           <h1>Polestar 3</h1>
@@ -659,10 +1095,16 @@
           </div>
         </div>
       </div>
+      </section>
+      <div class="sample-note">
+        <span>Reconstruction sample: promo strip, global nav, product hero, and paired outline CTAs using observed Polestar spacing and rectilinear controls. The brand mark is shown as evidence-only and is not a reusable design asset.</span>
+        <span class="component-tags"><span class="tag" style="color:#000;border-color:#ddd">hero</span><span class="tag" style="color:#000;border-color:#ddd">nav</span><span class="tag" style="color:#000;border-color:#ddd">button</span></span>
+      </div>
     </section>
 
-    <section>
+    <section id="tokens">
       <div class="inner">
+        <p class="section-kicker">Tokens</p>
         <h2>Color Tokens</h2>
         <div class="tokens" style="margin-top: 40px">
           <div class="swatch" style="--value:#000;--ink:#fff"><strong>#000000</strong><span>primary black</span></div>
@@ -670,6 +1112,12 @@
           <div class="swatch" style="--value:#F0F0F0"><strong>#F0F0F0</strong><span>surface</span></div>
           <div class="swatch" style="--value:#F3F4F4"><strong>#F3F4F4</strong><span>form fill</span></div>
           <div class="swatch" style="--value:#F06E00"><strong>#F06E00</strong><span>accent</span></div>
+        </div>
+        <div class="token-table">
+          <div class="token-cell"><strong>Spacing</strong><span>1216px content rail, 80px sections, 32-40px internal card padding.</span></div>
+          <div class="token-cell"><strong>Radius</strong><span>0px controls and cards; no soft-pill treatment in observed core surfaces.</span></div>
+          <div class="token-cell"><strong>Border</strong><span>1px lines separate cards, nav rows, filters, and form fields.</span></div>
+          <div class="token-cell"><strong>Elevation</strong><span>Flat system. Depth is produced by contrast, image wells, and grid seams.</span></div>
         </div>
       </div>
     </section>
@@ -685,8 +1133,9 @@
       </div>
     </section>
 
-    <section>
+    <section id="components">
       <div class="inner">
+        <p class="section-kicker">Components</p>
         <h2>Buttons & Product Cards</h2>
         <div class="row">
           <button class="btn primary">보내기 <span class="arrow">&rarr;</span></button>
@@ -698,7 +1147,7 @@
               <h2>Polestar 3</h2>
               <p class="muted" style="margin-top: 8px">평면 카드, 직각 모서리, 큰 이미지 웰.</p>
             </div>
-            <div class="media" aria-hidden="true"></div>
+            <div class="media" aria-hidden="true" data-surface-surrogate="product-card-surface" data-surrogate-type="css-surface"></div>
             <a href="#" style="color:var(--ps-black);text-decoration:none">구매 혜택 보기 <span class="arrow">&rarr;</span></a>
           </article>
           <article class="product-card">
@@ -706,7 +1155,7 @@
               <h2>Polestar 4</h2>
               <p class="muted" style="margin-top: 8px">구분은 그림자보다 1px 라인으로 처리.</p>
             </div>
-            <div class="media" aria-hidden="true"></div>
+            <div class="media" aria-hidden="true" data-surface-surrogate="product-card-surface" data-surrogate-type="css-surface"></div>
             <a href="#" style="color:var(--ps-black);text-decoration:none">차량 주문하기 <span class="arrow">&rarr;</span></a>
           </article>
         </div>
@@ -741,8 +1190,9 @@
       </div>
     </section>
 
-    <section>
+    <section id="states">
       <div class="inner">
+        <p class="section-kicker">States</p>
         <h2>Component States</h2>
         <div class="state-grid">
           <div class="state-card">
@@ -771,9 +1221,10 @@
       </div>
     </section>
 
-    <section class="surface">
+    <section class="surface" data-component-tags="navigation footer mobile-menu">
       <div class="inner">
         <h2>Navigation & Footer Patterns</h2>
+        <div class="component-tags" style="margin-top:18px"><span class="tag" style="color:#000;border-color:#ddd">navigation</span><span class="tag" style="color:#000;border-color:#ddd">footer</span><span class="tag" style="color:#000;border-color:#ddd">mobile-menu</span></div>
         <div class="nav-system">
           <div class="nav-demo">
             <div class="nav-demo-row">
@@ -800,9 +1251,10 @@
       </div>
     </section>
 
-    <section>
+    <section data-component-tags="offer-card link-module product-card">
       <div class="inner">
         <h2>Offer & Link Modules</h2>
+        <div class="component-tags" style="margin-top:18px"><span class="tag" style="color:#000;border-color:#ddd">offer-card</span><span class="tag" style="color:#000;border-color:#ddd">link-module</span><span class="tag" style="color:#000;border-color:#ddd">product-card</span></div>
         <div class="offer-grid">
           <article class="offer-card">
             <div>
@@ -829,8 +1281,9 @@
       </div>
     </section>
 
-    <section>
+    <section id="layout">
       <div class="inner">
+        <p class="section-kicker">Layout</p>
         <h2>Layout Sample</h2>
         <div class="layout-demo">
           <div class="panel">
@@ -838,7 +1291,7 @@
             <p class="muted" style="margin-top: 24px">도시, 도로명 또는 우편번호</p>
             <input type="text" style="width:100%;margin-top:12px">
           </div>
-          <div class="map" aria-hidden="true">
+          <div class="map" aria-hidden="true" data-surface-surrogate="location-map" data-surrogate-type="css-surface">
             <span class="pin"></span>
             <span class="pin"></span>
             <span class="pin"></span>
@@ -851,9 +1304,10 @@
       </div>
     </section>
 
-    <section class="surface">
+    <section class="surface" data-component-tags="action-row large-link">
       <div class="inner">
         <h2>Oversized Action Rows</h2>
+        <div class="component-tags" style="margin-top:18px"><span class="tag" style="color:#000;border-color:#ddd">action-row</span><span class="tag" style="color:#000;border-color:#ddd">large-link</span></div>
         <div class="action-stack">
           <a class="action-link" href="#"><span>시승 예약</span><span class="arrow">&rarr;</span></a>
           <a class="action-link" href="#"><span>차량 주문</span><span class="arrow">&rarr;</span></a>
@@ -872,10 +1326,23 @@
       </div>
     </section>
 
-    <section>
+    <section id="responsive">
+      <div class="inner">
+        <p class="section-kicker">Responsive</p>
+        <h2>Breakpoint Behavior</h2>
+        <div class="responsive-grid">
+          <div class="responsive-card"><strong>Mobile</strong><span>390px baseline. Navigation collapses to a 24px hamburger, cards stack, and content rail remains 24px per side.</span></div>
+          <div class="responsive-card"><strong>Tablet</strong><span>Use 2-up product and offer grids when width allows; keep controls rectangular and full-height.</span></div>
+          <div class="responsive-card"><strong>Desktop</strong><span>1216px content rail, 2-up product cards, 3-up offer grid, split map/search layout.</span></div>
+          <div class="responsive-card"><strong>Overflow</strong><span>Segmented filters wrap; intentionally wide action rows reduce type size instead of overflowing.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="limitations">
       <div class="inner limits">
         <h2>Limitations</h2>
-        <p style="margin-top: 16px">이 프리뷰는 공개 렌더링 근거를 바탕으로 만든 정적 카탈로그입니다. Polestar의 원본 이미지, 로고 자산, 서체 파일을 복제하지 않았고 브랜드 제휴를 의미하지 않습니다.</p>
+        <p style="margin-top: 16px">이 프리뷰는 공개 렌더링 근거를 바탕으로 만든 정적 카탈로그입니다. Synthetic CSS surface treatment가 Polestar의 원본 이미지와 서체 파일을 대체합니다. 보호된 로고와 히어로 참조 이미지는 evidence-only asset이며 재사용할 수 없습니다. No affiliation implied.</p>
       </div>
     </section>
   </main>

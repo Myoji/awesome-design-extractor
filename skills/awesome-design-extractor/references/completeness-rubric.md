@@ -35,9 +35,15 @@ Check whether repeated UI components are described with enough detail to recreat
 
 Also check whether `preview.html` renders the main and supporting components, not only token swatches. At minimum, include representative primary components. Add supporting components when observed. State samples should be included only when directly observed or mechanically verified.
 
+The preview must also include reconstruction samples that show where extracted components are recomposed in realistic page contexts. A component catalog without reconstruction samples is incomplete; a reconstructed page without a component catalog is also incomplete.
+
 ### 5. Layout Principles
 
 Check whether grids, max widths, spacing rhythm, section padding, alignment, density, content hierarchy, and page composition are described. Include mobile stacking and desktop constraints.
+
+For preview quality, confirm reconstruction samples label their component families and demonstrate layout composition, not only decorative mood.
+
+If `preview.html` includes actual logo or high-impact imagery references, confirm they are small curated assets rather than raw screenshot dumps, and that every image is labeled with `data-asset-role`, `data-reuse="forbidden"`, `data-asset-purpose="preview-reference-only"`, `data-asset-origin`, source URL, capture date, meaningful alt text, and a visible no-affiliation disclaimer.
 
 ### 6. Depth & Elevation
 
@@ -54,6 +60,8 @@ Check whether the document captures breakpoint behavior, mobile navigation, colu
 Check whether desktop/mobile conflicts are resolved consistently: desktop is the canonical base system, and mobile differences are responsive overrides or named mobile variants. If mobile evidence overrides desktop, the exception must be explicitly justified in `EVIDENCE.md`.
 
 For preview quality, verify that mobile renderings do not create unintended page-level horizontal scroll. Intentional carousels, tab rails, or overflow lists must constrain horizontal overflow inside their own container.
+
+Also verify that the catalog shell navigation, token grids, component galleries, and reconstruction samples remain usable on mobile.
 
 ### 9. Agent Prompt Guide
 
