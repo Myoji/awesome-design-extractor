@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-07",
-  "tool": "Headless Chrome via Chrome DevTools Protocol",
+  "generatedAt": "2026-07-09",
+  "tool": "Playwright Chromium",
   "source": "preview.html",
   "checks": [
     {
@@ -11,8 +11,9 @@
       "innerWidth": 1440,
       "clientWidth": 1440,
       "scrollWidth": 1440,
-      "scrollHeight": 5251,
+      "scrollHeight": 8557,
       "overflow": false,
+      "imageFailures": [],
       "offenders": [],
       "passed": true
     },
@@ -24,9 +25,60 @@
       "innerWidth": 390,
       "clientWidth": 390,
       "scrollWidth": 390,
-      "scrollHeight": 7887,
+      "scrollHeight": 12854,
       "overflow": false,
-      "offenders": [],
+      "imageFailures": [],
+      "offenders": [
+        {
+          "tag": "a",
+          "className": "",
+          "left": 312.96875,
+          "right": 428.125,
+          "width": 115.15625
+        },
+        {
+          "tag": "a",
+          "className": "",
+          "left": 429.125,
+          "right": 502.578125,
+          "width": 73.453125
+        },
+        {
+          "tag": "a",
+          "className": "",
+          "left": 503.578125,
+          "right": 582.25,
+          "width": 78.671875
+        },
+        {
+          "tag": "a",
+          "className": "",
+          "left": 583.25,
+          "right": 686.71875,
+          "width": 103.46875
+        },
+        {
+          "tag": "a",
+          "className": "",
+          "left": 687.71875,
+          "right": 792.765625,
+          "width": 105.046875
+        },
+        {
+          "tag": "div",
+          "className": "tab",
+          "left": 342,
+          "right": 438,
+          "width": 96
+        },
+        {
+          "tag": "div",
+          "className": "tab",
+          "left": 438,
+          "right": 534,
+          "width": 96
+        }
+      ],
       "passed": true
     },
     {
@@ -37,9 +89,60 @@
       "innerWidth": 360,
       "clientWidth": 360,
       "scrollWidth": 360,
-      "scrollHeight": 8013,
+      "scrollHeight": 13190,
       "overflow": false,
-      "offenders": [],
+      "imageFailures": [],
+      "offenders": [
+        {
+          "tag": "a",
+          "className": "",
+          "left": 312.96875,
+          "right": 428.125,
+          "width": 115.15625
+        },
+        {
+          "tag": "a",
+          "className": "",
+          "left": 429.125,
+          "right": 502.578125,
+          "width": 73.453125
+        },
+        {
+          "tag": "a",
+          "className": "",
+          "left": 503.578125,
+          "right": 582.25,
+          "width": 78.671875
+        },
+        {
+          "tag": "a",
+          "className": "",
+          "left": 583.25,
+          "right": 686.71875,
+          "width": 103.46875
+        },
+        {
+          "tag": "a",
+          "className": "",
+          "left": 687.71875,
+          "right": 792.765625,
+          "width": 105.046875
+        },
+        {
+          "tag": "div",
+          "className": "tab",
+          "left": 342,
+          "right": 438,
+          "width": 96
+        },
+        {
+          "tag": "div",
+          "className": "tab",
+          "left": 438,
+          "right": 534,
+          "width": 96
+        }
+      ],
       "passed": true
     }
   ]

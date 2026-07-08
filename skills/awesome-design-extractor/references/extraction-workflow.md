@@ -99,19 +99,41 @@ Classify each finding:
 
 Prefer repeated cross-page evidence over one-off hero styles. Distinguish brand decoration from reusable UI tokens.
 
-## 6. Artifact Writing
+## 6. Preview Catalog Synthesis
+
+Before writing `preview.html`, decide which extracted elements deserve catalog treatment and which deserve reconstruction treatment:
+
+- Catalog treatment: reusable tokens, typography scales, buttons, links, nav, tabs, cards, forms, lists, media containers, state samples, spacing, radius, borders, elevation, and responsive rules.
+- Reconstruction treatment: representative page fragments that show how those extracted elements compose in context, such as a hero, product/story module, listing grid, commerce flow, support/search form, article strip, dashboard panel, or footer.
+
+For each reconstruction sample:
+
+- Use extracted tokens and component rules from `DESIGN.md`.
+- Add component tags that name the building blocks used by the sample.
+- Add an evidence label: `observed` when directly based on inspected patterns, `inferred` when combining repeated patterns conservatively, or `uncertain` when evidence is sparse and the sample is illustrative.
+- Avoid copying protected brand assets. Use text brand labels, CSS/SVG surface systems, material/color patterns, neutral UI geometry, or local evidence thumbnails only when their evidence-only status is clear.
+- Do not recreate official logos or recognizable product silhouettes in CSS/SVG. If object fidelity would be weak, preserve the observed surface grammar instead: solid fields, section bands, gradients, crop framing, material planes, lighting direction, and accent lines.
+- If the original logo or hero image is essential to understanding the visual system, create a small curated reference under `assets/` and mark it `data-asset-role="brand-reference"` or `data-asset-role="evidence-only"` with `data-reuse="forbidden"`, `data-asset-purpose="preview-reference-only"`, `data-asset-origin`, source URL, capture date, and a visible no-affiliation disclaimer.
+
+The preview should make it easy to answer two questions:
+
+1. What tokens and components were extracted?
+2. Where can I see those components recomposed in a realistic site context?
+
+## 7. Artifact Writing
 
 Write artifacts in this order:
 
 1. `EVIDENCE.md` - establish the audit trail first.
 2. `DESIGN.md` - summarize the system using only supported findings.
-3. `preview.html` - demonstrate the rules visually.
+3. `preview.html` - demonstrate the rules visually as a catalog with reconstruction samples.
 4. `preview-dark.html` - only when dark-mode evidence supports it.
 
 After writing, compare `DESIGN.md` and preview files against `EVIDENCE.md`. Remove or qualify unsupported claims.
 
 Run a preview quality pass before finishing:
 
+- Confirm required catalog sections exist: `Overview`, `Reconstruction`, `Tokens`, `Components`, `States`, `Layout`, `Responsive`, and `Limitations`.
 - Render `preview.html` at mobile and desktop widths.
 - Confirm the page itself has no unintended horizontal overflow.
 - Confirm every intentionally horizontal component, such as a carousel or tab rail, contains its overflow inside that component rather than expanding the body.
