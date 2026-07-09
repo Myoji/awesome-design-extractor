@@ -1,0 +1,566 @@
+{
+  "crawlDate": "2026-07-09",
+  "startUrl": "https://www.audi.com/en.html",
+  "desktop": [
+    {
+      "label": "home",
+      "status": 200,
+      "finalUrl": "https://www.audi.com/en.html",
+      "screenshot": "screenshots/desktop-01-home.png",
+      "title": "audi.com",
+      "error": null
+    },
+    {
+      "label": "models",
+      "status": 200,
+      "finalUrl": "https://www.audi.com/en/models-4",
+      "screenshot": "screenshots/desktop-02-models.png",
+      "title": "Models | audi.com",
+      "error": null
+    },
+    {
+      "label": "company",
+      "status": 200,
+      "finalUrl": "https://www.audi.com/en/company-17125",
+      "screenshot": "screenshots/desktop-03-company.png",
+      "title": "Company | audi.com",
+      "error": null
+    },
+    {
+      "label": "technology",
+      "status": 200,
+      "finalUrl": "https://www.audi.com/en/technology-235",
+      "screenshot": "screenshots/desktop-04-technology.png",
+      "title": "Technology | audi.com",
+      "error": null
+    },
+    {
+      "label": "design",
+      "status": 200,
+      "finalUrl": "https://www.audi.com/en/design-299",
+      "screenshot": "screenshots/desktop-05-design.png",
+      "title": "Design | audi.com",
+      "error": null
+    },
+    {
+      "label": "sustainability",
+      "status": 200,
+      "finalUrl": "https://www.audi.com/en/sustainability-17137",
+      "screenshot": "screenshots/desktop-06-sustainability.png",
+      "title": "Sustainability | audi.com",
+      "error": null
+    },
+    {
+      "label": "motorsport",
+      "status": 200,
+      "finalUrl": "https://www.audi.com/en/motorsport-17143",
+      "screenshot": "screenshots/desktop-07-motorsport.png",
+      "title": "Motorsport | audi.com",
+      "error": null
+    },
+    {
+      "label": "careers",
+      "status": 200,
+      "finalUrl": "https://www.audi.com/en/careers-at-audidriven-by-tech-driven-by-people-17124",
+      "screenshot": "screenshots/desktop-08-careers.png",
+      "title": "Careers at Audi Driven by tech. Driven by people. | audi.com",
+      "error": null
+    },
+    {
+      "label": "media-center",
+      "status": 200,
+      "finalUrl": "https://www.audi.com/en/service-2305",
+      "screenshot": "screenshots/desktop-09-media-center.png",
+      "title": "Audi Media Center | audi.com",
+      "error": null
+    },
+    {
+      "label": "press-releases",
+      "status": 200,
+      "finalUrl": "https://www.audi.com/en/press-releases",
+      "screenshot": "screenshots/desktop-10-press-releases.png",
+      "title": "Media releases | audi.com",
+      "error": null
+    },
+    {
+      "label": "register",
+      "status": 200,
+      "finalUrl": "https://www.audi.com/en/register",
+      "screenshot": "screenshots/desktop-11-register.png",
+      "title": "audi.com",
+      "error": null
+    },
+    {
+      "label": "search",
+      "status": 200,
+      "finalUrl": "https://www.audi.com/en/search",
+      "screenshot": "screenshots/desktop-12-search.png",
+      "title": "audi.com",
+      "error": null
+    }
+  ],
+  "mobile": [
+    {
+      "label": "home",
+      "status": 200,
+      "finalUrl": "https://www.audi.com/en.html",
+      "screenshot": "screenshots/mobile-01-home.png",
+      "title": "audi.com",
+      "error": null
+    },
+    {
+      "label": "models",
+      "status": 200,
+      "finalUrl": "https://www.audi.com/en/models-4",
+      "screenshot": "screenshots/mobile-02-models.png",
+      "title": "Models | audi.com",
+      "error": null
+    },
+    {
+      "label": "design",
+      "status": 200,
+      "finalUrl": "https://www.audi.com/en/design-299",
+      "screenshot": "screenshots/mobile-03-design.png",
+      "title": "Design | audi.com",
+      "error": null
+    },
+    {
+      "label": "register",
+      "status": 200,
+      "finalUrl": "https://www.audi.com/en/register",
+      "screenshot": "screenshots/mobile-04-register.png",
+      "title": "audi.com",
+      "error": null
+    },
+    {
+      "label": "search",
+      "status": 200,
+      "finalUrl": "https://www.audi.com/en/search",
+      "screenshot": "screenshots/mobile-05-search.png",
+      "title": "audi.com",
+      "error": null
+    }
+  ],
+  "topColors": [
+    [
+      "rgba(252, 252, 253, 0.698)",
+      5392
+    ],
+    [
+      "rgb(252, 252, 253)",
+      1302
+    ],
+    [
+      "rgb(255, 255, 255)",
+      232
+    ],
+    [
+      "rgba(154, 163, 177, 0.3)",
+      28
+    ],
+    [
+      "rgb(84, 84, 84)",
+      28
+    ],
+    [
+      "rgba(154, 163, 177, 0.2)",
+      28
+    ],
+    [
+      "rgb(0, 0, 0)",
+      3
+    ]
+  ],
+  "topBackgrounds": [
+    [
+      "rgb(252, 252, 253)",
+      117
+    ],
+    [
+      "rgba(154, 163, 177, 0.1)",
+      116
+    ],
+    [
+      "rgb(24, 29, 37)",
+      83
+    ],
+    [
+      "rgb(101, 112, 129)",
+      68
+    ],
+    [
+      "rgb(255, 255, 255)",
+      53
+    ],
+    [
+      "rgba(252, 252, 253, 0.698)",
+      42
+    ],
+    [
+      "rgb(16, 19, 25)",
+      38
+    ],
+    [
+      "rgba(154, 163, 177, 0)",
+      37
+    ],
+    [
+      "rgb(2, 2, 3)",
+      34
+    ],
+    [
+      "rgba(24, 29, 37, 0.6)",
+      34
+    ],
+    [
+      "rgba(55, 64, 78, 0.2)",
+      32
+    ],
+    [
+      "rgba(252, 252, 253, 0.2)",
+      22
+    ],
+    [
+      "rgb(64, 74, 89)",
+      17
+    ],
+    [
+      "rgba(252, 252, 253, 0.15)",
+      16
+    ],
+    [
+      "rgba(154, 163, 177, 0.3)",
+      14
+    ],
+    [
+      "rgba(252, 252, 253, 0)",
+      10
+    ],
+    [
+      "rgb(44, 52, 63)",
+      10
+    ],
+    [
+      "color(srgb 0.116863 0.13098 0.157647)",
+      1
+    ]
+  ],
+  "topFontSizes": [
+    [
+      "16px",
+      4826
+    ],
+    [
+      "14px",
+      1360
+    ],
+    [
+      "18px",
+      325
+    ],
+    [
+      "12px",
+      256
+    ],
+    [
+      "24px",
+      90
+    ],
+    [
+      "32px",
+      51
+    ],
+    [
+      "15px",
+      36
+    ],
+    [
+      "40px",
+      22
+    ],
+    [
+      "20px",
+      17
+    ],
+    [
+      "8.162px",
+      10
+    ],
+    [
+      "9.328px",
+      6
+    ],
+    [
+      "13.992px",
+      6
+    ],
+    [
+      "28px",
+      5
+    ],
+    [
+      "10.494px",
+      3
+    ]
+  ],
+  "topFontFamilies": [
+    [
+      "\"Audi Type Variable\", Verdana, Geneva, sans-serif",
+      7013
+    ]
+  ],
+  "topRadii": [
+    [
+      "0px",
+      5832
+    ],
+    [
+      "10px",
+      564
+    ],
+    [
+      "999px",
+      309
+    ],
+    [
+      "20px",
+      271
+    ],
+    [
+      "4px",
+      30
+    ],
+    [
+      "50%",
+      4
+    ],
+    [
+      "30px",
+      3
+    ]
+  ],
+  "topShadows": [
+    [
+      "rgba(252, 252, 253, 0.1) 0px 0px 0px 1px inset",
+      28
+    ],
+    [
+      "rgba(0, 0, 0, 0.25) 0px 2px 8px 0px, rgba(0, 0, 0, 0.15) 0px 1px 4px 0px",
+      7
+    ],
+    [
+      "rgba(219, 223, 230, 0.6) 0px 0px 0px 1px inset",
+      2
+    ],
+    [
+      "rgba(0, 0, 0, 0.09) 0px 1px 6px 0px, rgba(0, 0, 0, 0.15) 0px 2px 32px 0px",
+      1
+    ]
+  ],
+  "discoveredLinks": [
+    {
+      "text": "",
+      "href": "https://www.audi.com/en"
+    },
+    {
+      "text": "",
+      "href": "https://www.audi.com/en/search"
+    },
+    {
+      "text": "",
+      "href": "https://www.audi.com/en/cart"
+    },
+    {
+      "text": "Models",
+      "href": "https://www.audi.com/en/models-4"
+    },
+    {
+      "text": "Company",
+      "href": "https://www.audi.com/en/company-17125"
+    },
+    {
+      "text": "Technology",
+      "href": "https://www.audi.com/en/technology-235"
+    },
+    {
+      "text": "Sustainability",
+      "href": "https://www.audi.com/en/sustainability-17137"
+    },
+    {
+      "text": "Motorsport",
+      "href": "https://www.audi.com/en/motorsport-17143"
+    },
+    {
+      "text": "Careers",
+      "href": "https://www.audi.com/en/careers-at-audidriven-by-tech-driven-by-people-17124"
+    },
+    {
+      "text": "Audi Media Center",
+      "href": "https://www.audi.com/en/service-2305"
+    },
+    {
+      "text": "Sign in",
+      "href": "https://www.audi.com/en/sign-in"
+    },
+    {
+      "text": "Legal",
+      "href": "https://www.audi.com/en/legal-17121"
+    },
+    {
+      "text": "EN",
+      "href": "https://www.audi.com/en?set_locale=true"
+    },
+    {
+      "text": "Audi at a glance",
+      "href": "https://www.audi.com/en/audi-at-a-glance-15904"
+    },
+    {
+      "text": "Audi Group",
+      "href": "https://www.audi.com/en/audi-group-213"
+    },
+    {
+      "text": "Production Sites",
+      "href": "https://www.audi.com/en/sites-194"
+    },
+    {
+      "text": "Strategy",
+      "href": "https://www.audi.com/en/strategy-17142"
+    },
+    {
+      "text": "Investor Relations",
+      "href": "https://www.audi.com/en/investor-relations-17156"
+    },
+    {
+      "text": "Sports and Culture",
+      "href": "https://www.audi.com/en/sports-and-culture-17864"
+    },
+    {
+      "text": "Audi History",
+      "href": "https://www.audi.com/en/audi-history-17166"
+    },
+    {
+      "text": "Works council",
+      "href": "https://www.audi.com/en/works-council-4712"
+    },
+    {
+      "text": "Electric Mobility",
+      "href": "https://www.audi.com/en/electromobility-slash-audi-e-tron-241"
+    },
+    {
+      "text": "Plug-in-hybrid",
+      "href": "https://www.audi.com/en/plug-in-hybrid-15510"
+    },
+    {
+      "text": "Internal combustion engines (ICE)",
+      "href": "https://www.audi.com/en/internal-combustion-engines-ice-255"
+    },
+    {
+      "text": "quattro",
+      "href": "https://www.audi.com/en/quattro-247"
+    },
+    {
+      "text": "Digital Experience",
+      "href": "https://www.audi.com/en/digital-experience-13200?node=39891"
+    },
+    {
+      "text": "Vehicle safety",
+      "href": "https://www.audi.com/en/vehicle-safety-17223"
+    },
+    {
+      "text": "Design",
+      "href": "https://www.audi.com/en/design-299"
+    },
+    {
+      "text": "Sustainability Concept",
+      "href": "https://www.audi.com/en/sustainability-concept-17196"
+    },
+    {
+      "text": "Sustainability reports",
+      "href": "https://www.audi.com/en/sustainability-reports-17306"
+    },
+    {
+      "text": "E – Environment & Resources",
+      "href": "https://www.audi.com/en/environment-and-resources-17193"
+    },
+    {
+      "text": "S – People & Society",
+      "href": "https://www.audi.com/en/people-and-society-17164"
+    },
+    {
+      "text": "G – Governance",
+      "href": "https://www.audi.com/en/governance-17155"
+    },
+    {
+      "text": "Formula 1®",
+      "href": "https://www.audi.com/en/formula-1r-17158"
+    },
+    {
+      "text": "Motorsport history",
+      "href": "https://www.audi.com/en/motorsport-history-17188"
+    },
+    {
+      "text": "Audi Sport racing legends",
+      "href": "https://www.audi.com/en/audi-sport-racing-legends-17868"
+    },
+    {
+      "text": "Working at Audi",
+      "href": "https://www.audi.com/en/working-at-audi-17152"
+    },
+    {
+      "text": "School students",
+      "href": "https://www.audi.com/en/school-students-17134"
+    },
+    {
+      "text": "Students",
+      "href": "https://www.audi.com/en/students-17141"
+    },
+    {
+      "text": "Graduates",
+      "href": "https://www.audi.com/en/graduates-17144"
+    },
+    {
+      "text": "Professionals",
+      "href": "https://www.audi.com/en/professionals-17149"
+    },
+    {
+      "text": "Your Application",
+      "href": "https://www.audi.com/en/your-application-17200"
+    },
+    {
+      "text": "Dates",
+      "href": "https://www.audi.com/en/dates-338"
+    },
+    {
+      "text": "Media releases",
+      "href": "https://www.audi.com/en/press-releases"
+    },
+    {
+      "text": "Images",
+      "href": "https://www.audi.com/en/photos"
+    },
+    {
+      "text": "Videos",
+      "href": "https://www.audi.com/en/videos"
+    },
+    {
+      "text": "Newsletter-Registration",
+      "href": "https://www.audi.com/en/register"
+    },
+    {
+      "text": "Media contacts",
+      "href": "https://www.audi.com/en/press-contacts"
+    },
+    {
+      "text": "1 Audi Nuvolari: “Vorsprung durch Technik” at its most visceral 06/30/2026",
+      "href": "https://www.audi.com/en/articles/nuvolari-super-sports-car-with-1001-ps-18094"
+    },
+    {
+      "text": "2 Two characters. One RS 5. 06/22/2026",
+      "href": "https://www.audi.com/en/articles/two-characters-one-audi-rs-5-18017"
+    }
+  ],
+  "assets": [
+    "brand-reference.png",
+    "hero-reference.png"
+  ]
+}
