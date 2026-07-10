@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const root = process.cwd();
-const examples = ["genesis", "polestar"];
+const examples = ["genesis", "polestar", "audi", "mercedes-benz"];
 const requiredSections = [
   "overview",
   "reconstruction",

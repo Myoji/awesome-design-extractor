@@ -1,0 +1,142 @@
+{
+  "generatedAt": "2026-07-09",
+  "tool": "Playwright Chromium",
+  "source": "preview.html",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "requestedWidth": 1440,
+      "requestedHeight": 1000,
+      "title": "Audi Global Extracted Design Preview",
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "scrollHeight": 6911,
+      "overflow": false,
+      "missingSections": [],
+      "imageFailures": [],
+      "hasCatalogShell": true,
+      "badges": [
+        "observed",
+        "inferred",
+        "uncertain"
+      ],
+      "surfaceSurrogates": 3,
+      "protectedImages": [
+        {
+          "src": "assets/brand-reference.png",
+          "role": "brand-reference",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://www.audi.com/en.html"
+        },
+        {
+          "src": "assets/hero-reference.png",
+          "role": "evidence-only",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://www.audi.com/en/design-299"
+        },
+        {
+          "src": "assets/hero-reference.png",
+          "role": "evidence-only",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://www.audi.com/en/design-299"
+        }
+      ],
+      "offenders": [],
+      "passed": true
+    },
+    {
+      "viewport": "mobile",
+      "requestedWidth": 390,
+      "requestedHeight": 1200,
+      "title": "Audi Global Extracted Design Preview",
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "scrollHeight": 12770,
+      "overflow": false,
+      "missingSections": [],
+      "imageFailures": [],
+      "hasCatalogShell": true,
+      "badges": [
+        "observed",
+        "inferred",
+        "uncertain"
+      ],
+      "surfaceSurrogates": 3,
+      "protectedImages": [
+        {
+          "src": "assets/brand-reference.png",
+          "role": "brand-reference",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://www.audi.com/en.html"
+        },
+        {
+          "src": "assets/hero-reference.png",
+          "role": "evidence-only",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://www.audi.com/en/design-299"
+        },
+        {
+          "src": "assets/hero-reference.png",
+          "role": "evidence-only",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://www.audi.com/en/design-299"
+        }
+      ],
+      "offenders": [],
+      "passed": true
+    },
+    {
+      "viewport": "narrow-mobile",
+      "requestedWidth": 360,
+      "requestedHeight": 1200,
+      "title": "Audi Global Extracted Design Preview",
+      "innerWidth": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "scrollHeight": 13019,
+      "overflow": false,
+      "missingSections": [],
+      "imageFailures": [],
+      "hasCatalogShell": true,
+      "badges": [
+        "observed",
+        "inferred",
+        "uncertain"
+      ],
+      "surfaceSurrogates": 3,
+      "protectedImages": [
+        {
+          "src": "assets/brand-reference.png",
+          "role": "brand-reference",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://www.audi.com/en.html"
+        },
+        {
+          "src": "assets/hero-reference.png",
+          "role": "evidence-only",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://www.audi.com/en/design-299"
+        },
+        {
+          "src": "assets/hero-reference.png",
+          "role": "evidence-only",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://www.audi.com/en/design-299"
+        }
+      ],
+      "offenders": [],
+      "passed": true
+    }
+  ]
+}
