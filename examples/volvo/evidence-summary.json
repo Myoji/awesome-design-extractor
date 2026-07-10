@@ -1,0 +1,69 @@
+{
+  "brand": "Volvo Cars",
+  "sourceUrl": "https://www.volvocars.com/intl/",
+  "finalRenderedUrl": "https://www.volvocars.com/intl/",
+  "crawlDate": "2026-07-10",
+  "language": "ko",
+  "tool": "Codex in-app browser with rendered DOM, computed styles, and CDP mobile metrics",
+  "pageBudget": 20,
+  "crawlDepth": 2,
+  "viewports": {
+    "desktopRequested": { "width": 1440, "height": 1000 },
+    "desktopActual": { "width": 1280, "height": 720, "clientWidth": 1265 },
+    "mobileActual": { "width": 390, "height": 844, "clientWidth": 390 }
+  },
+  "successfulDesktop": [
+    { "label": "home", "url": "https://www.volvocars.com/intl/", "title": "International | Volvo Cars" },
+    { "label": "build", "url": "https://www.volvocars.com/intl/build/", "title": "Configure your new Volvo | Volvo Cars - International" },
+    { "label": "accessories", "url": "https://www.volvocars.com/intl/collections/car-accessories/", "title": "Volvo Car Accessories | Volvo Cars International" },
+    { "label": "business", "url": "https://www.volvocars.com/intl/business/", "title": "Company cars | International fleet agreements | Volvo Cars" },
+    { "label": "electrification", "url": "https://www.volvocars.com/intl/cars/electrification/", "title": "How Do Electric Cars Work? EV Technology Explained | Volvo Cars" },
+    { "label": "safety", "url": "https://www.volvocars.com/intl/safety/", "title": "Volvo Cars Safety: Helping protect drivers & passengers | Volvo Cars INTL" },
+    { "label": "sustainability", "url": "https://www.volvocars.com/intl/sustainability/", "title": "Highlights | Volvo Cars" },
+    { "label": "xc60", "url": "https://www.volvocars.com/intl/cars/xc60-hybrid/", "title": "Volvo XC60 | Midsize plug-in hybrid SUV | Volvo Cars International" }
+  ],
+  "successfulMobile": [
+    "https://www.volvocars.com/intl/",
+    "https://www.volvocars.com/intl/cars/xc60-hybrid/",
+    "https://www.volvocars.com/intl/safety/",
+    "https://www.volvocars.com/intl/build/"
+  ],
+  "failures": [
+    {
+      "url": "https://www.volvocars.com/intl/cars/ex60-electric/",
+      "class": "render_timeout",
+      "fallback": "XC60 product detail was inspected instead",
+      "impact": "EX60-specific content was excluded; generic product-detail coverage remains available"
+    },
+    {
+      "url": "https://www.volvocars.com/intl/cars/compare-cars/?models=ex60-electric",
+      "class": "render_timeout",
+      "fallback": "Build landing page and product subnavigation were inspected",
+      "impact": "Comparison controls and selection states remain unverified"
+    },
+    {
+      "url": "https://www.volvocars.com/intl/cars/xc60-hybrid/",
+      "class": "unsupported_interaction",
+      "fallback": "Static navigation and selected-tab states were measured",
+      "impact": "Global menu open state was not promoted to observed"
+    },
+    {
+      "url": "https://www.volvocars.com/intl/safety/",
+      "class": "unsupported_interaction",
+      "fallback": "Collapsed FAQ state was measured through aria-expanded=false",
+      "impact": "Expanded FAQ state was not promoted to observed"
+    },
+    {
+      "url": "https://www.volvocars.com/intl/",
+      "class": "tool_unavailable",
+      "fallback": "Rendered DOM, computed styles, and document dimensions were retained",
+      "impact": "Source-page screenshots are unavailable in this extraction"
+    }
+  ],
+  "observedStates": [
+    { "component": "section tabs", "state": "selected", "backgroundColor": "rgba(0, 0, 0, 0.12)", "height": "32px", "paddingInline": "8px" },
+    { "component": "FAQ show more", "state": "collapsed", "ariaExpanded": "false" },
+    { "component": "home model carousel", "state": "disabled previous control", "source": "rendered accessibility snapshot" }
+  ],
+  "stopReason": "All observable rubric sections reached complete or partial coverage after eight desktop pages and four mobile revisits; remaining gaps require interactions that timed out or public form/comparison surfaces that did not render reliably."
+}

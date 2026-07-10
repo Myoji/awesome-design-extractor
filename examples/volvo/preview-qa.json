@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-07-10",
+  "tool": "Codex in-app browser with localhost static server and CDP mobile metrics",
+  "source": "preview.html",
+  "screenshotStorage": "in-session visual inspection only; screenshots were not persisted",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "requestedWidth": 1440,
+      "requestedHeight": 1000,
+      "innerWidth": 1280,
+      "innerHeight": 720,
+      "clientWidth": 1265,
+      "scrollWidth": 1265,
+      "scrollHeight": 10756,
+      "overflow": false,
+      "missingSections": [],
+      "localLinks": ["DESIGN.md", "EVIDENCE.md"],
+      "hasCatalogShell": true,
+      "badges": ["observed", "inferred", "uncertain"],
+      "reconstructionSamples": 4,
+      "surfaceSurrogates": 6,
+      "protectedImages": [],
+      "screenshotCaptured": true,
+      "offenders": [],
+      "notes": [
+        "The in-app browser kept its actual desktop viewport at 1280 x 720 despite the 1440 x 1000 request.",
+        "Pseudo-elements extend inside containers with overflow hidden but do not expand the document width."
+      ],
+      "passed": true
+    },
+    {
+      "viewport": "mobile",
+      "requestedWidth": 390,
+      "requestedHeight": 844,
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "scrollHeight": 18974,
+      "overflow": false,
+      "missingSections": [],
+      "localLinks": ["DESIGN.md", "EVIDENCE.md"],
+      "hasCatalogShell": true,
+      "badges": ["observed", "inferred", "uncertain"],
+      "reconstructionSamples": 4,
+      "surfaceSurrogates": 6,
+      "protectedImages": [],
+      "screenshotCaptured": true,
+      "intentionalHorizontalContainers": [
+        { "selector": ".catalog-nav-inner", "clientWidth": 358, "scrollWidth": 717, "overflowX": "auto" },
+        { "selector": ".product-rail", "clientWidth": 324, "scrollWidth": 850, "overflowX": "auto" },
+        { "selector": ".tab-rail", "clientWidth": 276, "scrollWidth": 308, "overflowX": "auto" }
+      ],
+      "offenders": [],
+      "notes": [
+        "Items outside the viewport belong only to intentional horizontal containers.",
+        "The document root remained 390px wide."
+      ],
+      "passed": true
+    }
+  ]
+}
