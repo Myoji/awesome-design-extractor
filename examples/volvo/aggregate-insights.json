@@ -2,6 +2,12 @@
   "brand": "Volvo Cars",
   "sourceUrl": "https://www.volvocars.com/intl/",
   "crawlDate": "2026-07-10",
+  "protectedReferences": {
+    "captureDate": "2026-07-11",
+    "files": ["assets/brand-reference.svg", "assets/hero-reference.avif"],
+    "purpose": "preview-reference-only",
+    "reuse": "forbidden"
+  },
   "palette": {
     "backgroundPrimary": { "value": "#FFFFFF", "level": "observed", "source": "--v-color-background-primary and repeated computed backgrounds" },
     "foregroundPrimary": { "value": "#000000", "level": "observed", "source": "--v-color-foreground-primary and dominant computed text" },

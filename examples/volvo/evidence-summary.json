@@ -12,6 +12,28 @@
     "desktopActual": { "width": 1280, "height": 720, "clientWidth": 1265 },
     "mobileActual": { "width": 390, "height": 844, "clientWidth": 390 }
   },
+  "protectedReferences": [
+    {
+      "file": "assets/brand-reference.svg",
+      "role": "brand-reference",
+      "sourceUrl": "https://www.volvocars.com/static/shared/images/volvo-spread-wordmark.svg",
+      "origin": "official-public-site-asset",
+      "captureDate": "2026-07-11",
+      "reuse": "forbidden",
+      "sha256": "0E71E18343C6586E99ED1F38C1EEDD6ECA471D23DD9DFD1B591D82F546976788"
+    },
+    {
+      "file": "assets/hero-reference.avif",
+      "role": "evidence-only",
+      "sourceUrl": "https://www.volvocars.com/images/cs/v3/assets/blt618dcb179a89242d/blt22fbf6cc9c706285/696e04a219cfc945791fa686/EX60-HomepageHero-lg-21-9.jpg?branch=prod_alias&quality=85&format=auto&iar=0&w=1920",
+      "origin": "official-public-site-responsive-image",
+      "captureDate": "2026-07-11",
+      "reuse": "forbidden",
+      "contentType": "image/avif",
+      "bytes": 230350,
+      "sha256": "811A860E01330E5940CAD33DC77B5433C78BA8AACF6120CDCA1F6C808DF4D5DB"
+    }
+  ],
   "successfulDesktop": [
     { "label": "home", "url": "https://www.volvocars.com/intl/", "title": "International | Volvo Cars" },
     { "label": "build", "url": "https://www.volvocars.com/intl/build/", "title": "Configure your new Volvo | Volvo Cars - International" },
@@ -57,7 +79,7 @@
       "url": "https://www.volvocars.com/intl/",
       "class": "tool_unavailable",
       "fallback": "Rendered DOM, computed styles, and document dimensions were retained",
-      "impact": "Source-page screenshots are unavailable in this extraction"
+      "impact": "Full-page source screenshots are unavailable; the official homepage wordmark and rendered hero asset were retained as protected references"
     }
   ],
   "observedStates": [

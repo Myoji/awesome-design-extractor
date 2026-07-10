@@ -193,6 +193,22 @@
     .overview-card h3 { margin: 0; font-size: 1.25rem; line-height: 1.75rem; font-weight: 600; }
     .overview-card p { margin: .75rem 0 0; color: var(--muted); }
     .overview-card:nth-child(2) p { color: rgb(255 255 255 / 70%); }
+    .asset-reference-grid {
+      display: grid;
+      grid-template-columns: minmax(16rem, .8fr) minmax(0, 2fr);
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .asset-reference-card { min-width: 0; border: 1px solid var(--line); background: #fff; }
+    .asset-reference-media { display: grid; place-items: center; min-height: 12rem; overflow: hidden; background: var(--surface); }
+    .asset-reference-media--logo { padding: 3rem; }
+    .asset-reference-media--logo img { width: min(100%, 13rem); height: auto; }
+    .asset-reference-media--hero { min-height: 0; aspect-ratio: 21 / 9; }
+    .asset-reference-media--hero img { width: 100%; height: 100%; object-fit: cover; }
+    .asset-reference-copy { padding: 1rem; }
+    .asset-reference-copy strong { display: block; margin-bottom: .35rem; }
+    .asset-reference-copy p { margin: 0; color: var(--muted); font-size: .8125rem; line-height: 1.25rem; }
+    .asset-reference-disclaimer { margin: 1rem 0 0; padding: .75rem 1rem; border-left: 3px solid #000; background: var(--surface); font-size: .75rem; line-height: 1.25rem; }
 
     .reconstruction-stack { display: grid; gap: var(--gap-md); }
     .sample { border: 1px solid var(--line); background: #fff; min-width: 0; }
@@ -218,7 +234,7 @@
       padding: 0 1.75rem;
       background: #fff;
     }
-    .wordmark-standin { font-size: .75rem; letter-spacing: .16em; text-transform: uppercase; }
+    .recon-logo { width: 6.5rem; height: auto; display: block; }
     .recon-nav-list { display: flex; justify-content: center; gap: 1.5rem; font-size: .875rem; }
 
     .recon-hero {
@@ -228,24 +244,21 @@
       align-items: end;
       overflow: hidden;
       color: #fff;
-      background:
-        linear-gradient(90deg, rgb(0 0 0 / 82%) 0%, rgb(0 0 0 / 30%) 54%, transparent 76%),
-        radial-gradient(circle at 78% 26%, #f5c69d 0 8%, transparent 28%),
-        linear-gradient(160deg, #9bafa8 0 24%, #596d65 24% 50%, #313d3a 50% 68%, #111 68%);
+      background: #313d3a;
     }
+    .recon-hero-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
     .recon-hero::before {
       content: "";
       position: absolute;
-      inset: 45% -10% -30% 52%;
-      background: linear-gradient(160deg, rgb(255 255 255 / 16%), rgb(0 0 0 / 78%));
-      border-top: 1px solid rgb(255 255 255 / 30%);
-      transform: rotate(-4deg);
+      inset: 0;
+      z-index: 1;
+      background: linear-gradient(90deg, rgb(0 0 0 / 72%) 0%, rgb(0 0 0 / 34%) 52%, rgb(0 0 0 / 5%) 100%);
     }
-    .recon-hero-copy { position: relative; z-index: 1; max-width: 43rem; padding: 3.5rem; }
+    .recon-hero-copy { position: relative; z-index: 2; max-width: 43rem; padding: 3.5rem; }
     .recon-hero h3 { margin: 0; font-size: 3rem; line-height: 3.5rem; font-weight: 400; }
     .recon-hero p { max-width: 34rem; margin: 1rem 0 0; color: rgb(255 255 255 / 82%); }
     .recon-actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.5rem; }
-    .surrogate-note { position: absolute; right: 1rem; bottom: 1rem; z-index: 2; padding: .4rem .6rem; background: rgb(0 0 0 / 58%); color: #fff; font-size: .6875rem; }
+    .surrogate-note { position: absolute; right: 1rem; bottom: 1rem; z-index: 3; max-width: 17rem; padding: .4rem .6rem; background: rgb(0 0 0 / 68%); color: #fff; font-size: .6875rem; }
 
     .recon-products { padding: var(--gap-md) 1.75rem; background: #fff; }
     .recon-products-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 1rem; margin-bottom: 1.5rem; }
@@ -353,6 +366,7 @@
     @media (max-width: 62rem) {
       .section-head { grid-template-columns: 1fr; }
       .overview-grid, .token-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .asset-reference-grid { grid-template-columns: 1fr; }
       .product-rail { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .recon-story, .responsive-compare { grid-template-columns: 1fr; }
       .story-surface { min-height: 22rem; }
@@ -444,6 +458,21 @@
             <article class="overview-card"><span class="overview-number">03</span><h3>Soft actions, square content</h3><p>버튼은 완전 pill, 카드와 미디어는 `0px` radius입니다.</p></article>
             <article class="overview-card"><span class="overview-number">04</span><h3>Human and material</h3><p>자연광, 생활 장면, 재질면을 제품 스토리와 함께 사용합니다.</p></article>
           </div>
+          <div class="asset-reference-grid" aria-label="Protected visual references">
+            <article class="asset-reference-card">
+              <div class="asset-reference-media asset-reference-media--logo">
+                <img src="assets/brand-reference.svg" alt="Official Volvo wordmark reference" loading="lazy" decoding="async" data-asset-role="brand-reference" data-reuse="forbidden" data-asset-purpose="preview-reference-only" data-asset-origin="official-public-site-asset" data-source-url="https://www.volvocars.com/static/shared/images/volvo-spread-wordmark.svg" data-capture-date="2026-07-11">
+              </div>
+              <div class="asset-reference-copy"><strong>Volvo spread wordmark</strong><p>글로벌 내비게이션에 렌더링된 공식 SVG를 헤더 비율과 브랜드 식별 검증에만 사용합니다.</p></div>
+            </article>
+            <article class="asset-reference-card">
+              <div class="asset-reference-media asset-reference-media--hero">
+                <img src="assets/hero-reference.avif" alt="A family walks toward a Volvo EX60 parked outside a modern house, with one child carrying a skateboard." loading="lazy" decoding="async" data-asset-role="evidence-only" data-reuse="forbidden" data-asset-purpose="preview-reference-only" data-asset-origin="official-public-site-responsive-image" data-source-url="https://www.volvocars.com/images/cs/v3/assets/blt618dcb179a89242d/blt22fbf6cc9c706285/696e04a219cfc945791fa686/EX60-HomepageHero-lg-21-9.jpg?branch=prod_alias&amp;quality=85&amp;format=auto&amp;iar=0&amp;w=1920" data-capture-date="2026-07-11">
+              </div>
+              <div class="asset-reference-copy"><strong>Global homepage hero · 21:9</strong><p>2026-07-11 글로벌 홈에서 실제 렌더링된 1920px 반응형 히어로입니다. crop·오버레이·콘텐츠 정렬 검증에만 사용합니다.</p></div>
+            </article>
+          </div>
+          <p class="asset-reference-disclaimer"><strong>Not a reusable design asset.</strong> 두 파일은 원본 재구성도 검증을 위한 보호 참고 자료입니다. 소유권은 각 권리자에게 있으며 제품·마케팅 산출물에 재사용할 수 없습니다. No affiliation implied.</p>
           <div class="evidence-row" style="margin-top:1rem">
             <span class="badge badge-observed" data-evidence="observed">observed</span>
             <span>홈·XC60·안전·액세서리·지속가능성에서 반복된 패턴</span>
@@ -455,20 +484,21 @@
         <div class="section-inner">
           <div class="section-head">
             <div><p class="section-kicker">02 / Composition proof</p><h2 class="section-title">Reconstruction</h2></div>
-            <p class="section-intro">공식 로고·차량 사진·실루엣을 복제하지 않고, 관찰된 crop·조명·재질·색상 밴드만 사용해 컴포넌트가 실제 문맥에서 어떻게 조합되는지 보여줍니다.</p>
+            <p class="section-intro">공식 글로벌 홈의 워드마크와 메인 히어로를 재사용 금지 참고 자산으로 제한 적용해 헤더 비율, crop, 오버레이와 CTA 배치를 더 정확히 재구성했습니다. 나머지 표면은 관찰 기반 CSS 대체물입니다.</p>
           </div>
           <div class="reconstruction-stack">
             <article class="sample" data-component-tags="navigation, hero, primary-button, outline-button, media-container">
               <div class="sample-meta"><span>Sample A · Editorial hero</span><span class="component-tags">navigation · hero · buttons · media-container</span><span class="badge badge-observed">observed</span></div>
-              <div class="recon-nav"><span class="wordmark-standin">Global product study</span><div class="recon-nav-list"><span>Products</span><span>Technology</span><span>Safety</span><span>Stories</span></div><span>Menu</span></div>
-              <div class="recon-hero" data-surface-surrogate="natural-light landscape crop and dark material band" data-surrogate-type="css-surface">
+              <div class="recon-nav"><img class="recon-logo" src="assets/brand-reference.svg" alt="Volvo" loading="lazy" decoding="async" data-asset-role="brand-reference" data-reuse="forbidden" data-asset-purpose="preview-reference-only" data-asset-origin="official-public-site-asset" data-source-url="https://www.volvocars.com/static/shared/images/volvo-spread-wordmark.svg" data-capture-date="2026-07-11"><div class="recon-nav-list"><span>Products</span><span>Technology</span><span>Safety</span><span>Stories</span></div><span>Menu</span></div>
+              <div class="recon-hero">
+                <img class="recon-hero-bg" src="assets/hero-reference.avif" alt="A family walks toward a Volvo EX60 parked outside a modern house, with one child carrying a skateboard." loading="lazy" decoding="async" data-asset-role="evidence-only" data-reuse="forbidden" data-asset-purpose="preview-reference-only" data-asset-origin="official-public-site-responsive-image" data-source-url="https://www.volvocars.com/images/cs/v3/assets/blt618dcb179a89242d/blt22fbf6cc9c706285/696e04a219cfc945791fa686/EX60-HomepageHero-lg-21-9.jpg?branch=prod_alias&amp;quality=85&amp;format=auto&amp;iar=0&amp;w=1920" data-capture-date="2026-07-11">
                 <div class="recon-hero-copy">
                   <p class="eyebrow">Reconstruction sample</p>
                   <h3>Quiet confidence, built around people.</h3>
                   <p>큰 이미지 문맥, 일반 weight 제목, 짧은 설명과 두 단계 CTA를 조합한 관찰 기반 히어로입니다.</p>
                   <div class="recon-actions"><a class="button button-light" href="#components">Explore system</a><a class="button button-outline-light" href="#tokens">View tokens</a></div>
                 </div>
-                <span class="surrogate-note">Synthetic CSS surface · not an original brand asset</span>
+                <span class="surrogate-note">Protected evidence image · preview reference only · reuse forbidden</span>
               </div>
             </article>
 
@@ -547,7 +577,7 @@
         <div class="section-inner">
           <div class="section-head"><div><p class="section-kicker">04 / Reusable UI</p><h2 class="section-title">Components</h2></div><p class="section-intro">반복 사용이 확인된 핵심 컴포넌트만 격리해 보여줍니다. 폼 필드는 공개 표본이 부족해 제외했습니다.</p></div>
           <div class="component-grid">
-            <article class="component-card"><div class="evidence-row"><span class="badge badge-observed">observed</span></div><h3>Navigation</h3><div class="component-stage"><div class="mini-nav"><span class="wordmark-standin">System study</span><div class="mini-nav-links"><span>Products</span><span>Safety</span><span>Stories</span></div><span>Menu</span></div></div></article>
+            <article class="component-card"><div class="evidence-row"><span class="badge badge-observed">observed</span></div><h3>Navigation</h3><div class="component-stage"><div class="mini-nav"><img class="recon-logo" src="assets/brand-reference.svg" alt="Volvo" loading="lazy" decoding="async" data-asset-role="brand-reference" data-reuse="forbidden" data-asset-purpose="preview-reference-only" data-asset-origin="official-public-site-asset" data-source-url="https://www.volvocars.com/static/shared/images/volvo-spread-wordmark.svg" data-capture-date="2026-07-11"><div class="mini-nav-links"><span>Products</span><span>Safety</span><span>Stories</span></div><span>Menu</span></div></div></article>
             <article class="component-card"><div class="evidence-row"><span class="badge badge-observed">observed</span></div><h3>Buttons</h3><div class="component-stage"><div class="button-row"><button class="button button-dark">Primary</button><button class="button button-blue">Accent</button><button class="button button-outline-dark">Outline</button><button class="button button-dark button-compact">Compact</button></div></div></article>
             <article class="component-card"><div class="evidence-row"><span class="badge badge-observed">observed</span></div><h3>Tab rail</h3><div class="component-stage"><div class="tab-rail" role="tablist" aria-label="Product sections"><a class="tab" aria-selected="true" href="#components">Overview</a><a class="tab" aria-selected="false" href="#components">Interior</a><a class="tab" aria-selected="false" href="#components">Specifications</a><a class="tab" aria-selected="false" href="#components">Features</a></div></div></article>
             <article class="component-card"><div class="evidence-row"><span class="badge badge-observed">observed</span></div><h3>Specification list</h3><div class="component-stage"><div class="spec-list"><div class="spec-row"><span class="spec-label">Range</span><strong class="spec-value">Measured value</strong></div><div class="spec-row"><span class="spec-label">Power</span><strong class="spec-value">Measured value</strong></div><div class="spec-row"><span class="spec-label">Efficiency</span><strong class="spec-value">Measured value</strong></div><div class="spec-row"><span class="spec-label">Acceleration</span><strong class="spec-value">Measured value</strong></div></div></div></article>
@@ -612,16 +642,16 @@
         <div class="section-inner">
           <div class="section-head"><div><p class="section-kicker">08 / Evidence boundaries</p><h2 class="section-title">Limitations</h2></div><p class="section-intro">근거가 약한 부분을 숨기지 않습니다. 이 목록은 새 UI에서 별도 설계·검증이 필요한 영역입니다.</p></div>
           <ul class="limitations-list">
-            <li><strong>No source screenshots</strong>모바일 캡처 기능이 응답하지 않아 rendered DOM과 computed style만 보존했습니다.</li>
+            <li><strong>No full-page source screenshots</strong>전체 페이지 캡처는 보존하지 않았지만 글로벌 홈의 공식 워드마크와 렌더링된 메인 히어로 원본은 보호 참고 자산으로 포함했습니다.</li>
             <li><strong>No comparison controls</strong>비교 도구가 시간 초과돼 선택기·필터·비교 표 상태는 미확인입니다.</li>
             <li><strong>No representative forms</strong>성공한 공개 페이지에서 input/select/validation 표본이 렌더링되지 않았습니다.</li>
             <li><strong>Limited interaction deltas</strong>전역 메뉴 열림과 FAQ 펼침은 실행 제한으로 확인하지 못했습니다.</li>
             <li><strong>No independent dark mode</strong>검정 미디어 밴드는 문맥 표면이며 별도 테마로 일반화하지 않았습니다.</li>
-            <li><strong>No proprietary assets</strong>공식 로고·사진·영상·제품 실루엣을 복사하거나 재현하지 않았습니다.</li>
+            <li><strong>Protected references only</strong>포함된 공식 워드마크와 히어로는 프리뷰 재구성도 검증 전용이며 재사용 가능한 디자인 자산이 아닙니다. 다른 사진·영상·제품 아트워크는 포함하지 않았습니다.</li>
             <li><strong>Desktop width constraint</strong>요청한 1440px 대신 실제 1280px 브라우저 렌더링을 기준으로 사용했습니다.</li>
             <li><strong>Preview-specific breakpoint</strong>이 파일의 CSS breakpoint는 카탈로그 가독성용이며 원본 사이트 토큰이 아닙니다.</li>
           </ul>
-          <p class="legal-note"><strong>Not a reusable brand asset.</strong> 이 프리뷰는 공개 시각 시스템의 연구·재구성 자료이며 Volvo Cars와의 제휴를 의미하지 않습니다. 상표와 원본 콘텐츠의 권리는 각 권리자에게 있습니다. No affiliation implied.</p>
+          <p class="legal-note"><strong>Not a reusable design asset.</strong> 이 프리뷰는 공개 시각 시스템의 연구·재구성 자료이며 Volvo Cars와의 제휴를 의미하지 않습니다. 포함된 워드마크와 히어로를 비롯한 상표·원본 콘텐츠의 권리는 각 권리자에게 있습니다. No affiliation implied.</p>
         </div>
       </section>
     </main>

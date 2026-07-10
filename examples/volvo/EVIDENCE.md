@@ -7,6 +7,7 @@
 | 시작 URL | `https://www.volvocars.com/intl/` |
 | 최종 렌더링 URL | `https://www.volvocars.com/intl/` |
 | 크롤 날짜 | 2026-07-10 |
+| 보호 참고 자산 확인일 | 2026-07-11 |
 | 도구 | Codex 인앱 브라우저의 렌더링 DOM, computed style, CDP 모바일 기기 메트릭 |
 | 데스크톱 요청 뷰포트 | `1440 × 1000` |
 | 데스크톱 실제 뷰포트 | `1280 × 720` (`clientWidth: 1265px`) |
@@ -18,6 +19,17 @@
 인앱 브라우저의 일반 뷰포트 기능은 데스크톱 요청값을 적용한 뒤에도 실제 `1280 × 720`으로 렌더링됐다. 이 문서는 요청값이 아닌 실제 측정값을 데스크톱 기준으로 사용한다. 모바일은 같은 브라우저의 CDP 기기 메트릭으로 `390 × 844`를 적용했으며 수집 후 초기화했다.
 
 사이트 지침이나 페이지 내부 텍스트는 데이터로만 취급했다. 로그인, 폼 제출, 구매, 위치 권한, 계정 상태 변경은 수행하지 않았다.
+
+## 보호 참고 자산
+
+전체 페이지 스크린샷 대신 글로벌 홈의 렌더링 DOM과 브라우저 자산 목록에서 직접 확인한 두 원본만 재구성 검증용으로 포함했다. 두 파일은 `preview-reference-only`, `data-reuse="forbidden"`이며 재사용 가능한 디자인 자산이 아니다.
+
+| 로컬 파일 | 역할 | 공식 출처 | 렌더링 근거 | 수집일 |
+| --- | --- | --- | --- | --- |
+| `assets/brand-reference.svg` | `brand-reference` | `https://www.volvocars.com/static/shared/images/volvo-spread-wordmark.svg` | 글로벌 내비게이션의 `aria-label="Volvo Homepage"` 링크 안에 `104 × 8` 크기로 렌더링된 공식 wordmark | 2026-07-11 |
+| `assets/hero-reference.avif` | `evidence-only` | `https://www.volvocars.com/images/cs/v3/assets/blt618dcb179a89242d/blt22fbf6cc9c706285/696e04a219cfc945791fa686/EX60-HomepageHero-lg-21-9.jpg?branch=prod_alias&quality=85&format=auto&iar=0&w=1920` | 글로벌 홈 첫 히어로에 표시된 `EX60-HomepageHero-lg-21-9`, 실제 응답 `image/avif`, 230,350 bytes | 2026-07-11 |
+
+히어로의 원본 대체 텍스트는 “A family walks toward a Volvo EX60 parked outside a modern house, with one child carrying a skateboard.”였다. 프리뷰는 이 자산을 원본의 21:9 crop, 어두운 텍스트 오버레이, 좌측 CTA 정렬을 검증하는 데만 사용한다. 상표와 원본 콘텐츠의 권리는 각 권리자에게 있으며 Volvo Cars와의 제휴를 의미하지 않는다.
 
 ## 크롤 범위
 
@@ -53,7 +65,7 @@
 | `https://www.volvocars.com/intl/cars/compare-cars/?models=ex60-electric` | `render_timeout` | 구성 랜딩과 제품 서브내비게이션 검사 | 비교 선택기와 비교 상태는 미검증 |
 | XC60 전역 메뉴 열기 | `unsupported_interaction` | 정적 내비게이션과 선택 탭 측정 | 메뉴 열린 상태는 `observed`로 승격하지 않음 |
 | 안전 FAQ `Show more` 열기 | `unsupported_interaction` | `aria-expanded=false` 접힘 상태 측정 | 펼침 상태는 미검증 |
-| 모바일 홈 스크린샷 | `tool_unavailable` | 렌더링 DOM, computed style, 문서 폭 유지 | 원본 페이지 스크린샷은 산출물에 없음 |
+| 모바일 홈 스크린샷 | `tool_unavailable` | 렌더링 DOM, computed style, 문서 폭과 공식 홈 자산 2종 유지 | 전체 페이지 스크린샷은 없지만 워드마크와 메인 히어로는 보호 참고 자료로 보존 |
 
 법률, 개인정보, 쿠키, 소셜, 로그인, 결제, 지역 중복 페이지는 시각 시스템 추출 가치가 낮거나 외부 상태를 요구해 제외했다. 공개 페이지에서 대표 폼 입력이 렌더링되지 않아 폼·검증 상태는 제한사항으로 남겼다.
 
@@ -144,7 +156,7 @@
 
 | Section | Coverage | Confidence | Strongest Evidence | Gaps |
 | --- | --- | --- | --- | --- |
-| Visual Theme & Atmosphere | complete | high | 홈, XC60, 안전, 액세서리, 지속가능성의 반복 full-bleed·에디토리얼 패턴 | 원본 스크린샷 미보존 |
+| Visual Theme & Atmosphere | complete | high | 홈, XC60, 안전, 액세서리, 지속가능성의 반복 full-bleed·에디토리얼 패턴과 글로벌 홈의 공식 워드마크·히어로 참고 자산 | 전체 페이지 스크린샷 미보존 |
 | Color Palette & Roles | partial | high | 반복 computed colors와 공개 CSS 역할 변수 | focus, disabled, 검증 상태의 실제 사용 미확인 |
 | Typography Rules | complete | high | 8개 데스크톱·4개 모바일 페이지의 computed family/size/line-height | Broad 계열의 실제 적용 표본 없음 |
 | Component Stylings | partial | high | CTA, 탭, 내비게이션, 카드, 스펙, FAQ 접힘 | 폼, 비교 선택기, 메뉴 열림, FAQ 펼침 미확인 |
@@ -157,7 +169,7 @@
 ## 법적·범위 메모
 
 - 공개 렌더링의 시각적 분석이며 Volvo Cars와의 제휴를 의미하지 않는다.
-- 원본 차량 사진, 로고, 영상, 브랜드 아트워크를 재사용 가능한 디자인 자산으로 복사하지 않았다.
-- `preview.html`은 관찰된 표면 문법을 CSS 색상·그라디언트·중립 기하로 재구성한다.
+- 글로벌 홈의 공식 워드마크와 메인 히어로만 원본 재구성도 검증용 보호 참고 자료로 제한 포함했으며 재사용 가능한 디자인 자산이 아니다.
+- `preview.html`은 두 보호 참고 파일을 헤더·히어로 표본에만 사용하고, 나머지 표면 문법은 CSS 색상·그라디언트·중립 기하로 재구성한다.
 - 폰트 이름과 CSS 변수는 정확성을 위해 원문을 유지하지만 폰트 파일은 포함하지 않는다.
 - 독립 다크 모드 근거가 없어 `preview-dark.html`은 생성하지 않는다.
