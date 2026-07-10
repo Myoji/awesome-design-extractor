@@ -1,0 +1,224 @@
+{
+  "generatedAt": "2026-07-09",
+  "tool": "Playwright Chromium",
+  "source": "preview.html",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "requestedWidth": 1440,
+      "requestedHeight": 1000,
+      "title": "Mercedes-Benz Korea Extracted Design Preview",
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "scrollHeight": 7327,
+      "overflow": false,
+      "missingSections": [],
+      "missingBadges": [],
+      "imageFailures": [],
+      "hasCatalogShell": true,
+      "badges": [
+        "observed",
+        "inferred",
+        "uncertain"
+      ],
+      "surfaceSurrogates": 5,
+      "protectedImages": [
+        {
+          "src": "assets/brand-reference.svg",
+          "role": "brand-reference",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://assets.oneweb.mercedes-benz.com/plugin/hp-assets/latest/images/brands/mercedes-benz/wordmark.svg"
+        },
+        {
+          "src": "assets/brand-reference.svg",
+          "role": "brand-reference",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://assets.oneweb.mercedes-benz.com/plugin/hp-assets/latest/images/brands/mercedes-benz/wordmark.svg"
+        },
+        {
+          "src": "assets/hero-reference.png",
+          "role": "evidence-only",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://www.mercedes-benz.co.kr/passengercars.html"
+        },
+        {
+          "src": "assets/hero-reference.png",
+          "role": "evidence-only",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://www.mercedes-benz.co.kr/passengercars.html"
+        }
+      ],
+      "offenders": [],
+      "passed": true
+    },
+    {
+      "viewport": "mobile",
+      "requestedWidth": 390,
+      "requestedHeight": 1200,
+      "title": "Mercedes-Benz Korea Extracted Design Preview",
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "scrollHeight": 13622,
+      "overflow": false,
+      "missingSections": [],
+      "missingBadges": [],
+      "imageFailures": [],
+      "hasCatalogShell": true,
+      "badges": [
+        "observed",
+        "inferred",
+        "uncertain"
+      ],
+      "surfaceSurrogates": 5,
+      "protectedImages": [
+        {
+          "src": "assets/brand-reference.svg",
+          "role": "brand-reference",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://assets.oneweb.mercedes-benz.com/plugin/hp-assets/latest/images/brands/mercedes-benz/wordmark.svg"
+        },
+        {
+          "src": "assets/brand-reference.svg",
+          "role": "brand-reference",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://assets.oneweb.mercedes-benz.com/plugin/hp-assets/latest/images/brands/mercedes-benz/wordmark.svg"
+        },
+        {
+          "src": "assets/hero-reference.png",
+          "role": "evidence-only",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://www.mercedes-benz.co.kr/passengercars.html"
+        },
+        {
+          "src": "assets/hero-reference.png",
+          "role": "evidence-only",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://www.mercedes-benz.co.kr/passengercars.html"
+        }
+      ],
+      "offenders": [
+        {
+          "tag": "nav",
+          "id": "",
+          "className": "section-nav",
+          "scrollWidth": 761,
+          "clientWidth": 390
+        },
+        {
+          "tag": "div",
+          "id": "",
+          "className": "tab-strip",
+          "scrollWidth": 420,
+          "clientWidth": 314
+        },
+        {
+          "tag": "div",
+          "id": "",
+          "className": "tab-strip",
+          "scrollWidth": 280,
+          "clientWidth": 270
+        },
+        {
+          "tag": "div",
+          "id": "",
+          "className": "tab-strip",
+          "scrollWidth": 280,
+          "clientWidth": 270
+        }
+      ],
+      "passed": true
+    },
+    {
+      "viewport": "narrow-mobile",
+      "requestedWidth": 360,
+      "requestedHeight": 1200,
+      "title": "Mercedes-Benz Korea Extracted Design Preview",
+      "innerWidth": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "scrollHeight": 13840,
+      "overflow": false,
+      "missingSections": [],
+      "missingBadges": [],
+      "imageFailures": [],
+      "hasCatalogShell": true,
+      "badges": [
+        "observed",
+        "inferred",
+        "uncertain"
+      ],
+      "surfaceSurrogates": 5,
+      "protectedImages": [
+        {
+          "src": "assets/brand-reference.svg",
+          "role": "brand-reference",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://assets.oneweb.mercedes-benz.com/plugin/hp-assets/latest/images/brands/mercedes-benz/wordmark.svg"
+        },
+        {
+          "src": "assets/brand-reference.svg",
+          "role": "brand-reference",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://assets.oneweb.mercedes-benz.com/plugin/hp-assets/latest/images/brands/mercedes-benz/wordmark.svg"
+        },
+        {
+          "src": "assets/hero-reference.png",
+          "role": "evidence-only",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://www.mercedes-benz.co.kr/passengercars.html"
+        },
+        {
+          "src": "assets/hero-reference.png",
+          "role": "evidence-only",
+          "reuse": "forbidden",
+          "purpose": "preview-reference-only",
+          "source": "https://www.mercedes-benz.co.kr/passengercars.html"
+        }
+      ],
+      "offenders": [
+        {
+          "tag": "nav",
+          "id": "",
+          "className": "section-nav",
+          "scrollWidth": 761,
+          "clientWidth": 360
+        },
+        {
+          "tag": "div",
+          "id": "",
+          "className": "tab-strip",
+          "scrollWidth": 420,
+          "clientWidth": 284
+        },
+        {
+          "tag": "div",
+          "id": "",
+          "className": "tab-strip",
+          "scrollWidth": 280,
+          "clientWidth": 240
+        },
+        {
+          "tag": "div",
+          "id": "",
+          "className": "tab-strip",
+          "scrollWidth": 280,
+          "clientWidth": 240
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

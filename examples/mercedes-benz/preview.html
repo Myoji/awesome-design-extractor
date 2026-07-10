@@ -1,0 +1,1070 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mercedes-Benz Korea Extracted Design Preview</title>
+  <style>
+    :root {
+      --mb-black: #000000;
+      --mb-ink: #333333;
+      --mb-white: #ffffff;
+      --mb-soft: #f8f8f8;
+      --mb-line: #e8e8e8;
+      --mb-border: #bbbbbb;
+      --mb-muted: #696969;
+      --mb-faint: #9f9f9f;
+      --mb-blue: #0078d6;
+      --mb-blue-active: #006abc;
+      --mb-shadow: rgba(0, 0, 0, .1);
+      --rail: min(1238px, calc(100vw - 56px));
+      color-scheme: light;
+      font-family: "MBCorpo Text", DaimlerCS-Regular, DaimlerCSArab-Regular, Arial, sans-serif;
+      background: var(--mb-white);
+      color: var(--mb-ink);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-width: 0;
+      background: var(--mb-white);
+      color: var(--mb-ink);
+      font: 400 16px/1.5 "MBCorpo Text", DaimlerCS-Regular, DaimlerCSArab-Regular, Arial, sans-serif;
+    }
+
+    a { color: inherit; }
+    img { display: block; max-width: 100%; }
+    code { color: var(--mb-muted); }
+    h1, h2, h3, p { margin-top: 0; }
+    h1, h2 {
+      font-family: "MBCorpo Title", DaimlerCAC-Regular, DaimlerCACArab-Regular, Georgia, serif;
+      font-weight: 400;
+      letter-spacing: 0;
+    }
+    h1 {
+      max-width: 820px;
+      margin-bottom: 18px;
+      color: var(--mb-white);
+      font-size: 52px;
+      line-height: 1.13;
+    }
+    h2 {
+      margin-bottom: 24px;
+      font-size: 42px;
+      line-height: 1.18;
+    }
+    h3 {
+      margin-bottom: 12px;
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 700;
+    }
+    p { margin-bottom: 16px; }
+
+    [data-catalog-shell] {
+      min-height: 100vh;
+      overflow-x: clip;
+    }
+    .rail {
+      width: var(--rail);
+      margin-inline: auto;
+      min-width: 0;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: var(--mb-black);
+      color: var(--mb-white);
+      border-bottom: 1px solid rgba(255, 255, 255, .14);
+    }
+    .header-inner {
+      height: 76px;
+      display: grid;
+      grid-template-columns: minmax(260px, 1fr) auto minmax(260px, 1fr);
+      align-items: center;
+      gap: 24px;
+    }
+    .nav-links,
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      min-width: 0;
+      font-size: 14px;
+      line-height: 20px;
+      white-space: nowrap;
+    }
+    .header-actions { justify-content: end; color: rgba(255,255,255,.86); }
+    .mark-shell {
+      display: grid;
+      place-items: center;
+      width: 150px;
+      min-height: 38px;
+      padding: 10px 18px;
+      background: var(--mb-white);
+      border-radius: 2px;
+    }
+    .mark-shell img { width: 96px; height: auto; }
+
+    .section-nav {
+      position: sticky;
+      top: 76px;
+      z-index: 18;
+      background: rgba(255,255,255,.96);
+      border-bottom: 1px solid var(--mb-line);
+      overflow-x: auto;
+    }
+    .section-nav .rail {
+      display: flex;
+      gap: 8px;
+      min-width: max-content;
+      padding: 10px 0;
+    }
+    .section-nav a {
+      flex: 0 0 auto;
+      padding: 8px 12px;
+      border: 1px solid var(--mb-line);
+      border-radius: 2px;
+      color: var(--mb-muted);
+      font-size: 14px;
+      text-decoration: none;
+      background: var(--mb-white);
+    }
+
+    .masthead {
+      background: var(--mb-black);
+      color: var(--mb-white);
+    }
+    .masthead-grid {
+      min-height: 500px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(320px, 440px);
+      align-items: center;
+      gap: 56px;
+      padding: 74px 0 56px;
+    }
+    .lede {
+      max-width: 780px;
+      color: var(--mb-muted);
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .masthead .lede { color: rgba(255,255,255,.78); }
+    .meta-grid,
+    .token-grid,
+    .component-grid,
+    .layout-grid,
+    .card-grid {
+      display: grid;
+      gap: 24px;
+      min-width: 0;
+    }
+    .meta-grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      margin-top: 34px;
+    }
+    .meta-item {
+      min-width: 0;
+      padding: 18px;
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.16);
+      border-radius: 2px;
+    }
+    .meta-item strong {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--mb-white);
+      font-size: 14px;
+    }
+    .meta-item span,
+    .meta-item a {
+      color: rgba(255,255,255,.72);
+      font-size: 14px;
+      overflow-wrap: anywhere;
+    }
+
+    .brand-reference-card {
+      min-width: 0;
+      background: var(--mb-white);
+      color: var(--mb-ink);
+      border-radius: 2px;
+      overflow: hidden;
+      box-shadow: 0 16px 24px rgba(0,0,0,.24);
+    }
+    .brand-reference-card .pad { padding: 30px; }
+    .brand-reference-card img {
+      width: 220px;
+      height: auto;
+      margin-bottom: 22px;
+    }
+    .asset-note {
+      margin: 0;
+      color: var(--mb-muted);
+      font-size: 13px;
+      line-height: 19px;
+    }
+
+    section {
+      padding: 74px 0;
+      border-bottom: 1px solid var(--mb-line);
+    }
+    .section-intro {
+      max-width: 860px;
+      margin-bottom: 30px;
+    }
+    .badge {
+      display: inline-flex;
+      width: fit-content;
+      align-items: center;
+      padding: 4px 9px;
+      border: 1px solid var(--mb-line);
+      border-radius: 2px;
+      color: var(--mb-muted);
+      background: var(--mb-white);
+      font-size: 12px;
+      line-height: 16px;
+      text-transform: lowercase;
+    }
+    [data-evidence="observed"] { border-color: var(--mb-ink); color: var(--mb-ink); }
+    [data-evidence="inferred"] { border-color: var(--mb-blue); color: var(--mb-blue-active); }
+    [data-evidence="uncertain"] { border-color: var(--mb-border); color: var(--mb-muted); }
+
+    .sample {
+      min-width: 0;
+      overflow: hidden;
+      border: 1px solid var(--mb-line);
+      border-radius: 2px;
+      background: var(--mb-white);
+      box-shadow: 0 2px 4px var(--mb-shadow);
+    }
+    .sample-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: start;
+      padding: 18px 20px;
+      border-bottom: 1px solid var(--mb-line);
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: end;
+      gap: 8px;
+    }
+    .tag {
+      padding: 5px 8px;
+      background: var(--mb-soft);
+      border: 1px solid var(--mb-line);
+      color: var(--mb-muted);
+      font-size: 12px;
+      line-height: 16px;
+    }
+
+    .button-row,
+    .chip-row,
+    .state-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 56px;
+      min-width: 148px;
+      padding: 14px 24px;
+      border: 1px solid var(--mb-border);
+      border-radius: 2px;
+      background: var(--mb-white);
+      color: var(--mb-ink);
+      font-weight: 700;
+      line-height: 24px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .btn.primary {
+      background: var(--mb-blue);
+      border-color: var(--mb-blue);
+      color: var(--mb-white);
+    }
+    .btn.primary:hover { background: var(--mb-blue-active); }
+    .btn.dark {
+      background: var(--mb-black);
+      border-color: var(--mb-border);
+      color: var(--mb-white);
+    }
+    .btn.disabled {
+      color: var(--mb-faint);
+      pointer-events: none;
+      background: var(--mb-soft);
+    }
+    .focus-sample {
+      outline: 3px solid rgba(0,120,214,.35);
+      outline-offset: 3px;
+    }
+
+    .hero-recon {
+      position: relative;
+      min-height: 560px;
+      display: grid;
+      align-items: start;
+      overflow: hidden;
+      background: var(--mb-black);
+      color: var(--mb-white);
+    }
+    .hero-recon img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .hero-recon::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(0,0,0,.82), rgba(0,0,0,.46) 38%, rgba(0,0,0,.08) 72%),
+        linear-gradient(0deg, rgba(0,0,0,.3), transparent 42%);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      justify-self: end;
+      max-width: 390px;
+      margin: 56px;
+      padding: 24px;
+      background: rgba(0,0,0,.78);
+      border: 1px solid rgba(255,255,255,.18);
+    }
+    .hero-content h2 {
+      color: var(--mb-white);
+      font-size: 32px;
+      line-height: 40px;
+    }
+    .hero-content .lede { color: rgba(255,255,255,.84); }
+    .eyebrow {
+      margin-bottom: 12px;
+      color: var(--mb-muted);
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .hero-content .eyebrow { color: rgba(255,255,255,.72); }
+
+    .tab-strip {
+      display: flex;
+      width: fit-content;
+      max-width: 100%;
+      margin: -28px auto 34px;
+      position: relative;
+      z-index: 2;
+      border: 1px solid var(--mb-border);
+      background: var(--mb-white);
+      box-shadow: 0 5px 10px rgba(0,0,0,.4);
+    }
+    .tab-strip span {
+      min-width: 170px;
+      padding: 16px 28px;
+      text-align: center;
+      border-right: 1px solid var(--mb-line);
+      font-size: 14px;
+    }
+    .tab-strip span:last-child { border-right: 0; }
+    .tab-strip .active {
+      background: var(--mb-black);
+      color: var(--mb-white);
+    }
+
+    .surface-disclosure {
+      padding: 16px 20px;
+      background: var(--mb-soft);
+      border-top: 1px solid var(--mb-line);
+      color: var(--mb-muted);
+      font-size: 14px;
+    }
+
+    .model-board {
+      padding: 30px;
+      background: var(--mb-white);
+      display: grid;
+      grid-template-columns: 280px minmax(0, 1fr);
+      gap: 28px;
+    }
+    .filter-panel {
+      min-width: 0;
+      padding: 18px;
+      border: 1px solid var(--mb-line);
+      background: var(--mb-white);
+    }
+    .filter-panel h4,
+    .mini-card h4 {
+      margin: 0 0 14px;
+      font-size: 16px;
+    }
+    .check-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--mb-line);
+      color: var(--mb-muted);
+      font-size: 14px;
+    }
+    .card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    #reconstruction .rail > .card-grid { grid-template-columns: 1fr; }
+    .mini-card {
+      min-width: 0;
+      padding: 16px;
+      background: var(--mb-soft);
+      border: 1px solid var(--mb-line);
+      border-radius: 6px;
+    }
+    .synthetic-plane {
+      height: 122px;
+      margin-bottom: 16px;
+      background:
+        radial-gradient(circle at 70% 62%, rgba(0,0,0,.28), transparent 26%),
+        linear-gradient(135deg, #fdfdfd 0%, #ececec 44%, #d9d9d9 100%);
+      border-radius: 4px;
+      border: 1px solid #dedede;
+    }
+    .mini-card p {
+      margin: 0 0 12px;
+      color: var(--mb-muted);
+      font-size: 13px;
+      line-height: 18px;
+    }
+    .mini-card a {
+      color: var(--mb-blue);
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .commerce-recon {
+      padding: 30px;
+      background: var(--mb-soft);
+    }
+    .commerce-row {
+      display: grid;
+      grid-template-columns: 1.3fr .9fr .9fr;
+      gap: 24px;
+    }
+    .promo-panel,
+    .service-panel {
+      min-width: 0;
+      padding: 22px;
+      min-height: 220px;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.08), rgba(0,0,0,.82)),
+        linear-gradient(135deg, #cfd5d9, #707b82 48%, #101010);
+      color: var(--mb-white);
+    }
+    .service-panel {
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.28), rgba(255,255,255,.9)),
+        linear-gradient(135deg, #dfe9ef, #86a2b4 52%, #ffffff);
+      color: var(--mb-ink);
+    }
+
+    .drawer-recon {
+      display: grid;
+      grid-template-columns: 330px minmax(0, 1fr);
+      min-height: 360px;
+      background: var(--mb-black);
+      color: var(--mb-white);
+    }
+    .drawer {
+      padding: 24px;
+      border-right: 1px solid rgba(255,255,255,.12);
+      background: #111111;
+    }
+    .drawer a {
+      display: flex;
+      justify-content: space-between;
+      padding: 16px 0;
+      border-bottom: 1px solid rgba(255,255,255,.12);
+      color: rgba(255,255,255,.86);
+      text-decoration: none;
+    }
+    .drawer-stage {
+      min-width: 0;
+      padding: 30px;
+      display: grid;
+      align-content: end;
+      background:
+        radial-gradient(circle at 65% 40%, rgba(255,255,255,.16), transparent 22rem),
+        linear-gradient(135deg, #080808, #2b2b2b);
+    }
+    .drawer-stage .surface-plate {
+      min-height: 190px;
+      border: 1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.08);
+    }
+
+    .protected {
+      display: grid;
+      grid-template-columns: 240px minmax(0, 1fr);
+      gap: 20px;
+      align-items: center;
+      margin-top: 28px;
+      padding: 20px;
+      border: 1px solid var(--mb-line);
+      background: var(--mb-soft);
+    }
+    .protected .thumb {
+      overflow: hidden;
+      border: 1px solid var(--mb-line);
+      background: var(--mb-white);
+    }
+    .protected img {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+    }
+    .protected p {
+      margin: 0;
+      color: var(--mb-muted);
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    .token-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .swatch {
+      min-width: 0;
+      overflow: hidden;
+      border: 1px solid var(--mb-line);
+      background: var(--mb-white);
+    }
+    .color {
+      height: 92px;
+      border-bottom: 1px solid var(--mb-line);
+    }
+    .copy { padding: 14px; }
+    .copy strong,
+    .copy code {
+      display: block;
+      overflow-wrap: anywhere;
+    }
+
+    .type-scale {
+      margin-top: 24px;
+      border: 1px solid var(--mb-line);
+    }
+    .type-row {
+      display: grid;
+      grid-template-columns: 190px minmax(0, 1fr);
+      gap: 20px;
+      align-items: baseline;
+      padding: 18px;
+      border-bottom: 1px solid var(--mb-line);
+    }
+    .type-row span {
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+    .type-row:last-child { border-bottom: 0; }
+    .title-face {
+      font-family: "MBCorpo Title", DaimlerCAC-Regular, DaimlerCACArab-Regular, Georgia, serif;
+      font-weight: 400;
+    }
+
+    .component-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .component-panel,
+    .state-panel,
+    .layout-panel,
+    .limit-panel {
+      min-width: 0;
+      padding: 22px;
+      border: 1px solid var(--mb-line);
+      background: var(--mb-white);
+    }
+    .component-panel .badge,
+    .state-panel .badge,
+    .layout-panel .badge,
+    .limit-panel .badge {
+      margin-bottom: 14px;
+    }
+    .assistant-panel {
+      max-width: 300px;
+      padding: 18px;
+      background: var(--mb-white);
+      box-shadow: 0 16px 24px rgba(0,0,0,.12), 0 0 4px rgba(0,0,0,.1);
+      border: 1px solid var(--mb-line);
+    }
+    .assistant-panel .row {
+      padding: 10px 0;
+      border-bottom: 1px solid var(--mb-line);
+      color: var(--mb-muted);
+      font-size: 14px;
+    }
+    .assistant-panel .row:last-child { border-bottom: 0; }
+
+    .layout-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .rail-demo {
+      height: 96px;
+      background:
+        linear-gradient(90deg, var(--mb-line) 0 8%, transparent 8% 92%, var(--mb-line) 92% 100%),
+        linear-gradient(180deg, var(--mb-soft), #fff);
+      border: 1px solid var(--mb-line);
+    }
+    .surface-stage {
+      min-height: 110px;
+      background:
+        linear-gradient(90deg, #000 0 26%, #333 26% 52%, #f8f8f8 52% 78%, #fff 78% 100%);
+      border: 1px solid var(--mb-line);
+    }
+    .clean {
+      margin: 0;
+      padding-left: 20px;
+      color: var(--mb-muted);
+      line-height: 1.7;
+    }
+    .footer-recon {
+      padding: 18px;
+      background: var(--mb-black);
+      color: var(--mb-white);
+    }
+    .footer-links {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      margin-bottom: 16px;
+      font-size: 13px;
+    }
+    .footer-recon p {
+      margin: 0;
+      color: rgba(255,255,255,.62);
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    @media (max-width: 900px) {
+      :root { --rail: min(100vw - 48px, 720px); }
+      .header-inner {
+        grid-template-columns: auto 1fr auto;
+        height: 64px;
+      }
+      .nav-links span:not(:first-child),
+      .header-actions span:not(:last-child) { display: none; }
+      .nav-links,
+      .header-actions { gap: 12px; font-size: 13px; }
+      .mark-shell { width: 122px; min-height: 34px; padding: 9px 14px; }
+      .masthead-grid,
+      .model-board,
+      .drawer-recon,
+      .protected {
+        grid-template-columns: 1fr;
+      }
+      .meta-grid,
+      .token-grid,
+      .component-grid,
+      .layout-grid,
+      .card-grid,
+      .commerce-row {
+        grid-template-columns: 1fr;
+      }
+      .hero-recon { min-height: 620px; }
+      .hero-content {
+        justify-self: stretch;
+        margin: 24px;
+        padding: 22px;
+      }
+      .hero-content h2 { font-size: 30px; line-height: 38px; }
+      .tab-strip {
+        width: calc(100% - 24px);
+        overflow-x: auto;
+      }
+      .tab-strip span { min-width: 140px; padding: 14px 18px; }
+      .type-row { grid-template-columns: 1fr; gap: 8px; }
+      .footer-links { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 520px) {
+      :root { --rail: min(100vw - 48px, 390px); }
+      h1 { font-size: 36px; }
+      h2 { font-size: 30px; }
+      .masthead-grid { padding: 54px 0 42px; }
+      .section-nav { top: 64px; }
+      section { padding: 54px 0; }
+      .sample-head {
+        display: grid;
+        justify-content: stretch;
+      }
+      .tags { justify-content: start; }
+      .btn { width: 100%; }
+      .button-row,
+      .state-row { align-items: stretch; }
+      .brand-reference-card img { width: 180px; }
+      .type-row .title-face {
+        font-size: 30px !important;
+        line-height: 38px !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div data-catalog-shell>
+    <header class="site-header">
+      <div class="rail header-inner">
+        <nav class="nav-links" aria-label="Preview navigation">
+          <span>Models</span>
+          <span>Buy Online</span>
+          <span>Services</span>
+          <span>Brand</span>
+        </nav>
+        <div class="mark-shell">
+          <img
+            src="assets/brand-reference.svg"
+            data-asset-role="brand-reference"
+            data-reuse="forbidden"
+            data-asset-purpose="preview-reference-only"
+            data-asset-origin="official-wordmark-svg"
+            data-source-url="https://assets.oneweb.mercedes-benz.com/plugin/hp-assets/latest/images/brands/mercedes-benz/wordmark.svg"
+            data-capture-date="2026-07-09"
+            alt="Mercedes-Benz public wordmark reference for evidence only"
+            loading="lazy"
+            decoding="async">
+        </div>
+        <div class="header-actions">
+          <span>Contact</span>
+          <span>Favorite</span>
+          <span>Login</span>
+        </div>
+      </div>
+    </header>
+
+    <nav class="section-nav" aria-label="Catalog sections">
+      <div class="rail">
+        <a href="#overview">Overview</a>
+        <a href="#reconstruction">Reconstruction</a>
+        <a href="#tokens">Tokens</a>
+        <a href="#components">Components</a>
+        <a href="#states">States</a>
+        <a href="#layout">Layout</a>
+        <a href="#responsive">Responsive</a>
+        <a href="#limitations">Limitations</a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="masthead" id="overview">
+        <div class="rail masthead-grid">
+          <div>
+            <p class="eyebrow">Extracted catalog, public rendering only</p>
+            <h1>Mercedes-Benz Korea visual system</h1>
+            <p class="lede">공식 Mercedes-Benz Korea 사이트에서 관찰한 검정 헤더, 흰 편집형 본문, 밝은 제품 카드, 세리프 타이틀, 파란 CTA, 촘촘한 리테일 그리드 패턴을 정리한 프리뷰입니다.</p>
+            <div class="button-row">
+              <a class="btn primary" href="DESIGN.md">Open DESIGN.md</a>
+              <a class="btn dark" href="EVIDENCE.md">Open EVIDENCE.md</a>
+            </div>
+            <div class="meta-grid">
+              <div class="meta-item"><strong>Source</strong><a href="https://www.mercedes-benz.co.kr/passengercars.html">mercedes-benz.co.kr</a></div>
+              <div class="meta-item"><strong>Date</strong><span>2026-07-09</span></div>
+              <div class="meta-item"><strong>Viewport</strong><span>1440 desktop, 390 mobile</span></div>
+              <div class="meta-item"><strong>Scope</strong><span>No affiliation implied</span></div>
+            </div>
+          </div>
+          <aside class="brand-reference-card">
+            <div class="pad">
+              <img
+                src="assets/brand-reference.svg"
+                data-asset-role="brand-reference"
+                data-reuse="forbidden"
+                data-asset-purpose="preview-reference-only"
+                data-asset-origin="official-wordmark-svg"
+                data-source-url="https://assets.oneweb.mercedes-benz.com/plugin/hp-assets/latest/images/brands/mercedes-benz/wordmark.svg"
+                data-capture-date="2026-07-09"
+                alt="Mercedes-Benz wordmark evidence reference only"
+                loading="lazy"
+                decoding="async">
+              <p class="asset-note"><strong>Not a reusable design asset.</strong> Official wordmark reference is displayed only to identify the source system. No affiliation implied.</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="reconstruction">
+        <div class="rail">
+          <div class="section-intro">
+            <span class="badge" data-evidence="observed">observed</span>
+            <h2>Reconstruction Samples</h2>
+            <p class="lede">원본 이미지와 브랜드 자산은 보호된 증거로만 두고, 카드/그리드/오버레이 구조는 Synthetic CSS surface로 재구성했습니다.</p>
+          </div>
+
+          <div class="card-grid">
+            <article class="sample" data-component-tags="hero, cta, segmented-tabs, protected-evidence">
+              <div class="sample-head">
+                <div>
+                  <span class="badge" data-evidence="observed">observed</span>
+                  <h3>Campaign hero surface</h3>
+                </div>
+                <div class="tags"><span class="tag">hero</span><span class="tag">blue-cta</span><span class="tag">tabs</span></div>
+              </div>
+              <div class="hero-recon" data-surface-surrogate="hero-plane" data-surrogate-type="css-surface">
+                <img
+                  src="assets/hero-reference.png"
+                  data-asset-role="evidence-only"
+                  data-reuse="forbidden"
+                  data-asset-purpose="preview-reference-only"
+                  data-asset-origin="rendered-page-crop"
+                  data-source-url="https://www.mercedes-benz.co.kr/passengercars.html"
+                  data-capture-date="2026-07-09"
+                  alt="Mercedes-Benz Korea public hero crop used only as protected evidence"
+                  loading="lazy"
+                  decoding="async">
+                <div class="hero-content">
+                  <p class="eyebrow">Protected evidence-only hero reference</p>
+                  <h2>Electric campaign stage</h2>
+                  <p class="lede">왼쪽 세리프 타이틀, 검정 그라디언트, 파란 기본 CTA와 어두운 보조 CTA가 반복되는 메인 배너 문법입니다.</p>
+                  <div class="button-row">
+                    <a class="btn dark" href="#">Reserve now</a>
+                    <a class="btn primary" href="#">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-strip">
+                <span class="active">Mercedes-Benz</span>
+                <span>AMG</span>
+                <span>Maybach</span>
+              </div>
+              <div class="surface-disclosure">Synthetic CSS surface wraps the protected reference image; the source image is not reusable.</div>
+            </article>
+
+            <article class="sample" data-component-tags="catalog, filters, card-grid, product-card">
+              <div class="sample-head">
+                <div>
+                  <span class="badge" data-evidence="observed">observed</span>
+                  <h3>Catalog filter and grid</h3>
+                </div>
+                <div class="tags"><span class="tag">filter</span><span class="tag">grid</span><span class="tag">card</span></div>
+              </div>
+              <div class="model-board" data-surface-surrogate="gallery-plane" data-surrogate-type="css-surface">
+                <aside class="filter-panel">
+                  <h4>Filters</h4>
+                  <div class="check-row"><span>Body type</span><span>+</span></div>
+                  <div class="check-row"><span>Powertrain</span><span>+</span></div>
+                  <div class="check-row"><span>Price</span><span>+</span></div>
+                  <div class="check-row"><span>Availability</span><span>+</span></div>
+                </aside>
+                <div class="card-grid">
+                  <div class="mini-card"><div class="synthetic-plane"></div><h4>E-Class Sedan</h4><p>Light gray well, compact metadata, favorite utility.</p><a href="#">Online store link</a></div>
+                  <div class="mini-card"><div class="synthetic-plane"></div><h4>S-Class Sedan</h4><p>Three-column desktop catalog rhythm.</p><a href="#">Request test drive</a></div>
+                  <div class="mini-card"><div class="synthetic-plane"></div><h4>EQE SUV</h4><p>Dense retail content with muted helpers.</p><a href="#">View details</a></div>
+                </div>
+              </div>
+            </article>
+
+            <article class="sample" data-component-tags="recommendation, commerce, service, editorial-card">
+              <div class="sample-head">
+                <div>
+                  <span class="badge" data-evidence="inferred">inferred</span>
+                  <h3>Recommendation and service band</h3>
+                </div>
+                <div class="tags"><span class="tag">editorial</span><span class="tag">retail</span><span class="tag">service</span></div>
+              </div>
+              <div class="commerce-recon" data-surface-surrogate="commerce-grid" data-surrogate-type="css-surface">
+                <div class="commerce-row">
+                  <div class="promo-panel"><h3>Featured request</h3><p>Black overlay card with white serif heading.</p><a class="btn primary" href="#">Explore</a></div>
+                  <div class="service-panel"><h3>Service module</h3><p>White editorial card with blue action.</p><a class="btn primary" href="#">Details</a></div>
+                  <div class="service-panel"><h3>Store module</h3><p>Compact retail prompt and clear action.</p><a class="btn primary" href="#">Open store</a></div>
+                </div>
+              </div>
+            </article>
+
+            <article class="sample" data-component-tags="drawer, menu, overlay, navigation">
+              <div class="sample-head">
+                <div>
+                  <span class="badge" data-evidence="observed">observed</span>
+                  <h3>Dark menu flyout</h3>
+                </div>
+                <div class="tags"><span class="tag">menu</span><span class="tag">flyout</span><span class="tag">navigation</span></div>
+              </div>
+              <div class="drawer-recon" data-surface-surrogate="drawer-plane" data-surrogate-type="css-surface">
+                <nav class="drawer">
+                  <a href="#">Models <span>+</span></a>
+                  <a href="#">Buy Online <span>+</span></a>
+                  <a href="#">Services <span>+</span></a>
+                  <a href="#">Brand <span>+</span></a>
+                  <a href="#">Technology <span>+</span></a>
+                </nav>
+                <div class="drawer-stage">
+                  <p class="eyebrow">Synthetic CSS surface</p>
+                  <div class="surface-plate"></div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="protected">
+            <div class="thumb">
+              <img
+                src="assets/hero-reference.png"
+                data-asset-role="evidence-only"
+                data-reuse="forbidden"
+                data-asset-purpose="preview-reference-only"
+                data-asset-origin="rendered-page-crop"
+                data-source-url="https://www.mercedes-benz.co.kr/passengercars.html"
+                data-capture-date="2026-07-09"
+                alt="Mercedes-Benz Korea hero reference crop for preview evidence only"
+                loading="lazy"
+                decoding="async">
+            </div>
+            <p><strong>Not a reusable design asset.</strong> 이 참고 이미지는 표면 톤과 메인 배너 구성을 확인하기 위한 증거입니다. Ownership remains with the respective rights holders. <strong>No affiliation implied.</strong></p>
+          </div>
+        </div>
+      </section>
+
+      <section id="tokens">
+        <div class="rail">
+          <h2>Tokens</h2>
+          <div class="token-grid">
+            <div class="swatch"><div class="color" style="background:#000"></div><div class="copy"><strong>mb-black</strong><code>#000000</code></div></div>
+            <div class="swatch"><div class="color" style="background:#333"></div><div class="copy"><strong>mb-ink</strong><code>#333333</code></div></div>
+            <div class="swatch"><div class="color" style="background:#fff"></div><div class="copy"><strong>mb-white</strong><code>#FFFFFF</code></div></div>
+            <div class="swatch"><div class="color" style="background:#f8f8f8"></div><div class="copy"><strong>mb-soft</strong><code>#F8F8F8</code></div></div>
+            <div class="swatch"><div class="color" style="background:#e8e8e8"></div><div class="copy"><strong>mb-line</strong><code>#E8E8E8</code></div></div>
+            <div class="swatch"><div class="color" style="background:#696969"></div><div class="copy"><strong>mb-muted</strong><code>#696969</code></div></div>
+            <div class="swatch"><div class="color" style="background:#0078d6"></div><div class="copy"><strong>mb-blue</strong><code>#0078D6</code></div></div>
+            <div class="swatch"><div class="color" style="background:#006abc"></div><div class="copy"><strong>mb-blue-active</strong><code>#006ABC</code></div></div>
+          </div>
+          <div class="type-scale">
+            <div class="type-row"><strong>Hero title</strong><span class="title-face" style="font-size:64px;line-height:72px">The all-new electric GLC</span></div>
+            <div class="type-row"><strong>Section H2</strong><span class="title-face" style="font-size:48px;line-height:60px">Our Recommendations</span></div>
+            <div class="type-row"><strong>Category H3</strong><span class="title-face" style="font-size:34px;line-height:40px">Our Models</span></div>
+            <div class="type-row"><strong>Body/UI</strong><span style="font-size:16px;line-height:24px;color:var(--mb-muted)">Dense retail copy and conversion controls use the text stack.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="components">
+        <div class="rail">
+          <h2>Components</h2>
+          <div class="component-grid">
+            <div class="component-panel">
+              <span class="badge" data-evidence="observed">observed</span>
+              <h3>Buttons</h3>
+              <div class="button-row"><a class="btn primary" href="#">Primary</a><a class="btn" href="#">Secondary</a><a class="btn dark" href="#">Dark</a></div>
+            </div>
+            <div class="component-panel">
+              <span class="badge" data-evidence="observed">observed</span>
+              <h3>Brand tabs</h3>
+              <div class="tab-strip" style="margin:0;box-shadow:none"><span class="active">Mercedes-Benz</span><span>AMG</span></div>
+            </div>
+            <div class="component-panel">
+              <span class="badge" data-evidence="observed">observed</span>
+              <h3>Product card</h3>
+              <div class="mini-card"><div class="synthetic-plane"></div><h4>CLA 250</h4><p>Light well with compact metadata.</p><a href="#">Online store</a></div>
+            </div>
+            <div class="component-panel">
+              <span class="badge" data-evidence="observed">observed</span>
+              <h3>Filters</h3>
+              <div class="filter-panel"><div class="check-row"><span>Electric</span><span>□</span></div><div class="check-row"><span>Sedan</span><span>□</span></div></div>
+            </div>
+            <div class="component-panel">
+              <span class="badge" data-evidence="observed">observed</span>
+              <h3>Assistant panel</h3>
+              <div class="assistant-panel"><div class="row">Live chat</div><div class="row">Find showroom</div><div class="row">Catalog request</div></div>
+            </div>
+            <div class="component-panel">
+              <span class="badge" data-evidence="observed">observed</span>
+              <h3>Footer</h3>
+              <div class="footer-recon"><div class="footer-links"><span>Models</span><span>Services</span><span>About us</span></div><p>Dense legal copy and compact link columns on black.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="states">
+        <div class="rail">
+          <h2>States</h2>
+          <div class="component-grid">
+            <div class="state-panel">
+              <span class="badge" data-evidence="observed">observed</span>
+              <h3>Selected brand tab</h3>
+              <div class="tab-strip" style="margin:0;box-shadow:none"><span class="active">Mercedes-Benz</span><span>AMG</span></div>
+            </div>
+            <div class="state-panel">
+              <span class="badge" data-evidence="observed">observed</span>
+              <h3>Disabled utility</h3>
+              <div class="state-row"><a class="btn disabled" href="#">Unavailable</a><a class="btn primary" href="#">Continue</a></div>
+            </div>
+            <div class="state-panel">
+              <span class="badge" data-evidence="uncertain">uncertain</span>
+              <h3>Focus-visible sample</h3>
+              <p class="lede">Keyboard focus was not exhaustively sampled, so this is a conservative accessibility treatment.</p>
+              <a class="btn focus-sample" href="#">Focused action</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="layout">
+        <div class="rail">
+          <h2>Layout</h2>
+          <div class="layout-grid">
+            <div class="layout-panel">
+              <span class="badge" data-evidence="observed">observed</span>
+              <h3>Desktop rail</h3>
+              <p class="lede">1440px viewport uses a centered rail around 1238px with roughly 100px side margins.</p>
+              <div class="rail-demo"></div>
+            </div>
+            <div class="layout-panel">
+              <span class="badge" data-evidence="observed">observed</span>
+              <h3>Catalog split</h3>
+              <p class="lede">A 260-300px filter column sits beside a flexible three-column grid.</p>
+              <div class="model-board" style="grid-template-columns:80px 1fr;padding:0"><div class="filter-panel"></div><div class="surface-stage"></div></div>
+            </div>
+            <div class="layout-panel">
+              <span class="badge" data-evidence="inferred">inferred</span>
+              <h3>Surface rhythm</h3>
+              <p class="lede">Black chrome, white body, light gray wells, and blue conversion actions form the core layers.</p>
+              <div class="surface-stage" data-surface-surrogate="layer-sample" data-surrogate-type="css-surface"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="responsive">
+        <div class="rail">
+          <h2>Responsive</h2>
+          <div class="layout-panel">
+            <span class="badge" data-evidence="observed">observed</span>
+            <ul class="clean">
+              <li>Header compacts from horizontal navigation into icon-led controls.</li>
+              <li>Hero stages crop vertically and stack copy/actions for narrow viewports.</li>
+              <li>Three-column catalog grids become one-column card stacks.</li>
+              <li>Filter-heavy flows should expose a compact filter entry before the list.</li>
+              <li>Footer columns stack while legal copy stays compact and aligned.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="limitations">
+        <div class="rail">
+          <h2>Limitations</h2>
+          <div class="limit-panel">
+            <span class="badge" data-evidence="observed">observed</span>
+            <ul class="clean">
+              <li>The global Mercedes-Benz page returned HTTP 403 in this environment; the official Korea site was used as the extraction source.</li>
+              <li>Authenticated account, payment, order completion, and dealer backend flows were not inspected.</li>
+              <li>Semantic success, warning, and error states were not observed.</li>
+              <li>Tablet and landscape breakpoints were not captured.</li>
+              <li>Synthetic CSS surface samples reconstruct layout and tone only; original marks and photography remain protected evidence references.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,967 @@
+{
+  "crawlDate": "2026-07-09",
+  "blockedPrimary": {
+    "url": "https://www.mercedes-benz.com/en/",
+    "status": 403,
+    "finalUrl": "https://www.mercedes-benz.com/en/",
+    "title": "Access Denied",
+    "body": "Access Denied You don't have permission to access \"http://www.mercedes-benz.com/en/\" on this server. Reference #18.a5382017.1783605159.9d083654 https://errors.edgesuite.net/18.a5382017.1783605159.9d083654"
+  },
+  "startUrl": "https://www.mercedes-benz.co.kr/passengercars.html",
+  "desktop": [
+    {
+      "label": "home",
+      "status": 200,
+      "finalUrl": "https://www.mercedes-benz.co.kr/passengercars.html",
+      "screenshot": "screenshots/desktop-01-home.png",
+      "title": "Mercedes-Benz | South Korea - 공식 웹 사이트",
+      "error": null
+    },
+    {
+      "label": "models-all",
+      "status": 200,
+      "finalUrl": "https://www.mercedes-benz.co.kr/passengercars/models.html",
+      "screenshot": "screenshots/desktop-02-models-all.png",
+      "title": "메르세데스 모델: 신차 개요 | 메르세데스-벤츠",
+      "error": null
+    },
+    {
+      "label": "models-electric",
+      "status": 200,
+      "finalUrl": "https://www.mercedes-benz.co.kr/passengercars/models/electric.html",
+      "screenshot": "screenshots/desktop-03-models-electric.png",
+      "title": "메르세데스-벤츠 전기차 | 메르세데스-벤츠",
+      "error": null
+    },
+    {
+      "label": "e-class",
+      "status": 200,
+      "finalUrl": "https://www.mercedes-benz.co.kr/passengercars/models/saloon/e-class/overview.html",
+      "screenshot": "screenshots/desktop-04-e-class.png",
+      "title": "E-Class Sedan | 메르세데스-벤츠",
+      "error": null
+    },
+    {
+      "label": "s-class",
+      "status": 200,
+      "finalUrl": "https://www.mercedes-benz.co.kr/passengercars/models/saloon/s-class/overview.html",
+      "screenshot": "screenshots/desktop-05-s-class.png",
+      "title": "S-Class Sedan | 메르세데스-벤츠",
+      "error": null
+    },
+    {
+      "label": "eqe-suv",
+      "status": 200,
+      "finalUrl": "https://www.mercedes-benz.co.kr/passengercars/models/suv/eqe/overview.html",
+      "screenshot": "screenshots/desktop-06-eqe-suv.png",
+      "title": "EQE SUV | 메르세데스-벤츠",
+      "error": null
+    },
+    {
+      "label": "store",
+      "status": 200,
+      "finalUrl": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car.html",
+      "screenshot": "screenshots/desktop-07-store.png",
+      "title": "메르세데스-벤츠 스토어​ | 메르세데스-벤츠",
+      "error": null
+    },
+    {
+      "label": "test-drive",
+      "status": 200,
+      "finalUrl": "https://www.mercedes-benz.co.kr/passengercars/test-drive.html",
+      "screenshot": "screenshots/desktop-08-test-drive.png",
+      "title": "온라인 시승 신청 l 메르세데스-벤츠",
+      "error": null
+    },
+    {
+      "label": "services",
+      "status": 200,
+      "finalUrl": "https://www.mercedes-benz.co.kr/passengercars/services.html",
+      "screenshot": "screenshots/desktop-09-services.png",
+      "title": "Our Services | 메르세데스-벤츠",
+      "error": null
+    },
+    {
+      "label": "brand",
+      "status": 200,
+      "finalUrl": "https://www.mercedes-benz.co.kr/passengercars/brand.html",
+      "screenshot": "screenshots/desktop-10-brand.png",
+      "title": "히스토리 & 브랜드 | 메르세데스-벤츠",
+      "error": null
+    },
+    {
+      "label": "amg",
+      "status": 200,
+      "finalUrl": "https://www.mercedes-benz.co.kr/passengercars/brand/amg.html",
+      "screenshot": "screenshots/desktop-11-amg.png",
+      "title": "Mercedes-AMG 브랜드 | 메르세데스-벤츠",
+      "error": null
+    },
+    {
+      "label": "maybach",
+      "status": 200,
+      "finalUrl": "https://www.mercedes-benz.co.kr/passengercars/brand/maybach.html",
+      "screenshot": "screenshots/desktop-12-maybach.png",
+      "title": "Welcome to Beyond. 당신이 꿈꾸던 세계. l Mercedes-Maybach",
+      "error": null
+    },
+    {
+      "label": "manufaktur",
+      "status": 200,
+      "finalUrl": "https://www.mercedes-benz.co.kr/passengercars/brand/manufaktur.html",
+      "screenshot": "screenshots/desktop-13-manufaktur.png",
+      "title": "MANUFAKTUR | 메르세데스-벤츠",
+      "error": null
+    },
+    {
+      "label": "mbux",
+      "status": 200,
+      "finalUrl": "https://www.mercedes-benz.co.kr/passengercars/technology/mbux.html",
+      "screenshot": "screenshots/desktop-14-mbux.png",
+      "title": "MBUX 멀티미디어 시스템 | 메르세데스-벤츠",
+      "error": null
+    },
+    {
+      "label": "design-concept",
+      "status": 200,
+      "finalUrl": "https://www.mercedes-benz.co.kr/passengercars/technology/design-and-concept-cars.html",
+      "screenshot": "screenshots/desktop-15-design-concept.png",
+      "title": "디자인 & 콘셉트 카 | 메르세데스-벤츠",
+      "error": null
+    }
+  ],
+  "mobile": [
+    {
+      "label": "home",
+      "status": 200,
+      "finalUrl": "https://www.mercedes-benz.co.kr/passengercars.html",
+      "screenshot": "screenshots/mobile-01-home.png",
+      "title": "Mercedes-Benz | South Korea - 공식 웹 사이트",
+      "error": null
+    },
+    {
+      "label": "models-all",
+      "status": 200,
+      "finalUrl": "https://www.mercedes-benz.co.kr/passengercars/models.html",
+      "screenshot": "screenshots/mobile-02-models-all.png",
+      "title": "메르세데스 모델: 신차 개요 | 메르세데스-벤츠",
+      "error": null
+    },
+    {
+      "label": "e-class",
+      "status": 200,
+      "finalUrl": "https://www.mercedes-benz.co.kr/passengercars/models/saloon/e-class/overview.html",
+      "screenshot": "screenshots/mobile-03-e-class.png",
+      "title": "E-Class Sedan | 메르세데스-벤츠",
+      "error": null
+    },
+    {
+      "label": "test-drive",
+      "status": 200,
+      "finalUrl": "https://www.mercedes-benz.co.kr/passengercars/test-drive.html",
+      "screenshot": "screenshots/mobile-04-test-drive.png",
+      "title": "온라인 시승 신청 l 메르세데스-벤츠",
+      "error": null
+    },
+    {
+      "label": "brand",
+      "status": 200,
+      "finalUrl": "https://www.mercedes-benz.co.kr/passengercars/brand.html",
+      "screenshot": "screenshots/mobile-05-brand.png",
+      "title": "히스토리 & 브랜드 | 메르세데스-벤츠",
+      "error": null
+    }
+  ],
+  "topColors": [
+    [
+      "rgb(0, 0, 0)",
+      8014
+    ],
+    [
+      "rgb(51, 51, 51)",
+      5086
+    ],
+    [
+      "rgb(232, 232, 232)",
+      1630
+    ],
+    [
+      "rgb(255, 255, 255)",
+      802
+    ],
+    [
+      "rgb(0, 0, 238)",
+      414
+    ],
+    [
+      "rgb(105, 105, 105)",
+      124
+    ],
+    [
+      "rgb(159, 159, 159)",
+      88
+    ],
+    [
+      "rgb(79, 79, 79)",
+      46
+    ],
+    [
+      "rgb(187, 187, 187)",
+      8
+    ],
+    [
+      "rgb(0, 120, 214)",
+      6
+    ],
+    [
+      "rgb(16, 16, 16)",
+      3
+    ],
+    [
+      "rgb(243, 243, 243)",
+      2
+    ]
+  ],
+  "topBackgrounds": [
+    [
+      "rgb(51, 51, 51)",
+      795
+    ],
+    [
+      "rgba(255, 255, 255, 0)",
+      684
+    ],
+    [
+      "rgb(255, 255, 255)",
+      649
+    ],
+    [
+      "rgb(248, 248, 248)",
+      242
+    ],
+    [
+      "rgb(0, 120, 214)",
+      213
+    ],
+    [
+      "rgb(187, 187, 187)",
+      196
+    ],
+    [
+      "rgb(0, 0, 0)",
+      82
+    ],
+    [
+      "rgb(232, 232, 232)",
+      50
+    ],
+    [
+      "rgb(219, 219, 219)",
+      38
+    ],
+    [
+      "rgb(105, 105, 105)",
+      26
+    ],
+    [
+      "rgb(240, 240, 240)",
+      20
+    ],
+    [
+      "rgba(255, 255, 255, 0.64)",
+      14
+    ],
+    [
+      "rgba(0, 0, 0, 0.64)",
+      9
+    ],
+    [
+      "rgba(0, 0, 0, 0.2)",
+      6
+    ],
+    [
+      "rgb(38, 38, 38)",
+      3
+    ],
+    [
+      "rgba(255, 255, 255, 0.72)",
+      3
+    ],
+    [
+      "rgb(201, 201, 201)",
+      2
+    ],
+    [
+      "rgb(228, 228, 228)",
+      2
+    ],
+    [
+      "rgba(0, 0, 0, 0.92)",
+      1
+    ],
+    [
+      "rgb(0, 106, 188)",
+      1
+    ]
+  ],
+  "topBorders": [
+    [
+      "rgb(0, 0, 0)",
+      7344
+    ],
+    [
+      "rgb(51, 51, 51)",
+      4805
+    ],
+    [
+      "rgb(232, 232, 232)",
+      1630
+    ],
+    [
+      "rgb(255, 255, 255)",
+      704
+    ],
+    [
+      "rgb(0, 0, 238)",
+      414
+    ],
+    [
+      "rgb(105, 105, 105)",
+      158
+    ],
+    [
+      "rgb(51, 51, 51) rgb(51, 51, 51) rgb(232, 232, 232)",
+      122
+    ],
+    [
+      "rgb(187, 187, 187)",
+      119
+    ],
+    [
+      "rgb(159, 159, 159)",
+      88
+    ],
+    [
+      "rgba(0, 0, 0, 0.1)",
+      70
+    ],
+    [
+      "rgb(79, 79, 79)",
+      46
+    ],
+    [
+      "rgb(0, 120, 214)",
+      32
+    ],
+    [
+      "rgb(219, 219, 219)",
+      30
+    ],
+    [
+      "rgb(51, 51, 51) rgb(0, 0, 0) rgb(0, 0, 0)",
+      20
+    ],
+    [
+      "rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) rgb(232, 232, 232)",
+      17
+    ],
+    [
+      "rgb(0, 0, 0) rgb(0, 0, 0) rgb(232, 232, 232)",
+      8
+    ],
+    [
+      "rgb(232, 232, 232) rgb(51, 51, 51) rgb(51, 51, 51)",
+      6
+    ],
+    [
+      "rgb(219, 219, 219) rgb(0, 0, 0)",
+      6
+    ],
+    [
+      "rgb(16, 16, 16)",
+      3
+    ],
+    [
+      "rgb(15, 15, 15)",
+      1
+    ],
+    [
+      "rgb(243, 243, 243)",
+      1
+    ],
+    [
+      "rgb(0, 106, 188)",
+      1
+    ]
+  ],
+  "topFontSizes": [
+    [
+      "16px",
+      11209
+    ],
+    [
+      "0px",
+      1784
+    ],
+    [
+      "18px",
+      1576
+    ],
+    [
+      "12px",
+      479
+    ],
+    [
+      "14px",
+      365
+    ],
+    [
+      "20px",
+      175
+    ],
+    [
+      "24px",
+      167
+    ],
+    [
+      "26px",
+      158
+    ],
+    [
+      "13.3333px",
+      138
+    ],
+    [
+      "48px",
+      83
+    ],
+    [
+      "34px",
+      35
+    ],
+    [
+      "32px",
+      18
+    ],
+    [
+      "28.08px",
+      15
+    ],
+    [
+      "64px",
+      13
+    ],
+    [
+      "23.4px",
+      5
+    ],
+    [
+      "40px",
+      2
+    ],
+    [
+      "19.2px",
+      1
+    ]
+  ],
+  "topFontFamilies": [
+    [
+      "\"Times New Roman\"",
+      9179
+    ],
+    [
+      "\"MBCorpo Text\", DaimlerCS-Regular, DaimlerCSArab-Regular, Arial, sans-serif",
+      4735
+    ],
+    [
+      "Arial",
+      1850
+    ],
+    [
+      "\"MBCorpo Title\", DaimlerCAC-Regular, DaimlerCACArab-Regular, serif",
+      447
+    ],
+    [
+      "arial",
+      10
+    ],
+    [
+      "\"MBCorpo Text\", DaimlerCS-Regular, DaimlerCSArab-Regular, sans-serif",
+      2
+    ]
+  ],
+  "topRadii": [
+    [
+      "0px",
+      13430
+    ],
+    [
+      "4px",
+      1290
+    ],
+    [
+      "9999px",
+      580
+    ],
+    [
+      "13px",
+      291
+    ],
+    [
+      "50%",
+      239
+    ],
+    [
+      "2px",
+      168
+    ],
+    [
+      "6px",
+      141
+    ],
+    [
+      "2px 0px 0px 2px",
+      50
+    ],
+    [
+      "100%",
+      17
+    ],
+    [
+      "0px 2px 2px 0px",
+      9
+    ],
+    [
+      "12px",
+      2
+    ],
+    [
+      "44px",
+      2
+    ],
+    [
+      "48px",
+      2
+    ],
+    [
+      "0px 60px 60px 0px",
+      1
+    ],
+    [
+      "50px 0px 0px 50px",
+      1
+    ]
+  ],
+  "topShadows": [
+    [
+      "rgba(0, 0, 0, 0.4) 0px 5px 10px 0px",
+      40
+    ],
+    [
+      "rgba(0, 0, 0, 0.1) 0px 0px 2px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px",
+      38
+    ],
+    [
+      "rgba(0, 0, 0, 0.1) 0px 0px 2px 0px, rgba(0, 0, 0, 0.1) 0px 4px 8px 0px",
+      9
+    ],
+    [
+      "rgba(0, 0, 0, 0.1) 0px 0px 4px 0px, rgba(0, 0, 0, 0.1) 0px 16px 24px 0px",
+      5
+    ],
+    [
+      "rgba(102, 187, 253, 0.663) 0px 0px 0px 1.3652px",
+      2
+    ],
+    [
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0.40069px",
+      2
+    ],
+    [
+      "rgba(0, 0, 0, 0) 0px 0px 0px 5.24118px",
+      2
+    ],
+    [
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0.603399px",
+      2
+    ],
+    [
+      "rgba(102, 187, 253, 0) 0px 0px 0px 8px",
+      2
+    ],
+    [
+      "rgba(102, 187, 253, 0.235) 0px 0px 0px 5.64207px",
+      2
+    ],
+    [
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0.724812px",
+      2
+    ],
+    [
+      "rgba(102, 187, 253, 0.357) 0px 0px 0px 4.43041px",
+      2
+    ],
+    [
+      "rgba(102, 187, 253, 0.604) 0px 0px 0px 1.9714px",
+      2
+    ],
+    [
+      "rgba(102, 187, 253, 0.392) 0px 0px 0px 4.067px",
+      2
+    ],
+    [
+      "rgba(102, 187, 253, 0.43) 0px 0px 0px 3.67653px",
+      2
+    ],
+    [
+      "rgba(102, 187, 253, 0.06) 0px 0px 0px 7.39774px",
+      2
+    ],
+    [
+      "rgba(102, 187, 253, 0.06) 0px 0px 0px 7.39752px",
+      2
+    ],
+    [
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0.245995px",
+      2
+    ],
+    [
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0.0139012px",
+      2
+    ],
+    [
+      "rgba(0, 0, 0, 0) 0px 0px 0px 7.88218px",
+      2
+    ],
+    [
+      "rgb(187, 187, 187) 0px 5px 10px 0px",
+      1
+    ]
+  ],
+  "discoveredLinks": [
+    {
+      "text": "내용으로 건너뛰기",
+      "href": "https://www.mercedes-benz.co.kr/passengercars.html#first-component"
+    },
+    {
+      "text": "홈페이지로 이동",
+      "href": "https://www.mercedes-benz.co.kr/"
+    },
+    {
+      "text": "Models",
+      "href": "https://www.mercedes-benz.co.kr/passengercars.html#models-0"
+    },
+    {
+      "text": "All Models",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models.html?group=all"
+    },
+    {
+      "text": "전기차 모델",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/electric.html"
+    },
+    {
+      "text": "플러그인 하이브리드 모델",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/hybrid.html"
+    },
+    {
+      "text": "Sedan",
+      "href": "https://www.mercedes-benz.co.kr/passengercars.html#sedan-3"
+    },
+    {
+      "text": "All Sedans",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/saloon.html"
+    },
+    {
+      "text": "C-Class",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/saloon/c-class/overview.html"
+    },
+    {
+      "text": "EQE 전기",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/saloon/eqe/overview.html"
+    },
+    {
+      "text": "E-Class",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/saloon/e-class/overview.html"
+    },
+    {
+      "text": "S-Class",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/saloon/s-class/overview.html"
+    },
+    {
+      "text": "S-Class Long",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/saloon-long/s-class/overview.html"
+    },
+    {
+      "text": "Mercedes-Maybach S-Class",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/saloon-long/maybach-s-class/overview.html"
+    },
+    {
+      "text": "SUV",
+      "href": "https://www.mercedes-benz.co.kr/passengercars.html#suv-4"
+    },
+    {
+      "text": "All SUVs",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/suv.html"
+    },
+    {
+      "text": "EQB 전기",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/suv/eqb/overview.html"
+    },
+    {
+      "text": "EQE SUV 전기",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/suv/eqe/overview.html"
+    },
+    {
+      "text": "Mercedes-Maybach EQS SUV 전기",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/suv/maybach-eqs/overview.html"
+    },
+    {
+      "text": "GLA",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/suv/gla/overview.html"
+    },
+    {
+      "text": "GLB",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/suv/glb/overview.html"
+    },
+    {
+      "text": "GLC",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/suv/glc/overview.html"
+    },
+    {
+      "text": "GLC Coupé",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/suv/glc-coupe/overview.html"
+    },
+    {
+      "text": "GLE",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/suv/gle/overview.html"
+    },
+    {
+      "text": "GLE Coupé",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/suv/gle-coupe/overview.html"
+    },
+    {
+      "text": "GLS",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/suv/gls/overview.html"
+    },
+    {
+      "text": "Mercedes-Maybach GLS",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/suv/maybach-gls/overview.html"
+    },
+    {
+      "text": "G-Class 전기",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/suv/g-class-electric/overview.html"
+    },
+    {
+      "text": "G-Class",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/suv/g-class/overview.html"
+    },
+    {
+      "text": "Hatchback",
+      "href": "https://www.mercedes-benz.co.kr/passengercars.html#hatchback-5"
+    },
+    {
+      "text": "A-Class Hatch",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/hatchback/a-class/overview.html"
+    },
+    {
+      "text": "Coupé",
+      "href": "https://www.mercedes-benz.co.kr/passengercars.html#coup-6"
+    },
+    {
+      "text": "All Coupés",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/coupe.html"
+    },
+    {
+      "text": "CLA Coupé",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/coupe/cla/overview.html"
+    },
+    {
+      "text": "CLE Coupé",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/coupe/cle/overview.html"
+    },
+    {
+      "text": "Mercedes-AMG GT Coupé",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/coupe/amg-gt-2-door/overview.html"
+    },
+    {
+      "text": "Mercedes-AMG GT 4-Door Coupé",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/coupe/amg-gt/overview.html"
+    },
+    {
+      "text": "Cabriolet & Roadster",
+      "href": "https://www.mercedes-benz.co.kr/passengercars.html#cabrioletroadster-7"
+    },
+    {
+      "text": "All Cabriolets & Roadsters",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/cabriolet-roadster.html"
+    },
+    {
+      "text": "CLE Cabriolet",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/cabriolet-roadster/cle/overview.html"
+    },
+    {
+      "text": "SL Roadster",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/cabriolet-roadster/sl/overview.html"
+    },
+    {
+      "text": "Mercedes-Maybach SL Monogram Series",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models/cabriolet-roadster/mercedes-maybach-sl/overview.html"
+    },
+    {
+      "text": "Vans",
+      "href": "https://www.mercedes-benz.co.kr/vans.html"
+    },
+    {
+      "text": "Mercedes-AMG",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models.html?group=amg"
+    },
+    {
+      "text": "Mercedes-Maybach",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/models.html?group=maybach"
+    },
+    {
+      "text": "Buy Online",
+      "href": "https://www.mercedes-benz.co.kr/passengercars.html#buyonline-1"
+    },
+    {
+      "text": "메르세데스-벤츠 스토어",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car.html"
+    },
+    {
+      "text": "인증 중고차 스토어",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/buy/used-car/search-results.html"
+    },
+    {
+      "text": "인증 중고차 소개",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/buy/used-car.html"
+    },
+    {
+      "text": "금융 서비스 안내",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/finance.html"
+    },
+    {
+      "text": "금융 프로모션",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/finance/offers.html"
+    },
+    {
+      "text": "법인 우대 프로그램",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/cars-guide/fleet-business.html"
+    },
+    {
+      "text": "온라인 시승 신청",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/test-drive.html"
+    },
+    {
+      "text": "디지털 서비스 상품",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/buy/digital-extras-overview.html"
+    },
+    {
+      "text": "순정 액세서리 · 컬렉션 및 용품",
+      "href": "https://www.mercedes-benz.co.kr/passengercars.html#-8"
+    },
+    {
+      "text": "메르세데스 순정 액세서리",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/buy/technical-accessoires-overview.html"
+    },
+    {
+      "text": "컬렉션",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/buy/collection-overview.html"
+    },
+    {
+      "text": "카케어 용품",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/buy/car-care-overview.html"
+    },
+    {
+      "text": "Services",
+      "href": "https://www.mercedes-benz.co.kr/passengercars.html#services-2"
+    },
+    {
+      "text": "All Services",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/services.html"
+    },
+    {
+      "text": "충전서비스",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/services/charging/mercedes-me-charge-card-stations-network.html"
+    },
+    {
+      "text": "온라인 서비스 예약",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/services/online-appointment-booking.html"
+    },
+    {
+      "text": "서비스 상품 안내",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/services/service-contracts.html"
+    },
+    {
+      "text": "수리 서비스",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/services/services-repair.html"
+    },
+    {
+      "text": "고장 및 손상 지원",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/services/breakdown-damage.html"
+    },
+    {
+      "text": "보험 상품",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/finance/insurance.html"
+    },
+    {
+      "text": "장기 렌터카 프로그램",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/finance/rent.html"
+    },
+    {
+      "text": "메르세데스-벤츠 앱",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/buy/digital-extras-overview/apps.html"
+    },
+    {
+      "text": "Mercedes-Benz Circle",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/services/mercedes-me-care.html"
+    },
+    {
+      "text": "차량 별 사용 설명서 및 정보",
+      "href": "https://www.mercedes-benz.co.kr/passengercars.html#-10"
+    },
+    {
+      "text": "사용 설명서",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/services/manuals.html"
+    },
+    {
+      "text": "전기차 차종별 배터리셀 제조사 현황",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/electric-battery.html"
+    },
+    {
+      "text": "사용 영상 가이드",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/services/how-to-videos.html"
+    },
+    {
+      "text": "타이어 에너지 소비 효율",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/services/mb-tire.html"
+    },
+    {
+      "text": "고객 컨택 센터​",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/services/support-contact.html"
+    },
+    {
+      "text": "Brand",
+      "href": "https://www.mercedes-benz.co.kr/passengercars.html#brand-3"
+    },
+    {
+      "text": "About Mercedes-Benz",
+      "href": "https://www.mercedes-benz.co.kr/passengercars.html#aboutmercedesbenz-0"
+    },
+    {
+      "text": "히스토리 & 브랜드",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/brand.html"
+    },
+    {
+      "text": "Mercedes - AMG",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/brand/amg.html"
+    },
+    {
+      "text": "Mercedes - Maybach",
+      "href": "https://www.mercedes-benz.co.kr/passengercars/brand/maybach.html"
+    }
+  ],
+  "assets": [
+    "brand-reference.svg",
+    "hero-reference.png"
+  ]
+}
