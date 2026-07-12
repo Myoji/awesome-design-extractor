@@ -187,7 +187,7 @@ Expected: 본문 수준 가로 오버플로가 없고 의도적인 가로 요소
 
 데스크톱·모바일 뷰포트, 문서 너비, 오버플로 결과, 필수 섹션, 로컬 링크, 재구성 태그, 배지, 표면 대체재와 제한사항 검사 결과를 boolean check 배열로 기록한다.
 
-Run: `node -e "const q=JSON.parse(require('fs').readFileSync('examples/volvo/preview-qa.json','utf8')); if(!q.checks?.length || q.checks.some(x=>x.pass!==true)) throw new Error('Volvo QA failed'); console.log('Volvo QA passed')"`
+Run: `node -e "const q=JSON.parse(require('fs').readFileSync('examples/volvo/preview-qa.json','utf8')); if(!q.checks?.length || q.checks.some(x=>x.passed!==true)) throw new Error('Volvo QA failed'); console.log('Volvo QA passed')"`
 
 Expected: `Volvo QA passed`가 출력된다.
 

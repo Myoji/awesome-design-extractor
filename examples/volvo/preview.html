@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Volvo Cars Global Design System Catalog</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #fff;
+      --surface: #fafafa;
+      --surface-raised: #f2f2f2;
+      --ink: #000;
+      --muted: #5e5e5e;
+      --line: rgb(0 0 0 / 12%);
+      --line-strong: rgb(0 0 0 / 32%);
+      --blue: #0b2ded;
+      --safety: #fc6408;
+      --success: #048220;
+      --warning: #ce6700;
+      --error: #e52715;
+      --page: clamp(1rem, 4.286vw - .286rem, 4rem);
+      --gap-sm: clamp(1rem, 1.429vw + .571rem, 2rem);
+      --gap-md: clamp(2rem, 2.143vw + 1.357rem, 3.5rem);
+      --gap-lg: clamp(3rem, 2.143vw + 2.357rem, 4.5rem);
+      --max: 81rem;
+      --font: "Volvo Centum", "Helvetica Neue", Helvetica, "Noto Sans", "Segoe UI", Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-width: 0;
+      color: var(--ink);
+      background: var(--bg);
+      font-family: var(--font);
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    a { color: inherit; }
+    button, input { font: inherit; }
+    button { color: inherit; }
+    :focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+
+    [data-catalog-shell] { min-width: 0; }
+    .catalog-masthead {
+      position: relative;
+      min-height: 31rem;
+      display: grid;
+      align-items: end;
+      overflow: hidden;
+      color: #fff;
+      background:
+        linear-gradient(90deg, rgb(0 0 0 / 84%) 0%, rgb(0 0 0 / 42%) 48%, rgb(0 0 0 / 5%) 75%),
+        radial-gradient(circle at 76% 28%, #c4d4d7 0 9%, transparent 28%),
+        linear-gradient(145deg, #8fa1a0 0 31%, #5b6866 31% 56%, #29302f 56% 72%, #111 72% 100%);
+    }
+    .catalog-masthead::after {
+      content: "";
+      position: absolute;
+      inset: auto -8% -26% 44%;
+      height: 56%;
+      transform: skewX(-14deg);
+      background: linear-gradient(180deg, rgb(255 255 255 / 10%), rgb(0 0 0 / 62%));
+      border-top: 1px solid rgb(255 255 255 / 34%);
+    }
+    .masthead-inner {
+      position: relative;
+      z-index: 1;
+      width: min(calc(100% - 2 * var(--page)), var(--max));
+      margin-inline: auto;
+      padding-block: 4rem 3.5rem;
+    }
+    .eyebrow {
+      margin: 0 0 1rem;
+      font-size: .75rem;
+      line-height: 1.25rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .masthead-title {
+      max-width: 13ch;
+      margin: 0;
+      font-size: clamp(2.5rem, 4.3vw, 3.5rem);
+      line-height: calc(1em + .5rem);
+      font-weight: 400;
+    }
+    .masthead-copy {
+      max-width: 42rem;
+      margin: 1rem 0 0;
+      color: rgb(255 255 255 / 82%);
+    }
+    .masthead-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5rem 1.5rem;
+      margin-top: 2rem;
+      font-size: .875rem;
+    }
+    .masthead-links { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.5rem; }
+
+    .button {
+      min-height: 3rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: .5rem;
+      padding: 0 1.5rem;
+      border: 0;
+      border-radius: 9999px;
+      text-decoration: none;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    .button-dark { color: #fff; background: #000; }
+    .button-light { color: #000; background: #fff; }
+    .button-blue { color: #fff; background: var(--blue); }
+    .button-outline-light { color: #fff; background: transparent; box-shadow: 0 0 0 1px #fff inset; }
+    .button-outline-dark { color: #000; background: transparent; box-shadow: 0 0 0 1px #000 inset; }
+    .button-compact { min-height: 2rem; padding-inline: 1rem; font-size: .875rem; line-height: 1.375rem; }
+
+    .catalog-nav {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid var(--line);
+      background: #fff;
+    }
+    .catalog-nav-inner {
+      width: min(calc(100% - 2 * var(--page)), var(--max));
+      margin-inline: auto;
+      display: flex;
+      align-items: center;
+      gap: .25rem;
+      min-width: 0;
+      overflow-x: auto;
+      scrollbar-width: thin;
+    }
+    .catalog-nav a {
+      min-height: 4rem;
+      display: inline-flex;
+      align-items: center;
+      padding-inline: .75rem;
+      text-decoration: none;
+      white-space: nowrap;
+      font-size: .875rem;
+    }
+    main { min-width: 0; }
+    .catalog-section {
+      scroll-margin-top: 5rem;
+      padding: var(--gap-lg) var(--page);
+      border-bottom: 1px solid var(--line);
+    }
+    .catalog-section > .section-inner { width: min(100%, var(--max)); margin-inline: auto; min-width: 0; }
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(16rem, 28rem);
+      gap: var(--gap-sm);
+      align-items: end;
+      margin-bottom: var(--gap-md);
+    }
+    .section-kicker { margin: 0 0 .75rem; color: var(--muted); font-size: .875rem; }
+    .section-title { margin: 0; font-size: clamp(2rem, 2.143vw + 1.357rem, 3.5rem); line-height: calc(1em + .5rem); font-weight: 400; }
+    .section-intro { margin: 0; color: var(--muted); }
+    .subheading { margin: 0 0 1.5rem; font-size: 1.75rem; line-height: 2.25rem; font-weight: 400; }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 1.5rem;
+      padding: 0 .5rem;
+      border: 1px solid currentColor;
+      border-radius: 9999px;
+      font-size: .6875rem;
+      line-height: 1;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .badge-observed { color: #175a2a; background: #e9f7ed; }
+    .badge-inferred { color: #754400; background: #fff3dc; }
+    .badge-uncertain { color: #7f231a; background: #fff0ee; }
+    .badge-on-dark { color: #fff; background: rgb(255 255 255 / 12%); }
+    .evidence-row { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; }
+
+    .overview-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+    .overview-card { min-width: 0; min-height: 15rem; padding: 1.5rem; background: #fff; }
+    .overview-card:nth-child(2) { background: #000; color: #fff; }
+    .overview-card:nth-child(3) { background: var(--surface); }
+    .overview-number { display: block; margin-bottom: 4rem; font-size: .75rem; color: var(--muted); }
+    .overview-card:nth-child(2) .overview-number { color: rgb(255 255 255 / 60%); }
+    .overview-card h3 { margin: 0; font-size: 1.25rem; line-height: 1.75rem; font-weight: 600; }
+    .overview-card p { margin: .75rem 0 0; color: var(--muted); }
+    .overview-card:nth-child(2) p { color: rgb(255 255 255 / 70%); }
+    .asset-reference-grid {
+      display: grid;
+      grid-template-columns: minmax(16rem, .8fr) minmax(0, 2fr);
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .asset-reference-card { min-width: 0; border: 1px solid var(--line); background: #fff; }
+    .asset-reference-media { display: grid; place-items: center; min-height: 12rem; overflow: hidden; background: var(--surface); }
+    .asset-reference-media--logo { padding: 3rem; }
+    .asset-reference-media--logo img { width: min(100%, 13rem); height: auto; }
+    .asset-reference-media--hero { min-height: 0; aspect-ratio: 21 / 9; }
+    .asset-reference-media--hero img { width: 100%; height: 100%; object-fit: cover; }
+    .asset-reference-copy { padding: 1rem; }
+    .asset-reference-copy strong { display: block; margin-bottom: .35rem; }
+    .asset-reference-copy p { margin: 0; color: var(--muted); font-size: .8125rem; line-height: 1.25rem; }
+    .asset-reference-disclaimer { margin: 1rem 0 0; padding: .75rem 1rem; border-left: 3px solid #000; background: var(--surface); font-size: .75rem; line-height: 1.25rem; }
+
+    .reconstruction-stack { display: grid; gap: var(--gap-md); }
+    .sample { border: 1px solid var(--line); background: #fff; min-width: 0; }
+    .sample-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: .75rem;
+      padding: .75rem 1rem;
+      border-bottom: 1px solid var(--line);
+      background: #fff;
+      font-size: .75rem;
+    }
+    .component-tags { color: var(--muted); overflow-wrap: anywhere; }
+
+    .recon-nav {
+      min-height: 4rem;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 2rem;
+      padding: 0 1.75rem;
+      background: #fff;
+    }
+    .recon-logo { width: 6.5rem; height: auto; display: block; }
+    .recon-nav-list { display: flex; justify-content: center; gap: 1.5rem; font-size: .875rem; }
+
+    .recon-hero {
+      position: relative;
+      min-height: 34rem;
+      display: grid;
+      align-items: end;
+      overflow: hidden;
+      color: #fff;
+      background: #313d3a;
+    }
+    .recon-hero-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+    .recon-hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      background: linear-gradient(90deg, rgb(0 0 0 / 72%) 0%, rgb(0 0 0 / 34%) 52%, rgb(0 0 0 / 5%) 100%);
+    }
+    .recon-hero-copy { position: relative; z-index: 2; max-width: 43rem; padding: 3.5rem; }
+    .recon-hero h3 { margin: 0; font-size: 3rem; line-height: 3.5rem; font-weight: 400; }
+    .recon-hero p { max-width: 34rem; margin: 1rem 0 0; color: rgb(255 255 255 / 82%); }
+    .recon-actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.5rem; }
+    .surrogate-note { position: absolute; right: 1rem; bottom: 1rem; z-index: 3; max-width: 17rem; padding: .4rem .6rem; background: rgb(0 0 0 / 68%); color: #fff; font-size: .6875rem; }
+
+    .recon-products { padding: var(--gap-md) 1.75rem; background: #fff; }
+    .recon-products-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 1rem; margin-bottom: 1.5rem; }
+    .recon-products h3 { margin: 0; font-size: 2rem; line-height: 2.5rem; font-weight: 400; }
+    .product-rail { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; min-width: 0; }
+    .product-card { min-width: 0; background: var(--surface); }
+    .material-plane { position: relative; min-height: 14rem; overflow: hidden; }
+    .material-plane::before, .material-plane::after { content: ""; position: absolute; }
+    .material-plane::before { inset: 18% 14% 32%; border-radius: 50%; filter: blur(20px); opacity: .7; }
+    .material-plane::after { inset: 58% -8% -20%; transform: skewY(-7deg); background: rgb(255 255 255 / 24%); border-top: 1px solid rgb(255 255 255 / 36%); }
+    .plane-slate { background: linear-gradient(145deg, #cbd0ce, #65706e 58%, #232827); }
+    .plane-slate::before { background: #f5f5ef; }
+    .plane-amber { background: linear-gradient(145deg, #e5c9a8, #8d6d58 58%, #312821); }
+    .plane-amber::before { background: #ffdfad; }
+    .plane-night { background: linear-gradient(145deg, #7689a2, #313a49 55%, #101318); }
+    .plane-night::before { background: #d7e3ff; }
+    .product-card-body { padding: 1.25rem; }
+    .product-card-body h4 { margin: 0; font-size: 1.25rem; line-height: 1.75rem; font-weight: 600; }
+    .product-card-body p { margin: .5rem 0 0; color: var(--muted); }
+    .text-link { display: inline-flex; margin-top: 1rem; text-underline-offset: .2em; }
+
+    .recon-story { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(20rem, .85fr); min-height: 28rem; }
+    .story-surface { position: relative; overflow: hidden; background: linear-gradient(145deg, #b8c6c1 0 35%, #657770 35% 66%, #252b29 66%); }
+    .story-surface::before { content: ""; position: absolute; width: 65%; height: 65%; right: -10%; top: -12%; border-radius: 50%; background: radial-gradient(circle, rgb(255 255 255 / 65%), transparent 67%); }
+    .story-surface::after { content: ""; position: absolute; left: 12%; bottom: 12%; width: 56%; height: 2px; background: var(--safety); }
+    .story-copy { display: flex; flex-direction: column; justify-content: center; padding: 3rem; background: #000; color: #fff; }
+    .story-copy h3 { margin: 0; max-width: 18ch; font-size: 2rem; line-height: 2.5rem; font-weight: 400; }
+    .story-copy p { color: rgb(255 255 255 / 70%); }
+
+    .recon-entry { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); background: var(--line); gap: 1px; }
+    .entry-card { min-width: 0; min-height: 13rem; padding: 1.5rem; background: var(--surface); display: flex; flex-direction: column; justify-content: space-between; }
+    .entry-card h3 { margin: 0; font-size: 1.25rem; line-height: 1.75rem; font-weight: 600; }
+    .entry-card p { color: var(--muted); }
+    .entry-arrow { align-self: flex-end; font-size: 1.5rem; }
+
+    .token-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1rem; }
+    .swatch { min-width: 0; border: 1px solid var(--line); background: #fff; }
+    .swatch-color { height: 7rem; border-bottom: 1px solid var(--line); }
+    .swatch-info { padding: 1rem; min-width: 0; }
+    .swatch-name { display: block; font-weight: 600; overflow-wrap: anywhere; }
+    .swatch-value { display: block; margin-top: .25rem; color: var(--muted); font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .75rem; overflow-wrap: anywhere; }
+
+    .catalog-panel { margin-top: var(--gap-md); padding: 1.5rem; border: 1px solid var(--line); background: #fff; min-width: 0; }
+    .type-list { display: grid; gap: 0; }
+    .type-row { display: grid; grid-template-columns: 10rem minmax(0, 1fr) 9rem; gap: 1rem; align-items: baseline; padding: 1.25rem 0; border-bottom: 1px solid var(--line); min-width: 0; }
+    .type-row:last-child { border-bottom: 0; }
+    .type-role, .type-spec { color: var(--muted); font-size: .875rem; }
+    .type-example { min-width: 0; overflow-wrap: anywhere; }
+    .type-display { font-size: clamp(3.5rem, 8vw, 6.625rem); line-height: calc(1em + .5rem); font-weight: 400; }
+    .type-h1 { font-size: clamp(2rem, 2.143vw + 1.357rem, 3rem); line-height: calc(1em + .5rem); }
+    .type-h2 { font-size: 1.75rem; line-height: 2.25rem; }
+    .type-body { font-size: 1rem; line-height: 1.5rem; }
+    .type-small { font-size: .875rem; line-height: 1.375rem; }
+
+    .metric-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+    .metric-card { min-width: 0; min-height: 10rem; padding: 1rem; border: 1px solid var(--line); background: var(--surface); }
+    .metric-card strong { display: block; margin-bottom: 1rem; font-size: 1.25rem; font-weight: 600; }
+    .metric-card code { color: var(--muted); overflow-wrap: anywhere; }
+
+    .component-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+    .component-card { min-width: 0; padding: 1.5rem; border: 1px solid var(--line); background: #fff; }
+    .component-card h3 { margin: 0 0 1rem; font-size: 1.25rem; line-height: 1.75rem; font-weight: 600; }
+    .component-stage { min-width: 0; padding: 1.5rem; background: var(--surface); }
+    .button-row { display: flex; flex-wrap: wrap; gap: .5rem; }
+    .mini-nav { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 1rem; min-height: 4rem; padding: 0 1rem; background: #fff; border: 1px solid var(--line); }
+    .mini-nav-links { display: flex; justify-content: center; gap: 1rem; font-size: .875rem; }
+    .tab-rail { display: flex; gap: 0; max-width: 100%; overflow-x: auto; }
+    .tab { min-height: 2rem; display: inline-flex; align-items: center; padding: 0 .5rem; text-decoration: none; white-space: nowrap; font-size: .875rem; }
+    .tab[aria-selected="true"] { background: var(--line); }
+    .spec-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 2rem; }
+    .spec-row { min-width: 0; padding: 1rem 0; border-bottom: 1px solid var(--line); }
+    .spec-label { color: var(--muted); font-size: .875rem; }
+    .spec-value { display: block; margin-top: .5rem; font-size: 1.25rem; }
+    .faq-row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; width: 100%; min-height: 3rem; padding: 0; border: 0; border-bottom: 1px solid var(--line); background: transparent; text-align: left; }
+    .circle-control { width: 2.5rem; height: 2.5rem; border: 0; border-radius: 50%; color: #fff; background: #000; }
+    .circle-control:disabled { color: rgb(0 0 0 / 36%); background: rgb(0 0 0 / 8%); }
+
+    .state-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+    .state-card { min-width: 0; padding: 1.5rem; border: 1px solid var(--line); background: #fff; }
+    .state-card h3 { margin: .75rem 0; font-size: 1.25rem; line-height: 1.75rem; font-weight: 600; }
+    .state-demo { min-height: 7rem; display: flex; align-items: center; padding: 1rem; background: var(--surface); }
+    .state-note { color: var(--muted); }
+
+    .layout-demo { display: grid; gap: 1rem; padding: 1rem; background: var(--surface); border: 1px solid var(--line); }
+    .layout-band { min-height: 7rem; display: grid; place-items: center; border: 1px dashed var(--line-strong); text-align: center; color: var(--muted); }
+    .layout-band.full { margin-inline: -1rem; color: #fff; background: #000; border: 0; }
+    .layout-columns { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+    .layout-columns > div { min-height: 8rem; display: grid; place-items: center; background: #fff; border: 1px solid var(--line); }
+
+    .responsive-compare { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(18rem, .5fr); gap: 1.5rem; align-items: start; }
+    .viewport-frame { min-width: 0; border: 1px solid var(--line-strong); background: #fff; }
+    .viewport-label { padding: .5rem .75rem; border-bottom: 1px solid var(--line); color: var(--muted); font-size: .75rem; }
+    .viewport-body { min-width: 0; padding: 1rem; }
+    .desktop-wire { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .75rem; }
+    .mobile-wire { display: grid; grid-template-columns: 1fr; gap: .75rem; }
+    .wire-card { min-width: 0; min-height: 8rem; background: linear-gradient(145deg, #d5ddda, #6d7b76); }
+    .mobile-frame { max-width: 24.375rem; margin-inline: auto; }
+    .measure-ok { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-top: 1rem; padding: 1rem; background: #e9f7ed; color: #175a2a; }
+
+    .limitations-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; padding: 0; list-style: none; }
+    .limitations-list li { min-width: 0; padding: 1.25rem; border: 1px solid var(--line); background: var(--surface); }
+    .limitations-list strong { display: block; margin-bottom: .5rem; }
+    .legal-note { margin-top: 1.5rem; padding: 1.25rem; color: #fff; background: #000; }
+
+    @media (max-width: 62rem) {
+      .section-head { grid-template-columns: 1fr; }
+      .overview-grid, .token-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .asset-reference-grid { grid-template-columns: 1fr; }
+      .product-rail { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .recon-story, .responsive-compare { grid-template-columns: 1fr; }
+      .story-surface { min-height: 22rem; }
+      .component-grid, .state-grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 48rem) {
+      .catalog-masthead { min-height: 35rem; }
+      .masthead-inner { padding-block: 3rem 2rem; }
+      .masthead-title { font-size: 2rem; line-height: 2.5rem; }
+      .masthead-meta { display: grid; gap: .35rem; }
+      .masthead-links, .masthead-links .button { width: 100%; }
+      .catalog-nav a { min-height: 3rem; }
+      .catalog-section { padding-block: 3rem; }
+      .overview-grid, .token-grid, .metric-grid, .recon-entry, .limitations-list { grid-template-columns: 1fr; }
+      .overview-card { min-height: 12rem; }
+      .overview-number { margin-bottom: 2rem; }
+      .recon-nav { min-height: 3rem; grid-template-columns: 1fr auto; padding: 0 1rem; }
+      .recon-nav-list { display: none; }
+      .recon-hero { min-height: 31rem; }
+      .recon-hero-copy { padding: 2rem .75rem; }
+      .recon-hero h3 { font-size: 2rem; line-height: 2.5rem; }
+      .recon-actions { display: grid; }
+      .recon-actions .button { width: 100%; }
+      .product-rail { display: flex; gap: .75rem; overflow-x: auto; scroll-snap-type: x mandatory; }
+      .product-card { flex: 0 0 min(85%, 20rem); scroll-snap-align: start; }
+      .recon-products { padding-inline: 1rem; }
+      .story-surface { min-height: 18rem; }
+      .story-copy { padding: 2rem 1.5rem; }
+      .type-row { grid-template-columns: 1fr; gap: .35rem; }
+      .type-display { font-size: 2.25rem; line-height: 2.75rem; }
+      .component-stage { padding: 1rem; }
+      .button-row { display: grid; }
+      .button-row .button { width: 100%; }
+      .mini-nav { min-height: 3rem; grid-template-columns: 1fr auto; }
+      .mini-nav-links { display: none; }
+      .spec-list, .layout-columns { grid-template-columns: 1fr; }
+      .measure-ok { align-items: flex-start; flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <div data-catalog-shell>
+    <header class="catalog-masthead" data-surface-surrogate="cinematic natural-light material plane" data-surrogate-type="css-surface">
+      <div class="masthead-inner">
+        <p class="eyebrow">Design system study · no affiliation implied</p>
+        <h1 class="masthead-title">Volvo Cars global visual language</h1>
+        <p class="masthead-copy">공개 렌더링에서 관찰된 흑백 대비, Volvo Centum 타이포, pill 액션, 각진 콘텐츠 표면과 큰 에디토리얼 리듬을 정리한 정적 카탈로그입니다.</p>
+        <div class="masthead-meta">
+          <span>Source: volvocars.com/intl</span>
+          <span>Crawled: 2026-07-10</span>
+          <span>Desktop actual: 1280 × 720</span>
+          <span>Mobile: 390 × 844</span>
+          <span>8 desktop + 4 mobile pages</span>
+        </div>
+        <div class="masthead-links">
+          <a class="button button-light" href="DESIGN.md">Read DESIGN.md</a>
+          <a class="button button-outline-light" href="EVIDENCE.md">Read EVIDENCE.md</a>
+        </div>
+      </div>
+    </header>
+
+    <nav class="catalog-nav" aria-label="Catalog sections">
+      <div class="catalog-nav-inner">
+        <a href="#overview">Overview</a>
+        <a href="#reconstruction">Reconstruction</a>
+        <a href="#tokens">Tokens</a>
+        <a href="#components">Components</a>
+        <a href="#states">States</a>
+        <a href="#layout">Layout</a>
+        <a href="#responsive">Responsive</a>
+        <a href="#limitations">Limitations</a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="catalog-section" id="overview">
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">01 / System character</p>
+              <h2 class="section-title">Overview</h2>
+            </div>
+            <p class="section-intro">사람과 제품의 관계를 큰 미디어로 보여주고, UI는 흰 여백과 낮은 장식 밀도로 뒤로 물러납니다. CTA의 pill과 콘텐츠 패널의 각진 형태가 가장 중요한 조형 대비입니다.</p>
+          </div>
+          <div class="overview-grid">
+            <article class="overview-card"><span class="overview-number">01</span><h3>Calm editorial rhythm</h3><p>Full-bleed story band와 constrained content를 교차합니다.</p></article>
+            <article class="overview-card"><span class="overview-number">02</span><h3>High contrast, low decoration</h3><p>검정과 흰색, 미디어가 깊이를 만들고 그림자는 거의 쓰지 않습니다.</p></article>
+            <article class="overview-card"><span class="overview-number">03</span><h3>Soft actions, square content</h3><p>버튼은 완전 pill, 카드와 미디어는 `0px` radius입니다.</p></article>
+            <article class="overview-card"><span class="overview-number">04</span><h3>Human and material</h3><p>자연광, 생활 장면, 재질면을 제품 스토리와 함께 사용합니다.</p></article>
+          </div>
+          <div class="asset-reference-grid" aria-label="Protected visual references">
+            <article class="asset-reference-card">
+              <div class="asset-reference-media asset-reference-media--logo">
+                <img src="assets/brand-reference.svg" alt="Official Volvo wordmark reference" loading="lazy" decoding="async" data-asset-role="brand-reference" data-reuse="forbidden" data-asset-purpose="preview-reference-only" data-asset-origin="official-public-site-asset" data-source-url="https://www.volvocars.com/static/shared/images/volvo-spread-wordmark.svg" data-capture-date="2026-07-11">
+              </div>
+              <div class="asset-reference-copy"><strong>Volvo spread wordmark</strong><p>글로벌 내비게이션에 렌더링된 공식 SVG를 헤더 비율과 브랜드 식별 검증에만 사용합니다.</p></div>
+            </article>
+            <article class="asset-reference-card">
+              <div class="asset-reference-media asset-reference-media--hero">
+                <img src="assets/hero-reference.avif" alt="A family walks toward a Volvo EX60 parked outside a modern house, with one child carrying a skateboard." loading="lazy" decoding="async" data-asset-role="evidence-only" data-reuse="forbidden" data-asset-purpose="preview-reference-only" data-asset-origin="official-public-site-responsive-image" data-source-url="https://www.volvocars.com/images/cs/v3/assets/blt618dcb179a89242d/blt22fbf6cc9c706285/696e04a219cfc945791fa686/EX60-HomepageHero-lg-21-9.jpg?branch=prod_alias&amp;quality=85&amp;format=auto&amp;iar=0&amp;w=1920" data-capture-date="2026-07-11">
+              </div>
+              <div class="asset-reference-copy"><strong>Global homepage hero · 21:9</strong><p>2026-07-11 글로벌 홈에서 실제 렌더링된 1920px 반응형 히어로입니다. crop·오버레이·콘텐츠 정렬 검증에만 사용합니다.</p></div>
+            </article>
+          </div>
+          <p class="asset-reference-disclaimer"><strong>Not a reusable design asset.</strong> 두 파일은 원본 재구성도 검증을 위한 보호 참고 자료입니다. 소유권은 각 권리자에게 있으며 제품·마케팅 산출물에 재사용할 수 없습니다. No affiliation implied.</p>
+          <div class="evidence-row" style="margin-top:1rem">
+            <span class="badge badge-observed" data-evidence="observed">observed</span>
+            <span>홈·XC60·안전·액세서리·지속가능성에서 반복된 패턴</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog-section" id="reconstruction">
+        <div class="section-inner">
+          <div class="section-head">
+            <div><p class="section-kicker">02 / Composition proof</p><h2 class="section-title">Reconstruction</h2></div>
+            <p class="section-intro">공식 글로벌 홈의 워드마크와 메인 히어로를 재사용 금지 참고 자산으로 제한 적용해 헤더 비율, crop, 오버레이와 CTA 배치를 더 정확히 재구성했습니다. 나머지 표면은 관찰 기반 CSS 대체물입니다.</p>
+          </div>
+          <div class="reconstruction-stack">
+            <article class="sample" data-component-tags="navigation, hero, primary-button, outline-button, media-container">
+              <div class="sample-meta"><span>Sample A · Editorial hero</span><span class="component-tags">navigation · hero · buttons · media-container</span><span class="badge badge-observed">observed</span></div>
+              <div class="recon-nav"><img class="recon-logo" src="assets/brand-reference.svg" alt="Volvo" loading="lazy" decoding="async" data-asset-role="brand-reference" data-reuse="forbidden" data-asset-purpose="preview-reference-only" data-asset-origin="official-public-site-asset" data-source-url="https://www.volvocars.com/static/shared/images/volvo-spread-wordmark.svg" data-capture-date="2026-07-11"><div class="recon-nav-list"><span>Products</span><span>Technology</span><span>Safety</span><span>Stories</span></div><span>Menu</span></div>
+              <div class="recon-hero">
+                <img class="recon-hero-bg" src="assets/hero-reference.avif" alt="A family walks toward a Volvo EX60 parked outside a modern house, with one child carrying a skateboard." loading="lazy" decoding="async" data-asset-role="evidence-only" data-reuse="forbidden" data-asset-purpose="preview-reference-only" data-asset-origin="official-public-site-responsive-image" data-source-url="https://www.volvocars.com/images/cs/v3/assets/blt618dcb179a89242d/blt22fbf6cc9c706285/696e04a219cfc945791fa686/EX60-HomepageHero-lg-21-9.jpg?branch=prod_alias&amp;quality=85&amp;format=auto&amp;iar=0&amp;w=1920" data-capture-date="2026-07-11">
+                <div class="recon-hero-copy">
+                  <p class="eyebrow">Reconstruction sample</p>
+                  <h3>Quiet confidence, built around people.</h3>
+                  <p>큰 이미지 문맥, 일반 weight 제목, 짧은 설명과 두 단계 CTA를 조합한 관찰 기반 히어로입니다.</p>
+                  <div class="recon-actions"><a class="button button-light" href="#components">Explore system</a><a class="button button-outline-light" href="#tokens">View tokens</a></div>
+                </div>
+                <span class="surrogate-note">Protected evidence image · preview reference only · reuse forbidden</span>
+              </div>
+            </article>
+
+            <article class="sample" data-component-tags="product-card, horizontal-rail, text-link, media-container">
+              <div class="sample-meta"><span>Sample B · Product exploration</span><span class="component-tags">product-card · rail · text-link · media-container</span><span class="badge badge-inferred">inferred</span></div>
+              <div class="recon-products">
+                <div class="recon-products-head"><div><p class="eyebrow">Material directions</p><h3>Explore the range</h3></div><a href="#responsive">Compare responsive rules</a></div>
+                <div class="product-rail">
+                  <article class="product-card"><div class="material-plane plane-slate" data-surface-surrogate="cool studio material plane" data-surrogate-type="css-surface"><span class="surrogate-note">Synthetic CSS surface</span></div><div class="product-card-body"><h4>Clear</h4><p>차분한 회청색, 자연광과 넓은 crop.</p><a class="text-link" href="#tokens">Explore →</a></div></article>
+                  <article class="product-card"><div class="material-plane plane-amber" data-surface-surrogate="warm natural-light material plane" data-surrogate-type="css-surface"><span class="surrogate-note">Synthetic CSS surface</span></div><div class="product-card-body"><h4>Warm</h4><p>사람 중심 장면을 위한 따뜻한 중성 재질.</p><a class="text-link" href="#tokens">Explore →</a></div></article>
+                  <article class="product-card"><div class="material-plane plane-night" data-surface-surrogate="dark blue environmental material plane" data-surrogate-type="css-surface"><span class="surrogate-note">Synthetic CSS surface</span></div><div class="product-card-body"><h4>Focused</h4><p>검정 스토리 밴드와 연결되는 낮은 채도.</p><a class="text-link" href="#tokens">Explore →</a></div></article>
+                </div>
+              </div>
+            </article>
+
+            <article class="sample" data-component-tags="story-band, content-block, text-link, accent-line">
+              <div class="sample-meta"><span>Sample C · Safety / story band</span><span class="component-tags">story-band · content-block · text-link</span><span class="badge badge-inferred">inferred</span></div>
+              <div class="recon-story"><div class="story-surface" data-surface-surrogate="human-scale daylight and safety accent" data-surrogate-type="css-surface"><span class="surrogate-note">Synthetic CSS surface</span></div><div class="story-copy"><p class="eyebrow">Evidence-led story</p><h3>Design for moments that matter.</h3><p>검정 대비 밴드, 일반 weight 제목, 짧은 설명과 텍스트 링크를 조합합니다.</p><a class="text-link" href="#components">See component rules →</a></div></div>
+            </article>
+
+            <article class="sample" data-component-tags="entry-card, service-link, text-link">
+              <div class="sample-meta"><span>Sample D · Service entry points</span><span class="component-tags">entry-card · service-link · text-link</span><span class="badge badge-observed">observed</span></div>
+              <div class="recon-entry">
+                <article class="entry-card"><div><h3>Configure a product</h3><p>짧고 기능적인 제목과 설명.</p></div><span class="entry-arrow">↗</span></article>
+                <article class="entry-card"><div><h3>Accessories and care</h3><p>구매 후 경험으로 연결되는 진입점.</p></div><span class="entry-arrow">↗</span></article>
+                <article class="entry-card"><div><h3>Business solutions</h3><p>동일한 카드 셸로 다른 사용자 맥락을 구분.</p></div><span class="entry-arrow">↗</span></article>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog-section" id="tokens" style="background:var(--surface)">
+        <div class="section-inner">
+          <div class="section-head"><div><p class="section-kicker">03 / Foundations</p><h2 class="section-title">Tokens</h2></div><p class="section-intro">역할이 확인된 값만 표시합니다. 안전·피드백 색상은 CSS 변수 선언은 관찰됐지만 실제 상호작용 사용은 제한적입니다.</p></div>
+          <h3 class="subheading">Role-based color</h3>
+          <div class="token-grid">
+            <article class="swatch"><div class="swatch-color" style="background:#fff"></div><div class="swatch-info"><span class="swatch-name">Background</span><span class="swatch-value">#FFFFFF</span></div></article>
+            <article class="swatch"><div class="swatch-color" style="background:#000"></div><div class="swatch-info"><span class="swatch-name">Foreground</span><span class="swatch-value">#000000</span></div></article>
+            <article class="swatch"><div class="swatch-color" style="background:#5e5e5e"></div><div class="swatch-info"><span class="swatch-name">Muted text</span><span class="swatch-value">#5E5E5E</span></div></article>
+            <article class="swatch"><div class="swatch-color" style="background:#fafafa"></div><div class="swatch-info"><span class="swatch-name">Subtle surface</span><span class="swatch-value">#FAFAFA</span></div></article>
+            <article class="swatch"><div class="swatch-color" style="background:#0b2ded"></div><div class="swatch-info"><span class="swatch-name">Action blue</span><span class="swatch-value">#0B2DED</span></div></article>
+            <article class="swatch"><div class="swatch-color" style="background:#fc6408"></div><div class="swatch-info"><span class="swatch-name">Safety accent</span><span class="swatch-value">#FC6408 · declared</span></div></article>
+            <article class="swatch"><div class="swatch-color" style="background:#048220"></div><div class="swatch-info"><span class="swatch-name">Feedback green</span><span class="swatch-value">#048220 · declared</span></div></article>
+            <article class="swatch"><div class="swatch-color" style="background:#ce6700"></div><div class="swatch-info"><span class="swatch-name">Feedback orange</span><span class="swatch-value">#CE6700 · declared</span></div></article>
+            <article class="swatch"><div class="swatch-color" style="background:#e52715"></div><div class="swatch-info"><span class="swatch-name">Feedback red</span><span class="swatch-value">#E52715 · declared</span></div></article>
+            <article class="swatch"><div class="swatch-color" style="background:linear-gradient(135deg,#fff 50%,#000 50%)"></div><div class="swatch-info"><span class="swatch-name">Contextual contrast</span><span class="swatch-value">white ↔ black</span></div></article>
+          </div>
+
+          <div class="catalog-panel">
+            <h3 class="subheading">Type scale</h3>
+            <div class="type-list">
+              <div class="type-row"><span class="type-role">Product statement</span><span class="type-example type-display">XC60</span><span class="type-spec">106 / 114 · 400</span></div>
+              <div class="type-row"><span class="type-role">Page H1</span><span class="type-example type-h1">Safety for life.</span><span class="type-spec">48 / 56 · 400</span></div>
+              <div class="type-row"><span class="type-role">Section H2</span><span class="type-example type-h2">Human-centred technology</span><span class="type-spec">28 / 36 · 400</span></div>
+              <div class="type-row"><span class="type-role">Body / control</span><span class="type-example type-body">넓은 여백과 절제된 UI가 제품 스토리를 뒷받침합니다.</span><span class="type-spec">16 / 24 · 400</span></div>
+              <div class="type-row"><span class="type-role">Small UI</span><span class="type-example type-small">Overview · Specifications · Features</span><span class="type-spec">14 / 22 · 400</span></div>
+            </div>
+          </div>
+
+          <div class="catalog-panel">
+            <h3 class="subheading">Spacing, radius, depth</h3>
+            <div class="metric-grid">
+              <article class="metric-card"><strong>Page margin</strong><code>clamp(1rem, 4.286vw - .286rem, 4rem)</code></article>
+              <article class="metric-card"><strong>Grid max</strong><code>81rem</code></article>
+              <article class="metric-card"><strong>Section gap</strong><code>2rem → 4.5rem</code></article>
+              <article class="metric-card"><strong>Content radius</strong><code>0px</code></article>
+              <article class="metric-card"><strong>Action radius</strong><code>9999px</code></article>
+              <article class="metric-card"><strong>Elevation</strong><code>flat + 1px inset outline</code></article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog-section" id="components">
+        <div class="section-inner">
+          <div class="section-head"><div><p class="section-kicker">04 / Reusable UI</p><h2 class="section-title">Components</h2></div><p class="section-intro">반복 사용이 확인된 핵심 컴포넌트만 격리해 보여줍니다. 폼 필드는 공개 표본이 부족해 제외했습니다.</p></div>
+          <div class="component-grid">
+            <article class="component-card"><div class="evidence-row"><span class="badge badge-observed">observed</span></div><h3>Navigation</h3><div class="component-stage"><div class="mini-nav"><img class="recon-logo" src="assets/brand-reference.svg" alt="Volvo" loading="lazy" decoding="async" data-asset-role="brand-reference" data-reuse="forbidden" data-asset-purpose="preview-reference-only" data-asset-origin="official-public-site-asset" data-source-url="https://www.volvocars.com/static/shared/images/volvo-spread-wordmark.svg" data-capture-date="2026-07-11"><div class="mini-nav-links"><span>Products</span><span>Safety</span><span>Stories</span></div><span>Menu</span></div></div></article>
+            <article class="component-card"><div class="evidence-row"><span class="badge badge-observed">observed</span></div><h3>Buttons</h3><div class="component-stage"><div class="button-row"><button class="button button-dark">Primary</button><button class="button button-blue">Accent</button><button class="button button-outline-dark">Outline</button><button class="button button-dark button-compact">Compact</button></div></div></article>
+            <article class="component-card"><div class="evidence-row"><span class="badge badge-observed">observed</span></div><h3>Tab rail</h3><div class="component-stage"><div class="tab-rail" role="tablist" aria-label="Product sections"><a class="tab" aria-selected="true" href="#components">Overview</a><a class="tab" aria-selected="false" href="#components">Interior</a><a class="tab" aria-selected="false" href="#components">Specifications</a><a class="tab" aria-selected="false" href="#components">Features</a></div></div></article>
+            <article class="component-card"><div class="evidence-row"><span class="badge badge-observed">observed</span></div><h3>Specification list</h3><div class="component-stage"><div class="spec-list"><div class="spec-row"><span class="spec-label">Range</span><strong class="spec-value">Measured value</strong></div><div class="spec-row"><span class="spec-label">Power</span><strong class="spec-value">Measured value</strong></div><div class="spec-row"><span class="spec-label">Efficiency</span><strong class="spec-value">Measured value</strong></div><div class="spec-row"><span class="spec-label">Acceleration</span><strong class="spec-value">Measured value</strong></div></div></div></article>
+            <article class="component-card"><div class="evidence-row"><span class="badge badge-observed">observed</span></div><h3>FAQ collapsed</h3><div class="component-stage"><button class="faq-row" aria-expanded="false"><span>How is the system measured?</span><span>＋</span></button><button class="faq-row" aria-expanded="false"><span>Which states are supported?</span><span>＋</span></button></div></article>
+            <article class="component-card"><div class="evidence-row"><span class="badge badge-observed">observed</span></div><h3>Carousel controls</h3><div class="component-stage"><div class="button-row"><button class="circle-control" disabled aria-label="Previous">←</button><button class="circle-control" aria-label="Next">→</button></div></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog-section" id="states" style="background:var(--surface)">
+        <div class="section-inner">
+          <div class="section-head"><div><p class="section-kicker">05 / Verified interaction evidence</p><h2 class="section-title">States</h2></div><p class="section-intro">기계적으로 확인된 접힘·선택·비활성 상태만 observed로 표시합니다. 메뉴 열림, FAQ 펼침, hover/focus delta는 근거가 부족합니다.</p></div>
+          <div class="state-grid">
+            <article class="state-card"><span class="badge badge-observed">observed</span><h3>Selected tab</h3><div class="state-demo"><a class="tab" aria-selected="true" href="#states">Overview</a></div><p class="state-note">32px 높이, `rgba(0,0,0,.12)` 배경, 0px radius.</p></article>
+            <article class="state-card"><span class="badge badge-observed">observed</span><h3>Collapsed FAQ</h3><div class="state-demo"><button class="faq-row" aria-expanded="false"><span>Show more</span><span>＋</span></button></div><p class="state-note">`aria-expanded=false`만 확인. 펼침 상태는 미검증.</p></article>
+            <article class="state-card"><span class="badge badge-observed">observed</span><h3>Disabled carousel</h3><div class="state-demo"><button class="circle-control" disabled aria-label="Disabled previous">←</button></div><p class="state-note">DOM 접근성 스냅샷에서 비활성 이전 컨트롤 확인.</p></article>
+            <article class="state-card"><span class="badge badge-uncertain" data-evidence="uncertain">uncertain</span><h3>Menu open</h3><div class="state-demo">Not rendered in catalog</div><p class="state-note">클릭이 런타임 제한에 걸려 overlay, shadow, close state를 주장하지 않습니다.</p></article>
+            <article class="state-card"><span class="badge badge-uncertain">uncertain</span><h3>Hover / focus-visible</h3><div class="state-demo">Preview accessibility fallback only</div><p class="state-note">이 카탈로그의 focus outline은 접근성용이며 원본 토큰이 아닙니다.</p></article>
+            <article class="state-card"><span class="badge badge-inferred" data-evidence="inferred">inferred</span><h3>Responsive rail</h3><div class="state-demo"><div class="tab-rail"><span class="tab">One</span><span class="tab">Two</span><span class="tab">Long label</span></div></div><p class="state-note">모바일에서 탭은 유지되며 내부 rail만 수평 흐름을 가집니다.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog-section" id="layout">
+        <div class="section-inner">
+          <div class="section-head"><div><p class="section-kicker">06 / Composition system</p><h2 class="section-title">Layout</h2></div><p class="section-intro">최대 81rem 그리드, 16–64px 유동 페이지 여백, full-bleed 밴드와 constrained content의 교차가 핵심입니다.</p></div>
+          <div class="layout-demo">
+            <div class="layout-band full">Full-bleed media / contrast band</div>
+            <div class="layout-band">Constrained narrative · max 81rem</div>
+            <div class="layout-columns"><div>Story card</div><div>Story card</div><div>Story card</div></div>
+            <div class="layout-band">Large vertical breathing room · 48–72px observed token range</div>
+          </div>
+          <div class="metric-grid" style="margin-top:1rem">
+            <article class="metric-card"><strong>Desktop measured</strong><code>1210px content / 1265px client</code></article>
+            <article class="metric-card"><strong>Mobile measured</strong><code>342px content / 390px viewport</code></article>
+            <article class="metric-card"><strong>Hero action</strong><code>342px at 390px, x = 12px</code></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog-section" id="responsive" style="background:var(--surface)">
+        <div class="section-inner">
+          <div class="section-head"><div><p class="section-kicker">07 / Desktop base + mobile override</p><h2 class="section-title">Responsive</h2></div><p class="section-intro">원본 breakpoint 수치는 추출하지 않았습니다. 아래는 실제 `390 × 844` 렌더링에서 확인된 최종 상태이며, 카탈로그의 media query는 프리뷰 전용 구현입니다.</p></div>
+          <div class="responsive-compare">
+            <div class="viewport-frame"><div class="viewport-label">Desktop base · actual 1280 × 720</div><div class="viewport-body"><div class="desktop-wire"><div class="wire-card"></div><div class="wire-card"></div><div class="wire-card"></div></div><div class="button-row" style="margin-top:1rem"><span class="button button-dark">Primary action</span><span class="button button-outline-dark">Secondary</span></div></div></div>
+            <div class="viewport-frame mobile-frame"><div class="viewport-label">Mobile override · 390 × 844</div><div class="viewport-body"><div class="mobile-wire"><div class="wire-card"></div><div class="wire-card"></div><div class="wire-card"></div></div><div class="button-row" style="display:grid;margin-top:1rem"><span class="button button-dark">Primary action</span><span class="button button-outline-dark">Secondary</span></div></div></div>
+          </div>
+          <div class="measure-ok"><strong>Measured overflow result</strong><span>4 mobile pages: scrollWidth 390px = clientWidth 390px</span><span class="badge badge-observed">observed</span></div>
+          <div class="catalog-panel">
+            <h3 class="subheading">Observed overrides</h3>
+            <div class="type-list">
+              <div class="type-row"><span class="type-role">Page H1</span><span class="type-example">48 / 56 → 32 / 40</span><span class="type-spec">observed</span></div>
+              <div class="type-row"><span class="type-role">Product statement</span><span class="type-example">106 / 114 → 36 / 44</span><span class="type-spec">observed</span></div>
+              <div class="type-row"><span class="type-role">Section H2</span><span class="type-example">28 / 36 → 24 / 32</span><span class="type-spec">observed</span></div>
+              <div class="type-row"><span class="type-role">Cards / specs</span><span class="type-example">2–3 columns → 1 column</span><span class="type-spec">observed</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog-section" id="limitations">
+        <div class="section-inner">
+          <div class="section-head"><div><p class="section-kicker">08 / Evidence boundaries</p><h2 class="section-title">Limitations</h2></div><p class="section-intro">근거가 약한 부분을 숨기지 않습니다. 이 목록은 새 UI에서 별도 설계·검증이 필요한 영역입니다.</p></div>
+          <ul class="limitations-list">
+            <li><strong>No full-page source screenshots</strong>전체 페이지 캡처는 보존하지 않았지만 글로벌 홈의 공식 워드마크와 렌더링된 메인 히어로 원본은 보호 참고 자산으로 포함했습니다.</li>
+            <li><strong>No comparison controls</strong>비교 도구가 시간 초과돼 선택기·필터·비교 표 상태는 미확인입니다.</li>
+            <li><strong>No representative forms</strong>성공한 공개 페이지에서 input/select/validation 표본이 렌더링되지 않았습니다.</li>
+            <li><strong>Limited interaction deltas</strong>전역 메뉴 열림과 FAQ 펼침은 실행 제한으로 확인하지 못했습니다.</li>
+            <li><strong>No independent dark mode</strong>검정 미디어 밴드는 문맥 표면이며 별도 테마로 일반화하지 않았습니다.</li>
+            <li><strong>Protected references only</strong>포함된 공식 워드마크와 히어로는 프리뷰 재구성도 검증 전용이며 재사용 가능한 디자인 자산이 아닙니다. 다른 사진·영상·제품 아트워크는 포함하지 않았습니다.</li>
+            <li><strong>Desktop width constraint</strong>요청한 1440px 대신 실제 1280px 브라우저 렌더링을 기준으로 사용했습니다.</li>
+            <li><strong>Preview-specific breakpoint</strong>이 파일의 CSS breakpoint는 카탈로그 가독성용이며 원본 사이트 토큰이 아닙니다.</li>
+          </ul>
+          <p class="legal-note"><strong>Not a reusable design asset.</strong> 이 프리뷰는 공개 시각 시스템의 연구·재구성 자료이며 Volvo Cars와의 제휴를 의미하지 않습니다. 포함된 워드마크와 히어로를 비롯한 상표·원본 콘텐츠의 권리는 각 권리자에게 있습니다. No affiliation implied.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

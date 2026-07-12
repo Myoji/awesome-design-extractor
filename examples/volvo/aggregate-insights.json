@@ -1,0 +1,67 @@
+{
+  "brand": "Volvo Cars",
+  "sourceUrl": "https://www.volvocars.com/intl/",
+  "crawlDate": "2026-07-10",
+  "protectedReferences": {
+    "captureDate": "2026-07-11",
+    "files": ["assets/brand-reference.svg", "assets/hero-reference.avif"],
+    "purpose": "preview-reference-only",
+    "reuse": "forbidden"
+  },
+  "palette": {
+    "backgroundPrimary": { "value": "#FFFFFF", "level": "observed", "source": "--v-color-background-primary and repeated computed backgrounds" },
+    "foregroundPrimary": { "value": "#000000", "level": "observed", "source": "--v-color-foreground-primary and dominant computed text" },
+    "foregroundMuted": { "value": "#5E5E5E", "level": "observed", "source": "repeated computed text across content pages" },
+    "surfaceSubtle": { "value": "#FAFAFA", "level": "observed", "source": "repeated section and module backgrounds" },
+    "borderSubtle": { "value": "rgba(0, 0, 0, 0.12)", "level": "observed", "source": "repeated borders and selected tab surface" },
+    "accentBlue": { "value": "#0B2DED", "level": "observed", "source": "--v-color-surface-accent-blue and blue CTA fills" },
+    "accentSafety": { "value": "#FC6408", "level": "observed", "source": "declared --v-color-surface-accent-safety; repeated usage not sampled" },
+    "feedbackGreen": { "value": "#048220", "level": "observed", "source": "declared --v-color-surface-feedback-green; validation state not exercised" },
+    "feedbackOrange": { "value": "#CE6700", "level": "observed", "source": "declared --v-color-surface-feedback-orange; validation state not exercised" },
+    "feedbackRed": { "value": "#E52715", "level": "observed", "source": "declared --v-color-surface-feedback-red; validation state not exercised" }
+  },
+  "typography": {
+    "primaryFamily": { "value": "\"Volvo Centum\", \"Helvetica Neue\", Helvetica, \"Noto Sans\", \"Segoe UI\", Arial, sans-serif", "level": "observed" },
+    "broadFamily": { "value": "\"Volvo Broad Pro\", \"Volvo Broad\", \"Arial Black\", sans-serif", "level": "observed", "note": "Declared variable; no sampled text was computed with this family" },
+    "desktop": [
+      { "role": "product statement", "size": "106px", "lineHeight": "114px", "weight": 400 },
+      { "role": "page h1", "size": "48px", "lineHeight": "56px", "weight": 400 },
+      { "role": "build h1", "size": "54px", "lineHeight": "62px", "weight": 400 },
+      { "role": "section h2", "size": "28px", "lineHeight": "36px", "weight": 400 },
+      { "role": "body and control", "size": "16px", "lineHeight": "24px", "weight": 400 },
+      { "role": "small UI", "size": "14px", "lineHeight": "22.008px", "weight": 400 },
+      { "role": "caption", "size": "12px", "lineHeight": "20.004px", "weight": 400 }
+    ],
+    "mobile": [
+      { "role": "page h1", "size": "32px", "lineHeight": "40px", "weight": 400 },
+      { "role": "product statement", "size": "36px", "lineHeight": "44px", "weight": 400 },
+      { "role": "section h2", "size": "24px", "lineHeight": "32px", "weight": 400 },
+      { "role": "body and control", "size": "16px", "lineHeight": "24px", "weight": 400 }
+    ]
+  },
+  "spacingAndLayout": {
+    "pageMargin": "round(clamp(1rem, 4.286vw - .286rem, 4rem), 2px)",
+    "gridMaxWidth": "min(81rem, 100vw - clamp(1.5rem, .8vw + 1.1rem, 1.75rem) * 2)",
+    "navigationHeight": "4rem",
+    "desktopHomeContent": "1210px inside a 1265px measured client width",
+    "mobileContent": "342px inside a 390px viewport with 24px side margins",
+    "responsiveOverflow": "All four measured mobile pages had scrollWidth equal to clientWidth (390px)"
+  },
+  "components": {
+    "buttons": { "level": "observed", "rule": "48px high with 24px inline padding and 9999px radius; compact product CTA is 32px high with 16px inline padding" },
+    "buttonVariants": { "level": "observed", "rule": "black, white, accent-blue, and transparent inset-outline variants" },
+    "tabs": { "level": "observed", "rule": "32px high, 8px inline padding, selected surface rgba(0,0,0,.12), horizontal rail on narrow screens" },
+    "cards": { "level": "observed", "rule": "flat square media/content modules; no repeated rounded card shell or card shadow" },
+    "navigation": { "level": "observed", "rule": "64px desktop navigation; mobile retains menu button and centered brand link while category buttons disappear" },
+    "faq": { "level": "partial", "rule": "collapsed Show more exposes aria-expanded=false; expanded state unverified" },
+    "forms": { "level": "uncertain", "rule": "No representative input controls were rendered on the successful public pages" }
+  },
+  "depth": {
+    "level": "observed",
+    "rule": "Predominantly flat; contrast, full-bleed media, and 1px inset outlines create hierarchy. Repeated card shadows were not observed."
+  },
+  "darkMode": {
+    "level": "uncertain",
+    "rule": "No user-facing dark-mode toggle or independent dark theme was observed; black sections are contextual media surfaces."
+  }
+}

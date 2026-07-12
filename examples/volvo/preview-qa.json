@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-07-11",
+  "tool": "Codex in-app browser with localhost static server and CDP mobile metrics",
+  "source": "preview.html",
+  "screenshotStorage": "in-session visual inspection only; screenshots were not persisted",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "requestedWidth": 1440,
+      "requestedHeight": 1000,
+      "innerWidth": 1280,
+      "innerHeight": 720,
+      "clientWidth": 1265,
+      "scrollWidth": 1265,
+      "scrollHeight": 11290,
+      "overflow": false,
+      "missingSections": [],
+      "localLinks": ["DESIGN.md", "EVIDENCE.md"],
+      "hasCatalogShell": true,
+      "badges": ["observed", "uncertain", "inferred"],
+      "reconstructionSamples": 4,
+      "surfaceSurrogates": 5,
+      "protectedImages": [
+        { "file": "assets/brand-reference.svg", "role": "brand-reference", "instances": 3, "naturalWidth": 300, "naturalHeight": 23, "loaded": true },
+        { "file": "assets/hero-reference.avif", "role": "evidence-only", "instances": 2, "naturalWidth": 1920, "naturalHeight": 823, "loaded": true }
+      ],
+      "screenshotCaptured": true,
+      "offenders": [],
+      "notes": [
+        "The in-app browser kept its actual desktop viewport at 1280 x 720 despite the 1440 x 1000 request.",
+        "The official wordmark and homepage hero rendered successfully in both the reference cards and reconstruction samples.",
+        "Pseudo-elements stay inside overflow-hidden containers and do not expand the document width."
+      ],
+      "passed": true
+    },
+    {
+      "viewport": "mobile",
+      "requestedWidth": 390,
+      "requestedHeight": 844,
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "scrollHeight": 19923,
+      "overflow": false,
+      "missingSections": [],
+      "localLinks": ["DESIGN.md", "EVIDENCE.md"],
+      "hasCatalogShell": true,
+      "badges": ["observed", "uncertain", "inferred"],
+      "reconstructionSamples": 4,
+      "surfaceSurrogates": 5,
+      "protectedImages": [
+        { "file": "assets/brand-reference.svg", "role": "brand-reference", "instances": 3, "naturalWidth": 300, "naturalHeight": 23, "loaded": true },
+        { "file": "assets/hero-reference.avif", "role": "evidence-only", "instances": 2, "naturalWidth": 1920, "naturalHeight": 823, "loaded": true }
+      ],
+      "screenshotCaptured": true,
+      "intentionalHorizontalContainers": [
+        { "selector": ".catalog-nav-inner", "clientWidth": 343, "scrollWidth": 717, "overflowX": "auto" },
+        { "selector": ".product-rail", "clientWidth": 309, "scrollWidth": 812, "overflowX": "auto" },
+        { "selector": ".tab-rail", "clientWidth": 261, "scrollWidth": 308, "overflowX": "auto" }
+      ],
+      "offenders": [],
+      "notes": [
+        "CDP applied a 390 x 844 outer viewport; the desktop-style scrollbar reduced document clientWidth to 375px.",
+        "The protected reference grid stacks to one column and the 21:9 hero no longer expands the document width.",
+        "Items outside the viewport belong only to intentional horizontal containers."
+      ],
+      "passed": true
+    }
+  ]
+}
